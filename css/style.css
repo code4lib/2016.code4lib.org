@@ -1,0 +1,59 @@
+/* colored boxes
+use for past speakers style #1
+*/
+.colored-box {
+    color: white;
+    padding: 0; /* override bootstrap column padding, re-apply selectively later */
+}
+
+.colored-box:hover {
+    -webkit-box-shadow: 0 0 3px 2px #D1D3D4; /* light gray */
+    box-shadow: 0 0 3px 2px #D1D3D4;
+}
+
+/* bootstrap medium screen breakpoint */
+@media screen and (min-width: 992px) {
+    .colored-box img {
+        /* consistent heights for the whole row */
+        height: 292.5px;
+    }
+}
+
+.colored-box h3,
+.colored-box figcaption {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.colored-box figcaption {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.colored-box a {
+    color: white;
+    text-decoration: underline;
+}
+
+.colored-box--red {
+    background-color: #C82829; /* primary red */
+}
+
+.colored-box--aqua {
+    background-color: #00AEEF; /* aqua */
+}
+
+.colored-box--dark-gray {
+    background-color: #4D4D4D; /* dark gray */
+}
+
+/* second style of past speakers */
+
+.img-with-caption {
+    text-align: center;
+}
+
+.img-with-caption p {
+    font-style: italic;
+}
