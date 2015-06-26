@@ -1,0 +1,236 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+	  position: relative;
+	  min-height: 100%;
+	}
+body {
+	  /* Margin bottom by footer height */
+	  margin-bottom: 20.3125em;
+	}
+
+
+.footer {
+	bottom: 0;
+	box-sizing: border-box;
+	left: 0;
+	height: 21.6125em;
+	position: absolute;
+	right: 0;
+	width: 100%;
+	color: #fff;
+	background-color: #313d38;
+	padding: 5em;
+	text-align: center;
+	}
+
+.footer a {
+	color: #7FD3F2;
+}
+
+body {
+	font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
+
+#main h1, h2, h3, h4, h5 {
+	font-family: "Alegreya SC","Alegreya",Georgia,Times,serif;
+	font-weight: normal;
+	letter-spacing: .02em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+	letter-spacing: .02em;
+}
+
+.navbar {
+	font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
+
+.dropdown-menu > li > a {
+	font-weight: 300;
+}
+
+p {
+	line-height: 2em;
+}
+
+
+
+.section:nth-child(2) {
+    background: #EF9A9B;
+}
+
+.section:nth-child(3) {
+    background: #E57373;
+		color: #fff;
+}
+
+.cell {
+		background-color: transparent;
+		border: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  max-width: 59em;
+	  position: relative;
+}
+
+.cell-lg {
+	padding: 24px;
+}
+
+/* https://www.flickr.com/photos/frigidlightphoto/14552114769 */
+#main {
+	padding: 0;
+	background-size: 1600px auto;
+	min-height: 600px;
+  background: url(../img/phillyscape.jpg) top no-repeat;
+	background-size: 100%;
+	background-color: #d2c8bf;
+  /* color: #fcf5e3;*/
+	color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+	position: relative;
+}
+
+.code-love {
+	width: 60%;
+	height: 60%;
+	overflow: auto;
+	margin-top: auto;
+  margin-bottom: 20px;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+  @media (max-width: 850px) {
+    #main {
+            min-height: 180px;
+	 } }
+
+  @media (min-width: 850px) and (max-width: 1260px) {
+    #main {
+      min-height: 400px;
+	 } }
+
+
+
+#main h1 {
+  margin-bottom:0px;
+}
+
+#main h2 {
+  margin-top:0px;
+}
+
+.section {
+  min-height: 200px;
+  padding: 20px 50px 30px 50px;
+}
+
+.stripe {
+  color: #fcf5e3;
+  padding: 10px 20px 15px;
+}
+
+/* lighter backgrounds need dark text */
+.light {
+  color: #333333;
+}
+
+.stripe1 { background-color: #410405; }
+.stripe2 { background-color: #F1CC4E; }
+.stripe3 { background-color: #F4A949; }
+.stripe4 { background-color: #A51212; }
+
+
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+#cols {
+	margin: 20px 0 30px 0;
+}
+
+.attribution {
+  background-color: #EF9A9B;
+  color: #fcf5e3;
+	padding-top: 0px;
+  padding-right:10px;
+}
+
+.attribution a{
+
+  color: #fff;
+	padding: 6px;
+	/*
+	background-color: #00AEEF;
+	transform:  skew(29deg, 0deg) ;
+	-webkit-transform:  skew(29deg, 0deg) ;
+	-moz-transform: skew(29deg, 0deg) ;
+	-o-transform:  skew(29deg, 0deg) ;
+	-ms-transform:  skew(29deg, 0deg) ;
+	*/
+}
+
+.attribution p{
+  margin: auto;
+	/*
+	transform:  skew(-29deg, 0deg) ;
+	-webkit-transform:  skew(-29deg, 0deg) ;
+	-moz-transform: skew(-29deg, 0deg) ;
+	-o-transform:  skew(-29deg, 0deg) ;
+	-ms-transform:  skew(-29deg, 0deg) ;
+	*/
+}
+
+.subcategories {
+	margin-left:20px;
+}
+
+.footer ul {
+	margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.list {
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+}
+
+.tsxs {
+
+}
+
+.list--inline>.list-item {
+  display: inline;
+  margin-right: 1.25em;
+}
+
+.list-item {
+  display: block;
+	margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.tci a {
+  color: #fff !important;
+}
+
+.clip-circle {
+	display: block;
+	height: 94px;
+	width: 94px;
+	border-radius: 50%;
+	margin: 0 auto .2em;
+	background: #f7f6f1;
+	border: 6px solid #f7f6f1;
+	box-sizing: content-box;
+}

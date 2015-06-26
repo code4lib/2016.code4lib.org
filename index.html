@@ -1,133 +1,158 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Code4Lib 2016 - Design Concepts</title>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Philadelphia 2016 - code4lib proposal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <!-- Bootstrap -->
-    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-    .colors__swatch {
-      float: left;
-      margin-right: 12px;
-      height: 43px;
-      width: 43px;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      border-radius: 3px;
-      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-    }
-    </style>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body class="container">
-    <h1 style="margin-bottom:25px">Code4Lib 2016 - Design Concepts</h1>
+        <link rel="stylesheet" href="prototype/bootstrap/dist/css/bootstrap.css">
+        <style>
+            body {
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/main.css">
 
-    <div class="row">
-      <h2>Love Park Theme</h2>
-      <div class="col-md-9"><img src="designs/love-park.jpg" alt="Love Park Theme"></div>
-      <div class="col-md-3">
-        <h3>Primaries</h3>
-        <div class="colors__list">
-          <div class="list-group">
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#A12027"></span>
-          <h4 class="list-group-item-heading">Red Dark</h4>
-          <p class="list-group-item-text">#A12027</p>
-          </a>
 
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#C82829"></span>
-          <h4 class="list-group-item-heading">Red Primary</h4>
-          <p class="list-group-item-text">#C82829</p>
-          </a>
-
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#E57373"></span>
-          <h4 class="list-group-item-heading">Red 200</h4>
-          <p class="list-group-item-text">#E57373</p>
-          </a>
-
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#EF9A9B"></span>
-          <h4 class="list-group-item-heading">Red 100</h4>
-          <p class="list-group-item-text">#EF9A9B</p>
-          </a>
-
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#FDEBEE"></span>
-          <h4 class="list-group-item-heading">Red 50</h4>
-          <p class="list-group-item-text">#FDEBEE</p>
-          </a>
-
-          </div>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,400italic,500|Alegreya:700,700italic,italic,regular|Alegreya+SC:700,regular&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/c4l-logo-pink.svg" alt="Code4Lib"></a>
         </div>
 
-        <h3>Accents</h3>
-        <div class="colors__list">
-          <div class="list-group">
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#00AEEF"></span>
-          <h4 class="list-group-item-heading">Aqua</h4>
-          <p class="list-group-item-text">#00AEEF</p>
-          </a>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Attend</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Preconferences</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Day One (Tuesday)</a></li>
+                <li><a href="#">Day Two (Wednesday)</a></li>
+                <li><a href="#">Day Three (Thursday)</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Venue</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Conduct</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#7FD3F2"></span>
-          <h4 class="list-group-item-heading">Aqua Light</h4>
-          <p class="list-group-item-text">#7FD3F2</p>
-          </a>
-
-          </div>
-        </div>
-
-
-        <h3>Grays</h3>
-        <div class="colors__list">
-          <div class="list-group">
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#4D4D4D"></span>
-          <h4 class="list-group-item-heading">Dark Gray</h4>
-          <p class="list-group-item-text">#4D4D4D</p>
-          </a>
-
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#8E908C"></span>
-          <h4 class="list-group-item-heading">Mid Gray</h4>
-          <p class="list-group-item-text">#8E908C</p>
-          </a>
-
-          <a href="#images/1" class="colors__item list-group-item"><span class="colors__swatch" style="background-color:#D1D3D4"></span>
-          <h4 class="list-group-item-heading">Light Gray</h4>
-          <p class="list-group-item-text">#D1D3D4</p>
-          </a>
-
-          </div>
-        </div>
-
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" id="main">
+      <div class="container">
+        <img class="code-love" src="img/code-love.svg" alt="Code Love - Philadelphia's LOVE monument reimagined for coders">
+        <h1 class="text-right">Philadelphia</h1>
+        <h2 class="text-right">March 7-10, 2016</h2>
+        <!-- <div class="attribution">https://www.flickr.com/photos/59761838@N08/5591820123/</div> -->
       </div>
     </div>
 
-    <!--
-    Primaries
-    A12027 Red Dark
-    C82829 Red Primary
-    E57373 Red 200
-    EF9A9B Red 100
-    FDEBEE Red 50
+    <div class="row attribution">
+      <div class="container">
+        <p class="text-right small"><a href="https://www.flickr.com/photos/59761838@N08/5591820123/">photo: Morgan Burke </a></p>
+        </div>
+    </div>
 
-    Accents
-    00AEEF Aqua
-    7FD3F2 Aqua Light
+    <div class="sub-container">
+      <div class="row section">
+        <div class="cell cell-lg">
+        <h2>The conference for people who code for libraries.</h2>
+        <p> An annual gathering of technologists from around the world, who largely work for and with libraries, archives, and museums and have a commitment to open technologies.</p>
+        </div>
+      </div>
 
-    Grays
-    4D4D4D Dark
-    8E908C Mid
-    D1D3D4 Light
+      <div class="row section">
+        <div class="cell cell-lg">
+        <h2>What are people saying?</h2>
+        <img src="img/quotes.svg" width="100%" alt="Testimonials">
+        <p>(Make this not an image.)</p>
+        </div>
+      </div>
 
-    -->
+      <div class="row section">
+        <div class="cell cell-lg">
+          <div class="col-md-2"><img class="clip-circle" src="img/ben.png" alt="Cool Hand Ben"></div>
+          <div class="col-md-10">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+              <h2>Welcome to Philadelphia</h2>
+              <p>Philadelphia is well known for its important role in US history, but it is also dynamic and modern city, with a
+              vibrant art scene, incredible food, and great public transit, as well as hundreds of libraries, museums and universities.
+              The New York Times recently <a href="http://www.nytimes.com/interactive/2015/01/11/travel/52-places-to-go-in-2015.html?_r=0">ranked Philly as the #3</a> place <i>in the world</i> to visit, and we couldn't agree with them more.
+              Plus Philly packs it all into a fairly small and compact Center City that is easy to walk around.
+              So many of us are a part of the code4lib community &mdash; we're excited to be able to host
+              the national code4lib conference!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="#"><img src="img/c4l-logo-pink.svg" alt="Code4Lib"></a>
+        <ul class="list list--inline list--inline--dotted tsxs">
+          <li class="list-item tci"><a href="#">Home</a></li>
+          <li class="list-item tci"><a href="#">Attend</a></li>
+          <li class="list-item tci"><a href="#">Schedule</a></li>
+          <li class="list-item tci"><a href="#">Speakers</a></li>
+          <li class="list-item tci"><a href="#">Venue</a></li>
+          <li class="list-item tci"><a href="#">Sponsors</a></li>
+          <li class="list-item tci"><a href="#">Conduct</a></li>
+          <li class="list-item tci"><a href="#">About</a></li>
+        </ul>
+        <div class="bucket">
+          <p>
+          <a rel="license" href="//creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license">
+            <img src="img/cc.png" alt="License"></a>
+          </p>
+          <div style="display: inline;" xmlns:cc="/ns#" about="http://creativecommons.org">
+            <p>
+            <small>
+            Except where otherwise noted,
+            content on this site
+            is licensed under a
+            <a rel="license" href="//creativecommons.org/licenses/by/4.0/" class="subfoot">
+            Creative Commons Attribution 4.0 International license</a>.
+            </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
   </body>
 </html>
