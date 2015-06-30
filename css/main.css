@@ -112,6 +112,18 @@ p {
 	position: relative;
 }
 
+#sponsors {
+	padding: 0;
+	background-size: 1600px auto;
+	min-height: 600px;
+  background: url(../img/sponsors2.jpg) top no-repeat;
+	background-size: 100%;
+	background-color: #d2c8bf;
+  /* color: #fcf5e3;*/
+	color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+	position: relative;
+}
 
 .who {
   width: 50%;
@@ -123,6 +135,13 @@ p {
 	white-space: nowrap;
 }
 
+.sponsors {
+	width: 60%;
+	height: 60%;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
 
 .code-love {
 	width: 60%;
