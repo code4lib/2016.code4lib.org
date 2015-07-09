@@ -1,32 +1,34 @@
 - name: Registration
   description: Enjoy a continental breakfast & coffee
   time: 8 - 9 am
-  timeimage: 8am
+  timeimg: 8am
   day: 1
 
 - name: Welcome & Keynote
   eventpath: /test
   description: Selena Deckelmann is a data architect at Mozilla, a major contributor to PostgreSQL, and founder of PyLadiesPDX. She founded Open Source Bridge, Postgres Open and speaks internationally about open source, databases, and community. You can find her on twitter (@selenamarie) and on her blog. She also keeps chickens and gives a lot of technical talks.
-  speaker: Selena Deckelmann
+  speaker: selena-deckelmann
   time: 9 - 10 am
-  timeimage: 9am
+  timeimg: 9am
   day: 1
 
 - name: Break
+  timeimg: 10am
 
 - name: Your code does not exist in a vacuum
   eventpath: /test
   description: In its 10 year run, code4lib has covered the spectrum of libtech development, from search to repositories to interfaces. However, during this time there has been little discussion about this one little fact about development - code does not exist in a vacuum.
-  speaker: Becky Yoose
+  speaker: becky-yoose
   time: 10:30 - 10:50 am
-  timeimage: 10.30am
+  timeimg: 10.30am
   day: 1
+  page: 1
 
 - name: Designing and Leading a Kick A** Tech Team
   eventpath: /test
   description: New managers are often promoted without receiving management training, yet management is not something you just figure out. The experience of being expected to know how to manage, yet not being trained to do so often results in new managers feeling isolated and unsure how to move from making to managing. In this talk I’ll focus on my own managerial experience of designing and leading an archival tech team in a small independent archives. Topics covered will include hiring, delegating, creating a team culture, and leading people whose specialized knowledge exceeds your own. The talk take-aways should be applicable to managers and employees at large and small institutions alike.
-  speaker: Sibyl Schaefer
+  speaker: sibyl-schaefer
   time: 10:50 - 11:10am
-  timeimage: 10.50am
+  timeimg: 10.50am
   day: 1
 

@@ -1,0 +1,14 @@
+selena-deckelmann:
+  name: Selena Deckelmann
+  bio: Sample Bio
+  imgpath: /img/speakers/selenadeckelmann.jpg
+
+becky-yoose:
+  name: Bekcy Yoose
+  bio: Sample Bio
+  imgpath: /img/speakers/beckyyoose.png
+
+sibyl-schaefer:
+  name: Sibyl Schaefer
+  bio: Sample Bio
+  imgpath: /img/speakers/sibylschaefer.jpg
