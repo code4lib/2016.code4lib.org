@@ -1,0 +1,43 @@
+---
+layout: default
+title: Conference Schedule
+---
+
+
+<h1>Schedule</h1>
+<section id="cd-timeline" class="cd-container">
+    {% for event in site.data.events %}
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img">
+            <img src="/img/clockface/{{ event.timeimg }}.png">
+        </div> <!-- cd-timeline-img -->
+
+        <div class="cd-timeline-content">
+            {% if event.page == 1 %}
+            <h2><a href="/presentations/{{ event.name || slugify }}.html">{{ event.name }}</a></h2>
+            {% else %}
+            <h2>{{ event.name }}</h2>
+            {% endif %}
+            {% if event.description %}
+            <div class="col-sm-9 col-xs-12">
+                <p>{{ event.description }}</p>
+            </div>
+            {% endif %}
+            {% if event.speaker %}
+            {% assign speaker = site.data.speakers[event.speaker] %}
+            <div class="col-sm-3 hidden-xs">
+                <a href="#" class="speaker-overlay" data-content="{{ speaker.name }}">
+                    <img class="clip-circle" src="{{ speaker.imgpath }}" alt="{{ speaker.name }}">
+                </a>
+            </div>
+            {% endif %}
+            {% if event.time %}
+            <div class="clearfix"></div>
+            <h4>{{ event.time }}</h4>
+            {% endif %}
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+    {% endfor %}
+
+
+</section> <!-- cd-timeline -->

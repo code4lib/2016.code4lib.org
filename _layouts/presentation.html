@@ -1,0 +1,12 @@
+{% include header.html %}
+
+{% assign event = side.data.events[page.event] %}
+
+<div class="sub-container">
+    <div class="row section">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </div>
+</div>
+
+{% include footer.html %}
