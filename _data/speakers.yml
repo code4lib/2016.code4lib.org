@@ -12,3 +12,13 @@ sibyl-schaefer:
   name: Sibyl Schaefer
   bio: Sample Bio
   imgpath: /img/speakers/sibylschaefer.jpg
+
+jason-a-clark:
+  name: Jason A. Clark
+  bio: Sample Bio
+  imgpath: /img/speakers/jasonaclark.jpg
+
+scott-w-h-young:
+  name: Scott W.H. Young
+  bio: Sample Bio
+  imgpath: /img/speakers/scotthwyoung.jpg

@@ -1,11 +1,44 @@
 {% include header.html %}
 
-{% assign event = side.data.events[page.event] %}
 
 <div class="sub-container">
     <div class="row section">
-        <h1>{{ page.title }}</h1>
-        {{ content }}
+        <div class="col-sm-8">
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+        </div>
+        {% if page.nocontent == 0 %}
+        <div class="col-sm-4 text-center">
+                <h3>Time</h3>
+                <p>{{ page.time }}</p>
+                <h3>Date</h3>
+                <p>{{ page.date | date_to_long_string }}</p>
+                {% if page.speaker %}
+                {% assign speaker = site.data.speakers[page.speaker] %}
+                <h3>Speaker</h3>
+                <div class="col-sm-12">
+                    <a href="#" class="speaker-overlay" data-content="{{ speaker.name }}">
+                        <img class="clip-circle" src="{{ speaker.imgpath }}" alt="{{ speaker.name }}">
+                    </a>
+                </div>
+                {% endif %}
+                {% if page.speakers %}
+                <h3>Speakers</h3>
+                    {% assign speakers = page.speakers | split: "," %}
+                    {% for speakerdelta in speakers %}
+                    {% assign speaker = site.data.speakers[speakerdelta] %}
+                    <div class="col-sm-12">
+                        <a href="#" class="speaker-overlay" data-content="{{ speaker.name }}">
+                            <img class="clip-circle" src="{{ speaker.imgpath }}" alt="{{ speaker.name }}">
+                        </a>
+                    </div>
+                    {% endfor %}
+                {% endif %}
+                {% if page.slides %}
+                    <a href="{{ page.slides }}" class="btn btn-default btn-lg col-sm-12"><span class="glyphicon glyphicon-blackboard"></span> Slides</a>
+                {% endif %}
+        </div>
+        {% endif %}
     </div>
 </div>
 
