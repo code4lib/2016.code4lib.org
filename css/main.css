@@ -116,7 +116,7 @@ p {
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-  background: url(../img/sponsors2.jpg) top no-repeat;
+  background: url(../img/sponsors.jpg) top no-repeat;
 	background-size: 100%;
 	background-color: #d2c8bf;
   /* color: #fcf5e3;*/
@@ -132,15 +132,9 @@ p {
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
+	white-space: nowrap;
 }
 
-.sponsors {
-	width: 60%;
-	height: 60%;
-	margin: auto;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
-}
 
 .code-love {
 	width: 60%;
@@ -174,7 +168,10 @@ p {
 
 .section {
   min-height: 200px;
-  padding: 20px 50px 30px 50px;
+}
+
+.schedule {
+	padding: 20px 50px 30px 50px;
 }
 
 .stripe {
