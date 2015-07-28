@@ -5,7 +5,7 @@
     {% for post in posts reversed %}
     <div class="cd-timeline-block">
         <div class="cd-timeline-img">
-            <img src="/img/clockface/{{ post.timeimg }}">
+            <img src="{{ site.data.path }}img/clockface/{{ post.timeimg }}">
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
@@ -23,7 +23,7 @@
             {% assign speaker = site.data.speakers[post.speaker] %}
             <div class="col-sm-3 hidden-xs">
                 <a href="#" class="speaker-overlay" data-content="{{ speaker.name }}">
-                    <img class="clip-circle" src="{{ speaker.imgpath }}" alt="{{ speaker.name }}">
+                    <img class="clip-circle" src="{{ site.data.path }}{{ speaker.imgpath }}" alt="{{ speaker.name }}">
                 </a>
             </div>
             {% endif %}
@@ -34,7 +34,7 @@
                     {% assign speaker = site.data.speakers[speakerdelta] %}
                     <div class="col-sm-12">
                         <a href="#" class="speaker-overlay" data-content="{{ speaker.name }}">
-                            <img class="clip-circle" src="{{ speaker.imgpath }}" alt="{{ speaker.name }}">
+                            <img class="clip-circle" src="{{ site.data.path }}{{ speaker.imgpath }}" alt="{{ speaker.name }}">
                         </a>
                     </div>
                 {% endfor %}

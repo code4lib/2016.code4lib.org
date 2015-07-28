@@ -156,7 +156,10 @@ p {
 
 .section {
   min-height: 200px;
-  padding: 20px 50px 30px 50px;
+}
+
+.schedule, .presentation-page {
+	padding: 20px 50px 30px 50px;
 }
 
 .stripe {
