@@ -1,14 +1,24 @@
 selena-deckelmann:
   name: Selena Deckelmann
   bio: Sample Bio
-  imgpath: /img/speakers/selenadeckelmann.jpg
+  imgpath: img/speakers/selenadeckelmann.jpg
 
 becky-yoose:
   name: Bekcy Yoose
   bio: Sample Bio
-  imgpath: /img/speakers/beckyyoose.png
+  imgpath: img/speakers/beckyyoose.png
 
 sibyl-schaefer:
   name: Sibyl Schaefer
   bio: Sample Bio
-  imgpath: /img/speakers/sibylschaefer.jpg
+  imgpath: img/speakers/sibylschaefer.jpg
+
+jason-a-clark:
+  name: Jason A. Clark
+  bio: Sample Bio
+  imgpath: img/speakers/jasonaclark.jpg
+
+scott-w-h-young:
+  name: Scott W.H. Young
+  bio: Sample Bio
+  imgpath: img/speakers/scotthwyoung.jpg
