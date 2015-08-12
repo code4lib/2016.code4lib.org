@@ -112,6 +112,18 @@ p {
 	position: relative;
 }
 
+#sponsors {
+	padding: 0;
+	background-size: 1600px auto;
+	min-height: 600px;
+  background: url(../img/sponsors.jpg) top no-repeat;
+	background-size: 100%;
+	background-color: #d2c8bf;
+  /* color: #fcf5e3;*/
+	color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+	position: relative;
+}
 
 .who {
   width: 50%;
@@ -156,6 +168,11 @@ p {
 
 .section {
   min-height: 200px;
+}
+
+
+.schedule, .presentation-page {
+	padding: 20px 50px 30px 50px;
 }
 
 .stripe {
@@ -257,4 +274,47 @@ p {
 	background: #f7f6f1;
 	border: 6px solid #f7f6f1;
 	box-sizing: content-box;
+}
+
+
+.speech-bubble {
+	 	color: #fff;
+    background-color: #1fb7ef;
+    border: 1px solid #198fbb;
+    border-radius: 5px;
+    width: auto;
+    padding: 20px;
+    position: relative;
+}
+
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+
+.bottom {
+    border-color: #198fbb transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+
+.bottom:after {
+    border-color: #1fb7ef transparent transparent transparent;
+    border-style: solid;
+    border-width: 7px 7px 0px 7px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    left: -7px;
+}
+
+#testimonials .thumbnail {
+	background-color: #EF9A9B;
+	border: 0px;
+	min-height: 450px;
+}
+
+#testimonials h2 {
+	margin-bottom: 40px;
 }

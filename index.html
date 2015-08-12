@@ -27,11 +27,27 @@ title: code4lib - Philadelphia 2016
         </div>
       </div>
 
-      <div class="row section">
+      <div class="row section" id="testimonials">
         <div class="cell cell-lg">
         <h2>What are people saying?</h2>
-        <img src="img/quotes.svg" width="100%" alt="Testimonials">
-        <p>(Make this not an image.)</p>
+
+          <div class="row">
+            {% for testimonial in site.data.testimonials %}
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <div class="speech-bubble">
+                  <div class="arrow bottom right"></div>
+                  {{ testimonial.blurb }}
+                </div>
+                <div class="caption">
+                  <h3><a href="https://twitter.com/{{ testimonial.twitter }}">{{ testimonial.name }}</a></h3>
+                    <p>{{ testimonial.org }}</p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
+          </div>
         </div>
       </div>
 
