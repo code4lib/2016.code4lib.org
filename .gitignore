@@ -16,3 +16,5 @@
 .idea/workspace.xml
 
 _site/*
+
+_data/path.yml
