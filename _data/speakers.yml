@@ -11,6 +11,7 @@ becky-yoose:
 sibyl-schaefer:
   name: Sibyl Schaefer
   bio: Sample Bio
+<<<<<<< HEAD
   imgpath: img/speakers/sibylschaefer.jpg
 
 jason-a-clark:
@@ -22,3 +23,6 @@ scott-w-h-young:
   name: Scott W.H. Young
   bio: Sample Bio
   imgpath: img/speakers/scotthwyoung.jpg
+=======
+  imgpath: img/speakers/sibylschaefer.jpg
+>>>>>>> origin/master
