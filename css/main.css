@@ -318,3 +318,12 @@ p {
 #testimonials h2 {
 	margin-bottom: 40px;
 }
+
+.modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  z-index: 0;
+}
+.modal-dialog {
+  z-index: 1;
+}
