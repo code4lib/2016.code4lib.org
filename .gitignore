@@ -18,3 +18,4 @@
 _site/*
 
 _data/path.yml
+_includes/header.html
