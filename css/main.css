@@ -318,3 +318,12 @@ p {
 #testimonials h2 {
 	margin-bottom: 40px;
 }
+
+#sponsorships .thumbnail {
+	background-color: #313d38;
+	padding: 10px;
+}
+
+#sponsorships .thumbnail img{
+	width:500px;
+}
