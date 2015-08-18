@@ -99,6 +99,19 @@ p {
 	position: relative;
 }
 
+#upcoming-schedule {
+	padding: 0;
+	background-size: 1600px auto;
+	min-height: 600px;
+	background: url(../img/events_large.jpg) top no-repeat;
+	background-size: 100%;
+	background-color: #d2c8bf;
+	/* color: #fcf5e3;*/
+	color: #fff;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+	position: relative;
+}
+
 #about {
 	padding: 0;
 	background-size: 1600px auto;
@@ -147,12 +160,12 @@ p {
 }
 
   @media (max-width: 850px) {
-    #main {
+    #main, #upcoming-schedule {
             min-height: 180px;
 	 } }
 
   @media (min-width: 850px) and (max-width: 1260px) {
-    #main {
+    #main, #upcoming-schedule {
       min-height: 400px;
 	 } }
 
@@ -326,4 +339,9 @@ p {
 
 #sponsorships .thumbnail img{
 	width:500px;
+}
+
+.past-slides {
+	font-size: 2em;
+	display: block;
 }
