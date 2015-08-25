@@ -171,6 +171,23 @@ valerie-aurora:
 
 selena-deckelmann:
   name: Selena Deckelmann
+<<<<<<< HEAD
+  twitter: selena
+  bio: Sample Bio
+  imgpath: img/speakers/selenadeckelmann.jpg
+
+becky-yoose:
+  name: Bekcy Yoose
+  twitter: becky
+  bio: Sample Bio
+  imgpath: img/speakers/beckyyoose.png
+
+sibyl-schaefer:
+  name: Sibyl Schaefer
+  twitter: sibyl
+  bio: Sample Bio
+  imgpath: img/speakers/sibylschaefer.jpg
+=======
   bio: I contribute to PostgreSQL, run Postgres Open and keep chickens.
   twitter: https://twitter.com/selenamarie
   email:
@@ -188,3 +205,4 @@ andromeda-yelton:
   imgpath: img/speakers/andromeda.jpg
 
 
+>>>>>>> master
