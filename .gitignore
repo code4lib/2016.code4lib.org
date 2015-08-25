@@ -18,5 +18,9 @@
 _site/*
 
 _data/path.yml
+<<<<<<< HEAD
+_includes/header.html
+=======
 
 _data/path.yml
+>>>>>>> master
