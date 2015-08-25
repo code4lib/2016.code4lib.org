@@ -327,3 +327,21 @@ p {
 #sponsorships .thumbnail img{
 	width:500px;
 }
+
+#prospectus .thumbnail {
+	background-color: #fff;
+	padding: 10px;
+	margin: 10px;
+}
+
+#contact .thumbnail{
+	background-color: #1fb7ef;
+	  border: 1px solid #198fbb;
+	  border-radius: 5px;
+	  width: 300px;
+  position: fixed;
+  top: 144px;
+  left: 150px;
+	color: #ffffff;
+	padding: 20px;
+}
