@@ -99,6 +99,19 @@ p {
 	position: relative;
 }
 
+#upcoming-schedule {
+	padding: 0;
+	background-size: 1600px auto;
+	min-height: 600px;
+	background: url(../img/events_large.jpg) top no-repeat;
+	background-size: 100%;
+	background-color: #d2c8bf;
+	/* color: #fcf5e3;*/
+	color: #fff;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+	position: relative;
+}
+
 #about {
 	padding: 0;
 	background-size: 1600px auto;
@@ -128,7 +141,7 @@ p {
 .who {
   width: 50%;
   height: 50%;
-  overflow: auto;
+  overflow: visible;
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -147,12 +160,12 @@ p {
 }
 
   @media (max-width: 850px) {
-    #main {
+    #main, #upcoming-schedule {
             min-height: 180px;
 	 } }
 
   @media (min-width: 850px) and (max-width: 1260px) {
-    #main {
+    #main, #upcoming-schedule {
       min-height: 400px;
 	 } }
 
@@ -328,6 +341,7 @@ p {
 	width:500px;
 }
 
+
 #prospectus .thumbnail {
 	background-color: #fff;
 	padding: 10px;
@@ -344,4 +358,9 @@ p {
   left: 150px;
 	color: #ffffff;
 	padding: 20px;
+}
+
+.past-slides {
+	font-size: 2em;
+	display: block;
 }
