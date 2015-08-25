@@ -16,9 +16,9 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 
@@ -190,7 +190,7 @@ Main components
   float: right;
   padding: .8em 1em;
   background: #acb7c0;
-  color: white;
+  color: gray;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
