@@ -14,7 +14,7 @@
             {% if post.speaker %}
             {% assign speaker = site.data.speakers[post.speaker] %}
             <div class="col-sm-4 hidden-xs text-center">
-                <a href="#" class="speaker-overlay" data-content="{{ speaker.name }}">
+                <a href="{{ site.data.path }}speakers.html#{{ speaker.name | slugify }}-img" class="speaker-overlay" data-content="{{ speaker.name }}">
                     <img class="clip-circle" src="{{ site.data.path }}{{ speaker.imgpath }}" alt="{{ speaker.name }}">
                 </a>
             </div>
