@@ -72,6 +72,10 @@ Main components
   }
 }
 
+.past-pres-date {
+  color: gray;
+}
+
 .cd-timeline-img {
   position: absolute;
   top: 0;
