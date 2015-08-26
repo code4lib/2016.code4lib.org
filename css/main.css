@@ -332,7 +332,7 @@ p {
 	margin-bottom: 40px;
 }
 
-<<<<<<< HEAD
+
 .modal-backdrop.in {
   opacity: 0.5;
   filter: alpha(opacity=50);
@@ -340,7 +340,8 @@ p {
 }
 .modal-dialog {
   z-index: 1;
-=======
+}
+
 #sponsorships .thumbnail {
 	background-color: #313d38;
 	padding: 10px;
