@@ -13,8 +13,6 @@ This site was designed with future users in mind, so the group chose platforms t
 
 [Jekyll](http://jekyllrb.com) is a Rails gem that generates static websites from markdown, HTML, and other formats. See the [official Jekyll documentation](http://jekyllrb.com/docs/home/) for details. 
 
-We also recommend checking out the [Jekyll cheat sheet's Tags and Filters page](http://jekyll.pygmeeweb.com/tests/).
-
 
 ## Contributing
 
@@ -46,5 +44,6 @@ Steps for contributing have been documented in the [wiki on the site's GitHub pa
 
 ## Resources
 More details are available in the [GitHub wiki for this page](https://github.com/code4lib/2016.code4lib.org/wiki)
+
 [Conference Website Working Group wiki page: Working Group Documents](http://wiki.code4lib.org/Website_Working_Group_Documents)
 
