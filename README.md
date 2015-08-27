@@ -7,7 +7,7 @@
 This site was developed by the [Code4Lib 2016 Conference Committee Website Working Group](http://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). The site was designed to provide a comprehensive overview 
 of the Code4Lib 2016 Annual Conference. A great deal of conference and organizational info can be found on the [Code4Lib Wiki](http://wiki.code4lib.org/Main_Page) and the [Code4Lib Site](http://code4lib.org), but this site should serve as a gateway to the various sources of Code4Lib information while providing visitors with a user-friendly way to find conference-specific info.
 
-This site was designed with future users in mind, so the group chose platforms that would be accessible to a wide range of users: [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com).
+This site was designed with future users in mind, so the group chose platforms that would be accessible to a wide range of users: [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com).  We also custom build  Bootstrap 3.3.4 from less files for basic site colors and fonts.
 
 ## About Jekyll
 
@@ -40,6 +40,10 @@ Steps for contributing have been documented in the [wiki on the site's GitHub pa
 ### To update the public site with any new changes:
 1. make a pull request base:gh-pages and compare:master 
 2. Master should be up to date; you can merge your own pull request here.
+
+### Making changes to site CSS
+Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less``` file located in ```prototype/bootstrap/less/```.  More info on compiling Bootstrap CSS with Grunt can be found on their [Getting Started page](http://getbootstrap.com/getting-started/#grunt).  Other styles can be found in the ```css/main.css``` directory.
+
 ## Managing the Site
 
 ## Resources
