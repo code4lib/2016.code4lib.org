@@ -24,9 +24,14 @@ body {
 	width: 100%;
 	color: #fff;
 	background-color: #313d38;
-	padding: 5em;
+	padding-top: 3em;
 	text-align: center;
 	}
+@media (min-width: 768px){
+	.footer{
+		padding: 5em 0;
+	}
+}
 
 .footer a {
 	color: #7FD3F2;
@@ -178,7 +183,14 @@ p {
 #main h2 {
   margin-top:0px;
 }
-
+@media (max-width: 525px) {
+	#main h1{
+		font-size: 30px;
+	}
+	#main h2{
+		font-size: 23px;
+	}
+}
 .section {
   min-height: 200px;
 }
@@ -206,6 +218,9 @@ p {
 
 .jumbotron {
 	margin-bottom: 0px;
+}
+#main.jumbotron{
+	border-radius: 0;
 }
 
 #cols {
@@ -325,7 +340,11 @@ p {
 #testimonials .thumbnail {
 	background-color: #EF9A9B;
 	border: 0px;
-	min-height: 450px;
+}
+@media (min-width: 992px){
+	#testimonials .thumbnail {
+		min-height: 450px;
+	}
 }
 
 #testimonials h2 {
@@ -351,7 +370,11 @@ p {
 	width:500px;
 }
 
-
+@media(max-width: 992px){
+	.prospectus-padder{
+		padding-left: 35px;
+	}
+}
 #prospectus .thumbnail {
 	background-color: #fff;
 	padding: 10px;
