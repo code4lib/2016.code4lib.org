@@ -415,3 +415,19 @@ p {
 	-moz-border-radius: 0 0 5px 0;
 	border-radius: 0 0 5px 0;
 }
+
+.fluid-wrapper {
+	height: 0;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	position: relative;
+}
+
+.fluid-wrapper iframe {
+	height: 100%;
+	left: 0;
+	max-height: 30em;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
