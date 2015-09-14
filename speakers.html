@@ -17,7 +17,7 @@ title: Speakers
                 <!--<th>Presentation</th>-->
             </tr>
             </thead>
-            {% for person in site.data.speakers %}
+            {% for person in site.data.speakers reversed %}
             {% assign speaker = person[1] %}
             <tr>
               <td><img src="{{ speaker.imgpath }}" alt="{{ speaker.name }}" class="img-responsive" style="max-width:200px; height:auto;" id="{{ speaker.name | slugify }}-img"></td>
