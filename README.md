@@ -53,10 +53,6 @@ See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org
 12. wait for someone to test your changes and merge
 13. do the dance of joy
 
-### To update the public site with any new changes:
-1. make a pull request base:gh-pages and compare:master 
-2. Master should be up to date; you can merge your own pull request here.
-
 ### Making changes to site CSS
 Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less``` file located in ```prototype/bootstrap/less/```.  More info on compiling Bootstrap CSS with Grunt can be found on their [Getting Started page](http://getbootstrap.com/getting-started/#grunt).  Other styles can be found in the ```css/main.css``` directory.
 
@@ -85,6 +81,9 @@ git rebase master // bring gh-pages up to date with master
 git push origin gh-pages // commit the changes
 git checkout master // return to the master branch
 ```
+Additionally, this can be done in the GUI
+1. make a pull request base:gh-pages and compare:master
+2. Master should be up to date; you can merge your own pull request here.
 
 ## Resources
 More details are available in the [GitHub wiki for this page](https://github.com/code4lib/2016.code4lib.org/wiki)
