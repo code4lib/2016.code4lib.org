@@ -16,35 +16,74 @@ This site was designed with future users in mind, so the group chose platforms t
 
 ## Contributing
 
-Steps for contributing have been documented in the [wiki on the site's GitHub page](https://github.com/code4lib/2016.code4lib.org/wiki) and will be updated as needed. 
+Steps for contributing have been documented in the [wiki on the site's GitHub page](https://github.com/code4lib/2016.code4lib.org/wiki) and will be updated as needed.
+
+See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org/issues). The following example uses "issue#3" as a subject. That's the branch name and used in the commit message.
 
 ### Here's how to get started and contribute:
 
+#### The first time you want to contribute
 1. cd to repo root and ```git pull```
 2. ```bundle install```
-3. ```bundle exec jekyll serve```
-4. check localhost:4000
-5. make sure that your ```_data/path.yml``` file's content is simply ```'/'```
-5. git checkout -b issue-3
-6. make changes
-7. check [http://localhost:4000](http://localhost:4000) to see your changes
-8. ```git add {changed-files}```
-9. ```git commit -m "fixes issue #3"```
-10. add your branch to the remote ```git push --set-upstream origin issue#24```
-11. ```git checkout master```
-12. go to https://github.com/code4lib/2016.code4lib.org
-13. make a pull request base:master and compare:issue-3
-14. wait for someone to test your changes and merge
-15. do the dance of joy
+3. Continue with step 3 below
 
-### To update the public site with any new changes:
-1. make a pull request base:gh-pages and compare:master 
-2. Master should be up to date; you can merge your own pull request here.
+#### Subsequent work
+1. Make sure you're on the master branch (necessary if you skipped step 9)
+  * ```git checkout master```
+2. Make sure your master branch is up to date
+  * ```git pull origin master```
+3. Start up jekyll
+  * ```bundle exec jekyll serve```
+  * check [http://localhost:4000](http://localhost:4000)
+  * make sure that your ```_data/path.yml``` file's content is simply ```'/'```
+4. create a new branch for your changes
+  * ```git checkout -b issue#3```
+5. make changes, check [http://localhost:4000](http://localhost:4000) to see your changes
+6. add your changed files
+  * ```git add {changed-files}```
+7. commit your changes with a fancy message
+  * ```git commit -m "fixes issue #3"```
+8. add your branch to the repo
+  * ```git push --set-upstream origin issue#3```
+9. switch back to the master branch
+  * ```git checkout master```
+
+10. go to https://github.com/code4lib/2016.code4lib.org
+11. make a pull request base:master and compare:issue-3
+12. wait for someone to test your changes and merge
+13. do the dance of joy
 
 ### Making changes to site CSS
 Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less``` file located in ```prototype/bootstrap/less/```.  More info on compiling Bootstrap CSS with Grunt can be found on their [Getting Started page](http://getbootstrap.com/getting-started/#grunt).  Other styles can be found in the ```css/main.css``` directory.
 
 ## Managing the Site
+
+#### Checking pull requests
+1. Follow steps 1-3 from Subsequent work
+2. Get any remote branches
+  * ```git fetch```
+3. Switch to the branch in question
+  * ```git checkout BRANCHNAME```
+4. Check [http://localhost:4000](http://localhost:4000) that nothings broken
+5. Merge that branch and master
+
+#### Keeping master and gh-pages in sync
+[Original source](http://lea.verou.me/2011/10/easily-keep-gh-pages-in-sync-with-master/)
+
+When master is ready to get published:
+```
+git add . //add any outstanding files
+git status // to see what changes are going to be commited
+git commit -m 'Some descriptive commit message'
+git push origin master // syncs local and origin master
+git checkout gh-pages // go to the gh-pages branch
+git rebase master // bring gh-pages up to date with master
+git push origin gh-pages // commit the changes
+git checkout master // return to the master branch
+```
+Additionally, this can be done in the GUI
+1. make a pull request base:gh-pages and compare:master
+2. Master should be up to date; you can merge your own pull request here.
 
 ## Resources
 More details are available in the [GitHub wiki for this page](https://github.com/code4lib/2016.code4lib.org/wiki)
