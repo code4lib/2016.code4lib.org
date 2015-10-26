@@ -34,7 +34,54 @@
 <script>window.jQuery || document.write('<script src="{{ site.data.path }}js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="{{ site.data.path }}js/vendor/bootstrap.min.js"></script>
 <script src="{{ site.data.path }}js/main.js"></script>
+{% if page.GoogleSheetsKey != null %}
+<script src="js/vendor/tabletop.js"></script>
+<script>
+    $( document ).ajaxStart(function() {
+        $( "#loader" ).show();
+    });
+    $( document ).ajaxComplete(function() {
+        $( "#loader" ).hide();
+    });
 
+    fata = {};
+    window.onload = function() { init() };
+
+    function init() {
+        Tabletop.init( { key: '{{ page.GoogleSheetsKey }}',
+            callback: writeTalk,
+            simpleSheet: true } )
+    }
+
+
+    function writeTalk(data, tabletop) {
+        data.forEach(function(entry) {
+            //console.log(entry)
+            theHTML = '';
+            id = entry["Timestamp"].replace(/[^\w\s\d]/gi, '');
+            id = id.replace(/[\s]/gi, '-');
+            theHTML += '<div class="panel panel-default">' +
+                    '<div class="panel-heading" role="tab" id="' + id + 'Header">' +
+                    '<h4 class="panel-title">' +
+                    '<a role="button" data-toggle="collapse" data-parent="#list-of-talks" href="#' + id + '" aria-expanded="true" aria-controls="' + id + '">' +
+                    entry["{{ page.SheetsTitle }}"] +
+                    '</a>' +
+                    '</h4>' +
+                    '</div>' +
+                    '<div id="' + id + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="' + id + 'Header">' +
+                    '<div class="panel-body">' +
+                    '<p>' + entry["{{ page.SheetsAbstract }}"] + '<p>' +
+                    '<h4>Proposed by: ' + entry["{{ page.SheetsPresenter }}"] + '</h4>';
+            theHTML += '</div></div></div>';
+            $("#list-of-talks").append(theHTML);
+        });
+        $('#loader').hide();
+
+    }
+
+
+</script>
+{% endif %}
 
 
 </body>
