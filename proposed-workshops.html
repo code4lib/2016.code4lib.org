@@ -1,0 +1,44 @@
+---
+layout: default
+title: Prepared Talks
+categories: talks
+---
+
+<style>
+#list-of-talks h3, #list-of-talks h4, #list-of-talks p { color: #4d4d4d;}
+</style>
+</i><script src="js/vendor/tabletop.js"></script>
+<script>
+fata = {};
+	//window.onload = function() { init() };
+
+function init() {
+  Tabletop.init( { key: 'GET GEY FOR PRECONF GOOGLE SPREADASEET',
+                   callback: writeTalk,
+                   simpleSheet: true } )
+   }
+
+
+   function writeTalk(data, tabletop) {
+   	data.forEach(function(entry) {
+   		console.log(entry)
+      // Update this for preconf column names and multiple presenters
+   		row = '<div class="row"><div class="col-xs-12"><div class="thumbnail">';
+   		row += "<h3>" + entry["Presentation Title"] + "</h3>";
+   		row += "<p>" + entry["Abstract"] + "</p>";
+   		row += "<h4>Proposed by: " + entry["Presenter Name"] + "</h4>"; 
+   	 	row += "</div></div></div>";
+   	 	   	$("#list-of-talks").append(row);
+
+   	})
+   	
+
+
+   }
+   </script>
+<div class="row section prospectus-padder" id="talks">
+    <div class="cell cell-lg" id="list-of-talks">
+    	<h2> Proposed Preconference Workshops</h2>
+    		
+   	</div>
+</div>
