@@ -1,0 +1,29 @@
+{% include header.html %}
+
+<div class="sub-container container-fluid">
+    <div class="row section">
+        <div class="cell cell-lg">
+            {{ content }}
+            <div id="loader">
+                <div class="spin-container">
+                    <div class="spinner">
+                        <!--<h2>Loading</h2>-->
+                        <div class="rect1"></div>
+                        <div class="rect2"></div>
+                        <div class="rect3"></div>
+                        <div class="rect4"></div>
+                        <div class="rect5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel-group" id="list-of-talks" role="tablist" aria-multiselectable="true" aria-live="polite">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
