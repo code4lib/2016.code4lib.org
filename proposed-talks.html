@@ -1,43 +1,10 @@
 ---
-layout: default
-title: Prepared Talks
-categories: talks
+layout: ajaxContent
+title: Proposed Talks
+GoogleSheetsKey: https://docs.google.com/spreadsheets/d/1pyDBOOL3xvI7IxU1k5-hbXiOmPHGqJ56hGGN4sz3duE/pubhtml
+SheetsTitle: Presentation Title
+SheetsAbstract: Abstract
+SheetsPresenter: Presenter Name
 ---
 
-<style>
-#list-of-talks h3, #list-of-talks h4, #list-of-talks p { color: #4d4d4d;}
-</style>
-</i><script src="js/vendor/tabletop.js"></script>
-<script>
-fata = {};
-	window.onload = function() { init() };
-
-function init() {
-  Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/1pyDBOOL3xvI7IxU1k5-hbXiOmPHGqJ56hGGN4sz3duE/pubhtml',
-                   callback: writeTalk,
-                   simpleSheet: true } )
-   }
-
-
-   function writeTalk(data, tabletop) {
-   	data.forEach(function(entry) {
-   		console.log(entry)
-   		row = '<div class="row"><div class="col-xs-12"><div class="thumbnail">';
-   		row += "<h3>" + entry["Presentation Title"] + "</h3>";
-   		row += "<p>" + entry["Abstract"] + "</p>";
-   		row += "<h4>Proposed by: " + entry["Presenter Name"] + "</h4>"; 
-   	 	row += "</div></div></div>";
-   	 	   	$("#list-of-talks").append(row);
-
-   	})
-   	
-
-
-   }
-   </script>
-<div class="row section prospectus-padder" id="talks">
-    <div class="cell cell-lg" id="list-of-talks">
-    	<h2> Proposed Talks</h2>
-    		
-   	</div>
-</div>
+<h2>{{ page.title }}</h2>
