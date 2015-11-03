@@ -18,3 +18,5 @@
 _site/*
 
 _data/path.yml
+
+.DS_Store
