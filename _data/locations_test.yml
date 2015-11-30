@@ -1,0 +1,29 @@
+location1:
+  id: location1
+  name: Dubai
+  map-link: https://www.google.com/maps/place/Dubai+-+United+Arab+Emirates/@25.073595,54.9496525,10z/data=!3m1!4b1!4m2!3m1!1s0x3e5f43496ad9c645:0xbde66e5084295162
+
+location2:
+  id: location2
+  name: Dar es Salaam
+  map-link: https://www.google.com/maps/place/Dar+es+Salaam,+Tanzania/@-6.7693575,39.1142024,11z/data=!3m1!4b1!4m2!3m1!1s0x185c4bae169bd6f1:0x940f6b26a086a1dd
+
+location3:
+  id: location3
+  name: Tangier Islands
+  map-link: https://www.google.com/maps/place/Tangier,+VA+23440/@37.8237886,-76.0007688,15z/data=!3m1!4b1!4m2!3m1!1s0x89b989f7e80a49e3:0x63571185a03d2247
+
+location4:
+  id: location4
+  name: Aldan
+  map-link: https://www.google.com/maps/place/Aldan,+Sakha+Republic,+Russia/@58.6056109,125.3123496,12z/data=!3m1!4b1!4m2!3m1!1s0x5c108724306ebce7:0x878e91901569e19a
+
+location5:
+  id: location5
+  name: Morondava
+  map-link: https://www.google.com/maps/place/Morondava,+Madagascar/@-20.2929106,44.28061,14z/data=!3m1!4b1!4m2!3m1!1s0x1f5ed04dc1075db1:0x93687cf04b296d45
+
+location6:
+  id: location6
+  name: Davis Station
+  map-link: https://www.google.com/maps/place/Davis+Station,+Antarctica/@-68.5767698,77.9640484,16z/data=!3m1!4b1!4m2!3m1!1s0xb1f366cd8ba7809d:0xc0e41055c81a02e0
