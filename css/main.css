@@ -523,3 +523,11 @@ p {
 		   -webkit-transform: scaleY(1.0);
 	   }
 }
+
+#workshop-sorting-div {
+	margin-bottom: 20px;
+}
+
+.workshop-well {
+	background-color: #ffffff;
+}
