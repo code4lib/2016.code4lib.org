@@ -530,4 +530,22 @@ p {
 
 .workshop-well {
 	background-color: #ffffff;
+	padding: 10px 10px 0px 10px;
+  width: 300px;
+  margin-top: 10px;
+
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+
+	border-radius: 5px;
+}
+
+.sequence {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }

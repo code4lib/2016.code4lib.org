@@ -30,7 +30,7 @@ title: Preconference Workshops
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 sequence">
                 {% assign posts = site.posts | where:categories, workshops %}
                 {% for post in posts %}
                 {% if post.length %}
@@ -38,7 +38,7 @@ title: Preconference Workshops
                     <div class="row">
                         <div class="col-xs-12">
                             <h3>{{ post.title }}</h3>
-                            <p>{{ post.content | truncate: 150}} <a href="{{ post.url }}">more</a></p>
+                            <p>{{ post.content | truncate: 150}} <a class="btn btn-default btn-xs" href="{{ post.url }}">more</a></p>
                         </div>
                         <div class="col-xs-12 col-sm-6 text-center">
                             <h5>Length</h5>
@@ -57,4 +57,3 @@ title: Preconference Workshops
         </div>
     </div>
 </div>
-
