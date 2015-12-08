@@ -1,0 +1,76 @@
+---
+layout: default
+title: Preconference Workshops
+---
+
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>{{ page.title }}: March 7th, 2016</h1>
+            </div>
+        </div>
+        <div class="row" id="workshop-sorting-div">
+            <div class="col-xs-12 col-sm-6">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default sort-workshop-time active" id="all">All</button>
+                    <button type="button" class="btn btn-default sort-workshop-time" id="am">AM</button>
+                    <button type="button" class="btn btn-default sort-workshop-time" id="pm">PM</button>
+                    <button type="button" class="btn btn-default sort-workshop-time" id="full">Full Day</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <select class="form-control sort-workshop-locale">
+                    <option value="all">All Locations</option>
+                    {% for location in site.data.locations %}
+                        {% assign loc = location[1] %}
+                        <option value="{{ loc.Room | slugify }}">{{ loc.Room }} - {{ loc.Building }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 sequence">
+                {% assign posts = site.posts %}
+                {% for post in posts %}
+                    {% if post.type == 'workshop' %}
+                    {% assign postLength = 'empty' %}
+                    {% for location in site.data.locations %}
+                        {% assign loc = location[1] %}
+                        {% if loc.AM-sessions == post.slugTitle and loc.PM-sessions == post.slugTitle %}
+                            {% assign postLength = 'full' %}
+                            {% assign postLocale = loc %}
+                        {% elsif loc.AM-sessions == post.slugTitle %}
+                            {% assign postLength = 'am' %}
+                            {% assign postLocale = loc %}
+                        {% elsif loc.PM-sessions == post.slugTitle %}
+                            {% assign postLength = 'pm' %}
+                            {% assign postLocale = loc %}
+                        {% endif %}
+                    {% endfor %}
+                    <div class="well workshop-well" data-length="{{ postLength }}" data-location="{{ postLocale.Room | slugify }}">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h3>{{ post.title }}</h3>
+                                <p>{{ post.content | truncate: 150}} <a class="btn btn-default btn-xs" href="{{ post.url }}">more</a></p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 text-center">
+                                <h5>Length</h5>
+                                {% if postLength == 'full' %}
+                                Full Day
+                                {% else %}
+                                <span class="text-uppercase">{{ postLength }}</span>
+                                {% endif %}
+                            </div>
+                            <div class="col-xs-12 col-sm-6 text-center">
+                                <h5>Location</h5>
+                                <p>{{ postLocale.Room }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
