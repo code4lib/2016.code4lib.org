@@ -36,4 +36,36 @@ jQuery(document).ready(function($){
         window.location.hash = e.target.hash.replace("#", "#" + prefix);
     });*/
 
+    $('.sort-workshop-time').click(function(){
+        var time = $(this).attr('id');
+        var place = $('.sort-workshop-locale').val();
+        $('.sort-workshop-time').removeClass('active');
+        $(this).addClass('active');
+        sortWorkshops(time,place);
+    });
+
+    $('.sort-workshop-locale').change(function(){
+        var time = $('.sort-workshop-time.active').attr('id');
+        var place = $(this).val();
+        sortWorkshops(time,place);
+    });
+
+    function sortWorkshops(time,place){
+        if(time == 'all' && place == 'all'){
+            $('.workshop-well').removeClass('hidden');
+        }
+        if(time == 'all' && place != 'all'){
+            $('.workshop-well[data-location="'+place+'"]').removeClass('hidden');
+            $('.workshop-well:not([data-location="'+place+'"])').addClass('hidden');
+        }
+        if(time != 'all' && place == 'all'){
+            $('.workshop-well[data-length="'+time+'"]').removeClass('hidden');
+            $('.workshop-well:not([data-length="'+time+'"])').addClass('hidden');
+        }
+        if(time != 'all' && place != 'all'){
+            $('.workshop-well[data-length="'+time+'"][data-location="'+place+'"]').removeClass('hidden');
+            $('.workshop-well:not([data-length="'+time+'"][data-location="'+place+'"])').addClass('hidden');
+        }
+    }
+
 });
