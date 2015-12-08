@@ -2,7 +2,7 @@ Garden-3:
   Building: Chemical Heritage Foundation
   Room: Garden 3
   AM-sessions: the-getting-ready-for-workshops-workshop
-  PM-sessions: user-experience-for-libraries--collections
+  PM-sessions: user-experience-for-libraries-collections
 
 Garden-1:
   Building: Chemical Heritage Foundation
@@ -25,7 +25,7 @@ Haas:
 Franklin-1:
   Building: Chemical Heritage Foundation
   Room: Franklin 1
-  AM-sessions: its-always-sassy-in-philadelphia
+  AM-sessions: it-s-always-sassy-in-philadelphia
   PM-sessions: catmandu
 
 Franklin-2:
@@ -38,7 +38,7 @@ Ullyot-N:
   Building: Chemical Heritage Foundation
   Room: Ullyot N
   AM-sessions: linked-data-learning
-  PM-sessions: semantic-search-for-the-coderlibrarian
+  PM-sessions: semantic-search-for-the-coder-librarian
 
 Ullyot-S:
   Building: Chemical Heritage Foundation
@@ -55,7 +55,7 @@ Large-hall:
 Side---East:
   Building: Franklin Hall
   Room: Side - East
-  AM-sessions: lodashjs-api-tour
+  AM-sessions: lodash-js-api-tour
   PM-sessions: fail4lib-2016
 
 Side---West:
@@ -67,8 +67,8 @@ Side---West:
 Cook:
   Building: Hotel
   Room: Cook
-  AM-sessions: handson-fedora-4
-  PM-sessions: migrating-hydrabased-repositories-from-fedora-3-to-4
+  AM-sessions: hands-on-fedora-4
+  PM-sessions: migrating-hydra-based-repositories-from-fedora-3-to-4
 
 Bromley-Claypoole:
   Building: Hotel
