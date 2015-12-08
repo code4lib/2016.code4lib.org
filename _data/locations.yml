@@ -1,0 +1,77 @@
+Garden-3:
+  Building: Chemical Heritage Foundation
+  Room: Garden 3
+  AM-sessions: the-getting-ready-for-workshops-workshop
+  PM-sessions: user-experience-for-libraries-collections
+
+Garden-1:
+  Building: Chemical Heritage Foundation
+  Room: Garden 1
+  AM-sessions: publishing-research-data-with-r-knitr-and-shiny
+  PM-sessions: publishing-research-data-with-r-knitr-and-shiny
+
+Garden-2:
+  Building: Chemical Heritage Foundation
+  Room: Garden 2
+  AM-sessions: islandora-for-managers
+  PM-sessions: islandora-for-developers
+
+Haas:
+  Building: Chemical Heritage Foundation
+  Room: Haas
+  AM-sessions: building-a-geocoding-toolset-for-libraries
+  PM-sessions: getting-more-out-of-your-maps
+
+Franklin-1:
+  Building: Chemical Heritage Foundation
+  Room: Franklin 1
+  AM-sessions: it-s-always-sassy-in-philadelphia
+  PM-sessions: catmandu
+
+Franklin-2:
+  Building: Chemical Heritage Foundation
+  Room: Franklin 2
+  AM-sessions: railsbridge
+  PM-sessions: customizing-blacklight
+
+Ullyot-N:
+  Building: Chemical Heritage Foundation
+  Room: Ullyot N
+  AM-sessions: linked-data-learning
+  PM-sessions: semantic-search-for-the-coder-librarian
+
+Ullyot-S:
+  Building: Chemical Heritage Foundation
+  Room: Ullyot S
+  AM-sessions: command-line-bootcamp
+  PM-sessions: measuring-your-metadata
+
+Large-hall:
+  Building: Franklin Hall
+  Room: Large hall
+  AM-sessions: code4arc
+  PM-sessions: code4arc
+
+Side---East:
+  Building: Franklin Hall
+  Room: Side - East
+  AM-sessions: lodash-js-api-tour
+  PM-sessions: fail4lib-2016
+
+Side---West:
+  Building: Franklin Hall
+  Room: Side - West
+  AM-sessions: buzzword-compliant-logging
+  PM-sessions: digitization-project-starter
+
+Cook:
+  Building: Hotel
+  Room: Cook
+  AM-sessions: hands-on-fedora-4
+  PM-sessions: migrating-hydra-based-repositories-from-fedora-3-to-4
+
+Bromley-Claypoole:
+  Building: Hotel
+  Room: Bromley-Claypoole
+  AM-sessions: dive-into-hydra
+  PM-sessions: dive-deeper-into-hydra

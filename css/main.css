@@ -523,3 +523,38 @@ p {
 		   -webkit-transform: scaleY(1.0);
 	   }
 }
+
+#workshop-sorting-div {
+	margin-bottom: 20px;
+}
+
+.workshop-well {
+	background-color: #ffffff;
+	padding: 10px 10px 0px 10px;
+  	width: 300px;
+  	margin-top: 10px;
+
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+
+	border-radius: 5px;
+}
+
+.workshop-well p {
+	line-height: 1.3em;
+	font-size: .9em;
+}
+
+.sequence {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.presentation-container{
+	margin-bottom: 30px;
+}
