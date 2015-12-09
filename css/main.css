@@ -546,6 +546,7 @@ p {
 .workshop-well p {
 	line-height: 1.3em;
 	font-size: .9em;
+	word-break: break-word;
 }
 
 .sequence {

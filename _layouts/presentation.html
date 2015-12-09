@@ -38,6 +38,13 @@
                                     </a>-->
                                     {{ sp.name }}
                                 </div>
+                                {% else %}
+                                    <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <!--<a href="#" class="speaker-overlay" data-content="{{ sp.name }}">
+                                            <img class="clip-circle" src="http://cdn-img.easyicon.net/png/11100/1110055.gif" alt="{{ sp.name }}">
+                                        </a>-->
+                                        {{ speaker }}
+                                    </div>
                                 {% endif %}
                             {% endif %}
                         {% endfor %}

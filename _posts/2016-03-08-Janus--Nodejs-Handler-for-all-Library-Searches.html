@@ -1,0 +1,11 @@
+---
+layout: presentation
+speakers:
+- David Naughton
+categories: talks
+type: talk
+title: Janus - Node.js Handler for all Library Searches
+---
+<p>Libraries websites often attempt to present a single interface to multiple, disparate search engines: vendor databases, institutional repositories, finding aids, discovery layers, search appliances, etc. How do we impose order on this chaos? How do we know whether our attempts to do so meet users' needs? Do we build our own bespoke portal UIs, using vendor APIs for each and every search engine, refusing to use any vendor UIs? Or do we just provide links, or maybe search forms, that redirect to the vendor UIs?
+
+Janus presents a middle path, allowing libraries to present a single interface to multiple search engines, and to capture and analyze much of the significant use of those search engines, without completely replacing vendor UIs. Janus provides a simple URL API that encapsulates and abstracts away the complexities of vendor APIs. It supports Shibboleth and many other, more common, authentication tools, as well as common logging tools. Janus is implemented in Node.js for high performance and ease of testing of interaction with vendor web UIs, which often rely heavily on JavaScript. Janus has been in production for several months at the University of Minnesota Libraries, where we are preparing to release the code as open source before coe4lib 2016.</p>
