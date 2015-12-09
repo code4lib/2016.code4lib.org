@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
+	color: #1e1e1e;
 	line-height: 2em;
 }
 
@@ -318,7 +319,7 @@ p {
 
 
 .speech-bubble {
-	 	color: #fff;
+	 	color: black;
     background-color: #1fb7ef;
     border: 1px solid #198fbb;
     border-radius: 5px;
