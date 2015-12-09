@@ -1,0 +1,24 @@
+---
+layout: presentation
+speakers:
+- Michael Gibney (University of Pennsylvania)
+categories: talks
+type: talk
+voteCount: 208
+title: xmlaminar&#58; a tool to facilitate working with arbitrarily large amounts of XML
+---
+<p>XML is widely used for data serialization, transfer, and processing. Unfortunately, because of its document-centric nature, XML is inconvenient to work with in contexts where content consists of multiple independent records, and where streaming and/or fault-tolerant processing are desired. In practice, records are usually grouped together arbitrarily into documents for transfer and processing; this approach often necessitates workarounds to approximate streaming and fault-tolerance, unnecessarily increasing the complexity and inefficiency of workflows.
+<br/>
+<a href="https://github.com/upenn-libraries/xmlaminar">xmlaminar</a> defines and implements a command-line interface and SAX-based Java API, providing a flexible level of abstraction for managing the document-based nature of XML representations of data. xmlaminar is designed to make working with large amounts of XML more efficient, intuitive, scriptable, and fault-tolerant. Functionality includes:<br/>
+1. Join multiple XML streams together<br/>
+2. Split XML streams into smaller chunks<br/>
+3. Combine 1-2 to resize xml documents by record count<br/>
+4. Fault-tolerant, order-preserving parallel processing of arbitrarily large XML streams (taking advantage of multiple cores to speed processing; isolating and logging records that fail transformation)<br/>
+5. Streaming XML representation of information from databases (including MARC->MARCXML)<br/>
+6. Parameterized SQL queries to allow streaming retrieval (as XML) of records specified by arbitrarily large lists of record ids<br/>
+7. Integration of multiple corresponding flat XML streams into a single hierarchical XML stream<br/>
+8. Configurable modules for handling XML output (write to file, stdout, POST to URL, etc.)<br/>
+9. Combine 1-8 in flexible, composable configurations to design arbitrarily complex (but transparent and efficient) streaming pipelines and workflows
+<br/>
+We hope to present an overview of xmlaminar functionality, design challenges and considerations, and current and potential future development and use cases.
+</p>

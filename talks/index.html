@@ -1,0 +1,46 @@
+---
+layout: default
+title: Conference Proposal Voting Results
+---
+
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>{{ page.title }}</h1>
+                <p>Note: This list represents the presentation voting results.
+                  Only the top ten (highlighted) have been accepted so far.
+                  As in recent years, the remainder of the program will be curated
+                  by the program committee, taking into account voting results,
+                  topic diversity, and speaker diversity. These selections will 
+                  be announced in coming weeks.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 sequence">
+                {% assign top10 = 1 %}
+                {% assign posts = site.posts | sort: 'voteCount'%}
+                {% for post in posts reversed %}
+                    {% if post.type == 'talk' %}
+                        {% if top10 < 11 %}
+                    <div class="well workshop-well top-10">
+                        {% else %}
+                    <div class="well workshop-well">
+                        {% endif %}
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                <p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">more</a></p>
+                            </div>
+                            <div class="col-xs-12">
+                                <h4>{{ post.voteCount }} votes</h4>
+                          </div>
+                        </div>
+                    </div>
+                        {% assign top10 = top10 | plus: 1 %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+---
+layout: presentation
+speakers:
+- Alejandro Paz, Kim Pham, Kirsta Stapelfeldt
+categories: talks
+type: talk
+voteCount: 212
+title: Curate my web crawl&#58; Building a multiprocessing web crawler for ethnographic research
+---
+<p>To understand how Israeli digital news is being disseminated and used across a global digital newsscape, an anthropologist, the Department of Computer Science and the library's Digital Scholarship Unit at the University of Toronto teamed up to build MediaCAT, a web crawler and archive application suite. MediaCAT is an open-source Django application that uses the Newspaper API to, firstly, perform a crawl given a target list of referring sites against a set of source sites and/or keywords. Secondly, it monitors a set of twitter handles for the same set of sources and keywords. The result is a list of individual URLs or tweets with references, either mentions or hyperlinks, to one of the sources. This application allows for more efficient crawling that indexes and archives only matching URLs and tweets. These URLs and tweets are then captured using PhantomJS to store WARCs for in-depth analysis. The continuously updating data will be used to investigate the process of producing news for a global public sphere. As product manager, the Digital Scholarship Unit plays crucial role in the development process to ensure the application is designed in a responsible, sustainable manner to support future web archiving services provided by the library.
+ 
+This talk will feature how we’ve come together work on the project, touching upon the different (and at times conflicting) needs and the resulting decisions that informed the design of the application. We will also discuss the unique problems we've encountered crawling due to the varying web structures of site domain, and we will touch on our workarounds.
+ 
+This talk will feature a demo of the application, including:
+scoping the crawl, initiation and termination of site crawl processes, collection analysis (keyword and source site distribution, crawl statistics).
+ 
+The code and documentation is being actively developed on Github (https://github.com/UTMediaCAT). </p>
