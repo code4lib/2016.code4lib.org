@@ -537,6 +537,7 @@ p {
 	display: flex;
 
 	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
 	justify-content: space-around;
 
 	border-radius: 5px;
@@ -552,6 +553,7 @@ p {
   margin: 0;
   display: flex;
   -webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
   justify-content: space-around;
 }
 
