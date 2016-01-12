@@ -566,3 +566,23 @@ p {
 .presentation-container{
 	margin-bottom: 30px;
 }
+
+.sched-date {
+ margin-bottom: 20px;
+}
+
+.sched-well {
+	text-align: left;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.sched-well h3 {
+	padding: 0px 0px 5px 0px;
+	text-align: left;
+}
+.sched-well p {
+	line-height: 1.3em;
+	font-size: .9em;
+	word-break: break-word;
+}
