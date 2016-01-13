@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Conference Proposal Voting Results
+title: Accepted Conference Talks
 ---
 
 <div class="row section">
@@ -8,35 +8,27 @@ title: Conference Proposal Voting Results
         <div class="row">
             <div class="col-xs-12">
                 <h1>{{ page.title }}</h1>
-                <p>Note: This list represents the presentation voting results.
-                  Only the top ten (highlighted) have been accepted so far.
-                  As in recent years, the remainder of the program will be curated
-                  by the program committee, taking into account voting results,
-                  topic diversity, and speaker diversity. These selections will 
-                  be announced in coming weeks.</p>
+                <p>This list represents the accepted conference talks that you can expect to hear at the conference. Thank you to all who submitted talks this year.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 sequence">
-                {% assign top10 = 1 %}
+                {% assign top31 = 1 %}
                 {% assign posts = site.posts | where:"type","talk" | sort: 'voteCount' | reverse %}
                 {% for post in posts %}
-                      {% if top10 < 11 %}
-                  <div class="well workshop-well top-10">
-                      {% else %}
-                  <div class="well workshop-well">
-                      {% endif %}
-                      <div class="row">
-                          <div class="col-xs-12">
-                              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                              <p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">more</a></p>
+                      {% if top31 < 32 %}
+                      <div class="well workshop-well">
+
+                          <div class="row">
+                              <div class="col-xs-12">
+                                  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                  <p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">more</a></p>
+                              </div>
+
                           </div>
-                          <div class="col-xs-12">
-                              <h4>{{ post.voteCount }} votes</h4>
-                        </div>
                       </div>
-                  </div>
-                      {% assign top10 = top10 | plus: 1 %}
+                      {% endif %}
+                      {% assign top31 = top31 | plus: 1 %}
                 {% endfor %}
             </div>
         </div>
