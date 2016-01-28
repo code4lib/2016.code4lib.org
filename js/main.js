@@ -48,7 +48,7 @@ jQuery(document).ready(function($){
         var time = $('.sort-workshop-time.active').attr('id');
         var place = $(this).val();
         sortWorkshops(time,place);
-    });
+    }).trigger('change');
 
     function sortWorkshops(time,place){
         if(time == 'all' && place == 'all'){
