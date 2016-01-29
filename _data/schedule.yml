@@ -1,3 +1,5 @@
+
+# Registration
 - timeImg: 8.00.png
   title: Registration/Breakfast
   day1: 1
@@ -5,6 +7,7 @@
   day3: 1
   time: 08:00-09:00
 
+# Announcements
 - timeImg: 9.00.png
   title: Announcements and Welcome
   day1: 1
@@ -16,6 +19,7 @@
   day3: 1
   time: 09:00-09:15
 
+# Breaks
 - timeImg: 10.00.png
   title: Break
   day1: 1
@@ -31,32 +35,88 @@
   day1: 1
   time: 15:40-15:45
 
+- timeImg: 10.40.png
+  title: Break
+  day2: 1
+  time: 10:40-11:00
+
+- timeImg: 2.25.png
+  title: Break
+  day2: 1
+  time: 14:25-14:40
+
+- timeImg: 3.30.png
+  title: Break
+  day2: 1
+  time: 15:30-15:35
+
+- timeImg: 10.00.png
+  title: Break
+  day3: 1
+  time: 10:00-10:15
+
+# Breakouts
 - timeImg: 2.45.png
   title: Breakout Sessions 1
   day1: 1
   time: 14:45-15:40
 
+- timeImg: 2.40.png
+  title: Breakout Sessions 2
+  day2: 1
+  time: 14:40-15:30
+
+# lightning
 - timeImg: 3.50.png
   title: Lightning Talks 1
   day1: 1
   time: 15:50-16:50
 
+- timeImg: 11.00.png
+  title: Lightning Talks 2
+  day2: 1
+  time: 11:00-12:00
+
+- timeImg: 10.15.png
+  title: Lightning Talks 3
+  day3: 1
+  time: 10:15-11:00
+
+# wrap ups
 - timeImg: 4.50.png
   title: Daily Wrap-up
   day1: 1
   time: 16:50-17:00
 
+- timeImg: 5.00.png
+  title: Daily Wrap-up
+  day2: 1
+  time: 17:00-17:10
+
+- timeImg: 12.00.png
+  title: Wrap-up
+  day3: 1
+  time: 12:00-12:20
+
+# receptions
 - timeImg: 5.45.png
   title: Reception
   day1: 1
   time: 17:45-19:45
 
+- timeImg: 6.00.png
+  title: Netwroking, dine around
+  day2: 1
+  time: 18:00-20:00
+
+# lunches
 - timeImg: 12.00.png
   title: Lunch
   day1: 1
   day2: 1
   time: 12:00-13:00
 
+# housekeeping
 - timeImg: 1.10.png
   title: Housekeeping
   day1: 1
@@ -67,24 +127,66 @@
   day1: 1
   time: 15:45-15:50
 
+- timeImg: 1.00.png
+  title: Housekeeping
+  day2: 1
+  time: 13:00-13:05
+
+- timeImg: 3.35.png
+  title: Housekeeping
+  day2: 1
+  time: 15:35-15:40
+
+# keynotes
 - timeImg: 9.15.png
   title: Opening Keynote
   day1: 1
   groupId: keynote-opening
   time: 09:15-10:00
 
+- timeImg: 9.15.png
+  title: Closing Keynote
+  day3: 1
+  groupId: keynote-closing
+  time: 09:15-10:00
+
+
+# groups
 - timeImg: 10.20.png
-  title: Group 1&#58; 100 minute (6 talks)
+  title: Group 1&#58; 100 minutes (6 talks)
   day1: 1
   groupId: 1
   time: 10:20-12:00
 
 - timeImg: 1.15.png
-  title: Group 2&#58; 75 minute (Panel - 4 talks)
+  title: Group 2&#58; 75 minutes (4 talks & Panel)
   day1: 1
   groupId: 2
   time: 13:15-14:30
 
+- timeImg: 9.15.png
+  title: Group 3&#58; 85 minutes (5 talks)
+  day2: 1
+  groupId: 3
+  time: 09:15-10:40
+
+- timeImg: 1.05.png
+  title: Group 4&#58; 80 minutes (5 talks)
+  day2: 1
+  groupId: 4
+  time: 13:05-14:25
+
+- timeImg: 3.40.png
+  title: Group 5&#58; 80 minutes (6 talks)
+  day2: 1
+  groupId: 5
+  time: 15:40-17:00
+
+- timeImg: 11.00.png
+  title: Group 6&#58; 60 minutes (5 talks)
+  day3: 1
+  groupId: 6
+  time: 11:00-12:00
 
 
 

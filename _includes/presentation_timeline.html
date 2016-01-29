@@ -10,10 +10,10 @@
 
             <div class="cd-timeline-content">
                 <div class="row">
-                    <div class="col-sm-6 col-xs-12">
+                    <div class="col-sm-7 col-xs-12">
                         <h2>{{ event.title }}</h2>
                     </div>
-                    <div class="col-sm-6 col-xs-12 text-right">
+                    <div class="col-sm-5 col-xs-12 text-right">
                         <h2>{{ event.time }}</h2>
                     </div>
                 </div>
@@ -25,20 +25,35 @@
                                 <h4><a href="{{ talk.url }}">{{ talk.title }}</a></h4>
                             </div>
                             <div class="col-xs-12 hidden-xs">
+                                {% assign hasSpeakers = 0 %}
                                 {% for speakerId in talk.speakers %}
-                                    {% assign speaker = site.data.speakers_final[speakerId] %}
-                                    {% if speaker %}
-                                        <div class="col-sm-3">
-                                            <a href="#" class="speaker-overlay" data-content="{{ speaker.Name }}">
-                                                {% if speaker.Image-URL == '' %}
-                                                    <img class="clip-circle" src="/img/speakers/none.png" alt="{{ speaker.Name }}">
-                                                {% else %}
-                                                    <img class="clip-circle" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                                {% endif %}
-                                            </a>
-                                        </div>
+                                    {% if speakerId != 0 %}
+                                        {% assign speaker = site.data.speakers_final[speakerId] %}
+                                        {% if speaker %}
+                                            {% assign hasSpeakers = 1 %}
+                                        {% endif %}
                                     {% endif %}
                                 {% endfor %}
+
+                                {% if hasSpeakers == 1 %}
+                                    {% for speakerId in talk.speakers %}
+                                        {% assign speaker = site.data.speakers_final[speakerId] %}
+                                        {% if speaker %}
+                                            <div class="col-sm-3">
+                                                    {% if speaker.Image-URL == nil %}
+                                                        <a href="#">{{ speaker.Name }}</a>
+                                                        <!--<img class="clip-circle" src="/img/speakers/none.png" alt="{{ speaker.Name }}">-->
+                                                    {% else %}
+                                                        <a href="#" class="speaker-overlay" data-content="{{ speaker.Name }}">
+                                                            <img class="clip-circle" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                                        </a>
+                                                    {% endif %}
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    <div class="col-xs-12">{{talk.speakers-text}}</div>
+                                {% endif %}
                             </div>
                         </div>
                     {% endfor %}
