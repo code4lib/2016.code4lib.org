@@ -2,6 +2,7 @@
 
 {% if page.type == 'workshop' %}
     {% assign pageLength = 'empty' %}
+    {% assign pageDate = 'March 7th, 2016' %}
     {% for location in site.data.locations %}
         {% assign loc = location[1] %}
         {% if loc.AM-sessions == page.slugTitle and loc.PM-sessions == page.slugTitle %}
@@ -17,6 +18,19 @@
     {% endfor %}
 {% endif %}
 
+{% if page.type == 'talk' %}
+    {% if page.day == 1 %}
+        {% assign pageDate = 'March 8th, 2016' %}
+    {% endif %}
+    {% if page.day == 2 %}
+        {% assign pageDate = 'March 9th, 2016' %}
+    {% endif %}
+    {% if page.day == 3 %}
+        {% assign pageDate = 'March 10th, 2016' %}
+    {% endif %}
+{% endif %}
+
+
 <div class="sub-container container-fluid presentation-container">
     <div class="row section">
         <div class="cell cell-lg">
@@ -28,70 +42,122 @@
                     </div>
                     <div class="col-xs-12">
                         <h3>Speaker(s)</h3>
-                        {% for speaker in page.speakers %}
-                            {% if speaker %}
-                            {% assign sp = site.data.speakers_temp[speaker] %}
-                                {% if sp %}
-                                <div class="col-xs-6 col-sm-4 col-md-3">
-                                    <!--<a href="#" class="speaker-overlay" data-content="{{ sp.name }}">
-                                        <img class="clip-circle" src="http://cdn-img.easyicon.net/png/11100/1110055.gif" alt="{{ sp.name }}">
-                                    </a>-->
-                                    {{ sp.name }}
-                                </div>
-                                {% else %}
+                        {% if page.type == 'workshop' %}
+                            {% for speaker in page.speakers %}
+                                {% if speaker != 0 %}
+                                {% assign sp = site.data.speakers_temp[speaker] %}
+                                    {% if sp %}
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <!--<a href="#" class="speaker-overlay" data-content="{{ sp.name }}">
                                             <img class="clip-circle" src="http://cdn-img.easyicon.net/png/11100/1110055.gif" alt="{{ sp.name }}">
                                         </a>-->
-                                        {{ speaker }}
+                                        {{ sp.name }}
                                     </div>
+                                    {% else %}
+                                        <div class="col-xs-6 col-sm-4 col-md-3">
+                                            <!--<a href="#" class="speaker-overlay" data-content="{{ sp.name }}">
+                                                <img class="clip-circle" src="http://cdn-img.easyicon.net/png/11100/1110055.gif" alt="{{ sp.name }}">
+                                            </a>-->
+                                            {{ speaker }}
+                                        </div>
+                                    {% endif %}
                                 {% endif %}
+                            {% endfor %}
+                        {% endif %}
+
+                        {% if page.type == 'talk' %}
+                            {% assign hasSpeakers = 0 %}
+                            {% for speakerId in page.speakers %}
+                                {% if speakerId != 0 %}
+                                    {% assign speaker = site.data.speakers_final[speakerId] %}
+                                    {% if speaker %}
+                                        {% assign hasSpeakers = 1 %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+
+                            {% if hasSpeakers == 1 %}
+                                {% for speakerId in page.speakers %}
+                                    {% assign speaker = site.data.speakers_final[speakerId] %}
+                                    {% if speaker %}
+                                        <div class="col-xs-6 col-sm-4 col-md-3">
+                                            {% if speaker.Image-URL == nil %}
+                                                <a href="#">{{ speaker.Name }}</a>
+                                            {% else %}
+                                                <a href="#" class="speaker-overlay" data-content="{{ speaker.Name }}">
+                                                    <img class="clip-circle" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                                </a>
+                                            {% endif %}
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                            <div class="col-xs-6 col-sm-4 col-md-3">{{talk.speakers-text}}</div>
                             {% endif %}
-                        {% endfor %}
+                        {% endif %}
                     </div>
                 </div>
             </div>
-            {% if page.nocontent %}
-            {% else %}
-                <div class="col-xs-12 col-sm-4 col-md-3 text-center">
-                    <div class="row">
-                        <!-- date -->
-                        <div class="col-xs-6 col-sm-12 col-md-12">
-                            <h3>Date</h3>
-                            <p>{{ page.date | date_to_long_string }}</p>
-                        </div>
-
-                        <!-- time of day for presentations -->
-                        {% if page.type == 'workshop' %}
-                        <div class="col-xs-6 col-sm-12 col-md-12">
-                            <h3>Time of Day</h3>
-                            {% if pageLength == 'full' %}
-                            <p>Full Day</p>
-                            {% else %}
-                            <p class="text-uppercase">{{ pageLength }}</p>
-                            {% endif %}
-                        </div>
-                        {% endif %}
-
-                        <!-- building/room for workshops -->
-                        {% if page.type == 'workshop' %}
-                            <div class="col-xs-6 col-sm-12 col-md-12">
-                                <h3>Building</h3>
-                                <p>{{ pageLocale.Building }}</p>
-                                <h3>Room</h3>
-                                <p>{{ pageLocale.Room }}</p>
-                            </div>
-                        {% endif %}
-
-                        <!-- slides -->
-                        {% if page.slides %}
-                            <div class="col-xs-6 col-sm-12 col-md-12">
-                                <a href="{{ page.slides }}" class="btn btn-default btn-lg col-sm-12"><span class="glyphicon glyphicon-blackboard"></span> Slides</a>
-                            </div>
+            <div class="col-xs-12 col-sm-4 col-md-3 text-center">
+                <div class="row">
+                    <!-- date -->
+                    <div class="col-xs-6 col-sm-12 col-md-12">
+                        <h3>Date</h3>
+                        {% if page.type == 'talk' %}
+                            <p><a href="/schedule/day-{{page.day}}">{{ pageDate }}</a></p>
+                        {% else %}
+                            <p><a href="/workshops">{{ pageDate }}</a></p>
                         {% endif %}
                     </div>
+
+                    <!-- time of day for presentations -->
+                    {% if page.type == 'workshop' %}
+                    <div class="col-xs-6 col-sm-12 col-md-12">
+                        <h3>Time of Day</h3>
+                        {% if pageLength == 'full' %}
+                        <p>Full Day</p>
+                        {% else %}
+                        <p class="text-uppercase">{{ pageLength }}</p>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+
+                    <!-- building/room for workshops -->
+                    {% if page.type == 'workshop' %}
+                        <div class="col-xs-6 col-sm-12 col-md-12">
+                            <h3>Building</h3>
+                            <p>{{ pageLocale.Building }}</p>
+                            <h3>Room</h3>
+                            <p>{{ pageLocale.Room }}</p>
+                        </div>
+                    {% endif %}
+
+                    <!-- group -->
+                    {% if page.type == 'talk' %}
+                    {% assign group_data = site.data.schedule | where:'groupId', page.group %}
+                    {% assign group = group_data | first %}
+                    <div class="col-xs-6 col-sm-12 col-md-12">
+                        <h3>Group {{ page.group }}</h3>
+                        <p>{{ group.time }}</p>
+                    </div>
+                    {% endif %}
+
+                    <!-- length -->
+                    {% if page.type == 'talk' %}
+                    <div class="col-xs-6 col-sm-12 col-md-12">
+                        <h3>Length</h3>
+                        <p>{{ page.length }} minutes</p>
+                    </div>
+                    {% endif %}
+
+                    <!-- slides -->
+                    {% if page.slides %}
+                        <div class="col-xs-6 col-sm-12 col-md-12">
+                            <a href="{{ page.slides }}" class="btn btn-default btn-lg col-sm-12"><span class="glyphicon glyphicon-blackboard"></span> Slides</a>
+                        </div>
+                    {% endif %}
                 </div>
-            {% endif %}
+            </div>
         </div>
     </div>
 </div>

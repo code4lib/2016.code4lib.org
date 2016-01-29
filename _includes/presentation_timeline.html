@@ -38,8 +38,8 @@
                                 {% if hasSpeakers == 1 %}
                                     {% for speakerId in talk.speakers %}
                                         {% assign speaker = site.data.speakers_final[speakerId] %}
-                                        {% if speaker %}
-                                            <div class="col-sm-3">
+                                            {% if speaker %}
+                                                <div class="col-sm-3">
                                                     {% if speaker.Image-URL == nil %}
                                                         <a href="#">{{ speaker.Name }}</a>
                                                         <!--<img class="clip-circle" src="/img/speakers/none.png" alt="{{ speaker.Name }}">-->
@@ -48,7 +48,7 @@
                                                             <img class="clip-circle" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
                                                         </a>
                                                     {% endif %}
-                                            </div>
+                                                </div>
                                         {% endif %}
                                     {% endfor %}
                                 {% else %}
