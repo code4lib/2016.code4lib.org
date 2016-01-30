@@ -24,7 +24,11 @@ title: Speakers
                                     <img class="clip-circle-lg" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
                                 {% endif %}
                             </a>
-                            <p>{{ speaker.Name }}</p>
+                            <h4 class="speaker-name"><a href="#" data-toggle="modal" data-target="#{{ speaker.Name | slugify }}">{{ speaker.Name }}</a></h4>
+                            <div class="speaker-mini">
+                                <p class="speaker-title">{{ speaker.Work-Title }}</p>
+                                <p class="speaker-inst">{{ speaker.Institution }}</p>
+                            </div>
                         </div>
                     </div>
                     <!-- Modal -->
@@ -36,8 +40,6 @@ title: Speakers
                                     <h4 class="modal-title" id="{{ speaker.Name | slugify }}-label">{{ speaker.Name }}</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <h4>{{ speaker.Work-Title }}</h4>
-                                    <p><strong>Institution:</strong> {{ speaker.Institution }}</p>
                                     <p>
                                         {{ speaker.Bio }}
                                     </p>

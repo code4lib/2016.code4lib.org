@@ -319,12 +319,12 @@ p {
 
 .clip-circle-lg {
 	display: block;
-	height: 128px;
-	width: 128px;
+	height: 172px;
+	width: 172px;
 	border-radius: 50%;
 	margin: 0 auto .2em;
-	background: #f7f6f1;
-	border: 6px solid #f7f6f1;
+	background: #4d4d4d;
+	border: 3px solid #4d4d4d;
 	box-sizing: content-box;
 }
 
@@ -596,4 +596,24 @@ p {
 	line-height: 1.3em;
 	font-size: .9em;
 	word-break: break-word;
+}
+
+h4.speaker-name{
+    margin-top: 8px;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.speaker-mini{
+    height: 5.2em;
+}
+p.speaker-title{
+    line-height: 1.1em;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+p.speaker-inst{
+    line-height: 1.4em;
+    font-size: .9em;
 }
