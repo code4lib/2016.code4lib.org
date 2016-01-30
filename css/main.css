@@ -317,6 +317,17 @@ p {
 	box-sizing: content-box;
 }
 
+.clip-circle-speaker {
+    background: #8e908c;
+    border: 6px solid #8e908c;
+    display: block;
+    height: 94px;
+    width: 94px;
+    border-radius: 50%;
+    margin: 0 auto .2em;
+    box-sizing: content-box;
+}
+
 .clip-circle-lg {
 	display: block;
 	height: 172px;
@@ -616,4 +627,12 @@ p.speaker-title{
 p.speaker-inst{
     line-height: 1.4em;
     font-size: .9em;
+}
+
+.talk-row:nth-child(odd){
+    background-color: #eee;
+}
+.talk-row{
+    padding: 11px 0 11px 11px;
+    margin-top: 11px;
 }

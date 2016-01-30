@@ -80,12 +80,16 @@
                                 {% for speakerId in page.speakers %}
                                     {% assign speaker = site.data.speakers_final[speakerId] %}
                                     {% if speaker %}
-                                        <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <div class="col-xs-6 col-sm-4 col-md-3 text-center">
                                             {% if speaker.Image-URL == nil %}
-                                                <a href="#">{{ speaker.Name }}</a>
+                                                <a href="/speakers.html#{{speaker.Name | slugify }}-id">
+                                                    <img class="clip-circle" src="/img/speakers/none.png" alt="{{ speaker.Name }}">
+                                                    {{ speaker.Name }}
+                                                </a>
                                             {% else %}
-                                                <a href="#" class="speaker-overlay" data-content="{{ speaker.Name }}">
+                                                <a href="/speakers.html#{{speaker.Name | slugify }}-id">
                                                     <img class="clip-circle" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                                    {{ speaker.Name }}
                                                 </a>
                                             {% endif %}
                                         </div>
