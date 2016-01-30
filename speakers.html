@@ -3,92 +3,65 @@ layout: default
 title: Speakers
 ---
 
-<div class="container">
-<h1>2016 Speakers</h1>
-<div class="col-md-12">
-  <p>We are still in the process of selecting this year's speakers, which means that you could be on the list!</p>
-  <p>If you have something to share (come on, we know you do), submit a talk or a workshop.  See the <a href="/schedule.html">schedule page</a> for
-  details, deadlines, and submission links.</p>
-</div>
-  <hr/>
-<h2>Past Keynote Speakers</h2>
-<div class="col-md-12">
- <div class="table-responsive table-condensed">
-          <table class="table">
-            <thead>
-              <tr>
-                <th></th>
-                <th>Name</th>
-                <th>Job Title</th>
-                <th>Institution</th>
-                <!--<th>Presentation</th>-->
-            </tr>
-            </thead>
-            {% for person in site.data.speakers reversed %}
+
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Speakers</h1>
+            </div>
+        </div>
+        <div class="row">
+            {% for person in site.data.speakers_final %}
             {% assign speaker = person[1] %}
-            <tr>
-              <td><img src="{{ speaker.imgpath }}" alt="{{ speaker.name }}" class="img-responsive" style="max-width:200px; height:auto;" id="{{ speaker.name | slugify }}-img"></td>
-              <td>
-                  <ul class="list-unstyled">
-                      <li><a href="#" data-toggle="modal" data-target="#{{ speaker.name | slugify }}"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;{{ speaker.name }}</a></li>
-                  {% if speaker.twitter %}
-                      <li><a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></li>
-                  {% endif %}
-                  {% if speaker.email %}
-                      <li><a href="mailto:{{ speaker.email }}"><span class="glyphicon glyphicon-envelope"></span>&nbsp;{{ speaker.email }}</a></li>
-                  {% endif %}
-                  </ul>
-                    <!-- Modal -->
-                  <div class="modal fade" id="{{ speaker.name | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ speaker.name | slugify }}-label">
-                      <div class="modal-dialog" role="document">
-                          <div class="modal-content">
-                              <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                  <h4 class="modal-title" id="{{ speaker.name | slugify }}-label">{{ speaker.name }}</h4>
-                              </div>
-                              <div class="modal-body">
-                                  {{ speaker.bio }}
-                              </div>
-                              <div class="modal-footer">
-                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </td>
-              <td>{{ speaker.title }}</td>
-              <td>{{ speaker.inst }}</td>
-              <!--<td><a  href="#" data-toggle="modal" data-target="#JTPres">Speaker's Session<br></a>
-
-                   <div class="modal" id="JTPres" tabindex="-1" role="dialog" aria-labelledby="JTPres" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modalheader">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          </div>
-                          <div class="modal-body">
-                          <h3 class="modal-title">Speaker's Session</h3>
-
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a urna vel purus tempus suscipit. Maecenas sit amet luctus enim. Donec maximus libero elit, at dapibus ligula ornare et. Pellentesque nisl sapien, gravida nec vulputate a, accumsan a dui. Suspendisse quis massa vitae arcu tincidunt tristique eu in nunc. Nullam viverra nulla lorem, non tempus lectus finibus quis. Integer faucibus volutpat lectus, ac rutrum sem imperdiet ac. Pellentesque id erat ac tellus condimentum hendrerit a sit amet ex. Duis fringilla enim consequat nunc consectetur suscipit id ut mi. Maecenas finibus placerat lectus ac ullamcorper. Aenean quis fringilla dui. Sed rutrum, dolor at imperdiet vulputate, ex nulla ornare lectus, ac tempus lacus felis a libero. Fusce id consequat odio.
-
-                            </p>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                          </div>
-                      </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12 text-center" id="{{speaker.Name | slugify }}-id">
+                            <a href="#" data-toggle="modal" data-target="#{{ speaker.Name | slugify }}">
+                                {% if speaker.Image-URL == nil %}
+                                    <img class="clip-circle-lg" src="/img/speakers/none.png" alt="{{ speaker.Name }}">
+                                {% else %}
+                                    <img class="clip-circle-lg" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                {% endif %}
+                            </a>
+                            <p>{{ speaker.Name }}</p>
+                        </div>
                     </div>
-                   </div>
-                </td>-->
-            </tr>
-
+                    <!-- Modal -->
+                    <div class="modal fade" id="{{ speaker.Name | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ speaker.Name | slugify }}-label">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="{{ speaker.Name | slugify }}-label">{{ speaker.Name }}</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <h4>{{ speaker.Work-Title }}</h4>
+                                    <p><strong>Institution:</strong> {{ speaker.Institution }}</p>
+                                    <p>
+                                        {{ speaker.Bio }}
+                                    </p>
+                                    <div class="row">
+                                        {% if speaker.Twitter-Handle %}
+                                        <div class="col-xs-12 text-center">
+                                            <h4><a href="https://twitter.com/queryluke{{ speaker.Twitter-Handle }}">@{{ speaker.Twitter-Handle }}</a></h4>
+                                        </div>
+                                        {% endif %}
+                                        {% if speaker.Email %}
+                                        <div class="col-xs-12 text-center">
+                                            <h4>{{ speaker.Email }}</h4>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             {% endfor %}
-          </table>
-        </div><!-- responsive table-->
-      </div><!-- col-md-12 -->
-
-
-
-
-</div> <!-- container -->
+        </div>
+    </div>
+</div>

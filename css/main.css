@@ -317,6 +317,17 @@ p {
 	box-sizing: content-box;
 }
 
+.clip-circle-lg {
+	display: block;
+	height: 128px;
+	width: 128px;
+	border-radius: 50%;
+	margin: 0 auto .2em;
+	background: #f7f6f1;
+	border: 6px solid #f7f6f1;
+	box-sizing: content-box;
+}
+
 
 .speech-bubble {
 	 	color: white;

@@ -41,10 +41,10 @@
                                             {% if speaker %}
                                                 <div class="col-sm-3">
                                                     {% if speaker.Image-URL == nil %}
-                                                        <a href="#">{{ speaker.Name }}</a>
+                                                        <a href="/speakers.html#{{speaker.Name | slugify }}-id">{{ speaker.Name }}</a>
                                                         <!--<img class="clip-circle" src="/img/speakers/none.png" alt="{{ speaker.Name }}">-->
                                                     {% else %}
-                                                        <a href="#" class="speaker-overlay" data-content="{{ speaker.Name }}">
+                                                        <a href="/speakers.html#{{speaker.Name | slugify }}-id" class="speaker-overlay" data-content="{{ speaker.Name }}">
                                                             <img class="clip-circle" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
                                                         </a>
                                                     {% endif %}

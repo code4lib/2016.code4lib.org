@@ -69,5 +69,6 @@ jQuery(document).ready(function($){
             $('.workshop-well:not([data-length="'+time+'"][data-location="'+place+'"])').addClass('hidden');
         }
     }
+    
 
 });
