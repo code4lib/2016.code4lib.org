@@ -34,15 +34,23 @@ title: Speakers
                             <p class="speaker-bio">
                             {{ speaker.Bio }}
                             </p>
+                            {% assign talks = site.posts | where:'type','talk' %}
+                            {% for talk in talks  %}
+                                {% for speakerId in talk.speakers %}
+                                    {% if speakerId == speaker.Email %}
+                                    <h4>Talk: <a href="{{ talk.url }}">{{ talk.title }}</a></h4>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
                             <div class="row">
                                 {% if speaker.Twitter-Handle %}
                                 <div class="col-xs-12 col-sm-6 text-center">
                                     <h4><a href="https://twitter.com/queryluke{{ speaker.Twitter-Handle }}">@{{ speaker.Twitter-Handle }}</a></h4>
                                 </div>
                                 {% endif %}
-                                {% if speaker.Email %}
+                                {% if speaker.Email-Address %}
                                 <div class="col-xs-12 col-sm-6 text-center">
-                                    <h4><span class="glyphicon glyphicon-envelope"></span>: {{ speaker.Email }}</h4>
+                                    <h4><span class="glyphicon glyphicon-envelope"></span>: {{ speaker.Email-Address }}</h4>
                                 </div>
                                 {% endif %}
                             </div>
