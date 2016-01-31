@@ -13,10 +13,9 @@ title: Speakers
         </div>
         <div class="row">
             <div class="col-xs-12 sequence">
-                {% assign order = 1 %}
                 {% for person in site.data.speakers_final %}
                 {% assign speaker = person[1] %}
-                    <div class="speaker-box text-center" id="{{speaker.Name | slugify }}-id" style="order:{{order}}">
+                    <div class="speaker-box text-center" id="{{speaker.Name | slugify }}-id" data-speaker-info="#{{speaker.Name | slugify }}-info">
                         <div class="speaker-box-inner">
                             <a href="#" class="speaker-info-toggle" data-target="#{{ speaker.Name | slugify }}">
                                 <img class="clip-circle-lg" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
@@ -29,7 +28,8 @@ title: Speakers
                             <div class="arrow-down"></div>
                         </div>
                     </div>
-                    <div class="speaker-info" style="order:{{order | plus:3}}" id="{{ speaker.Name | slugify }}-info">
+                    <!--<div class="speaker-info" style="order:{{order | plus:3}}" id="{{ speaker.Name | slugify }}-info">-->
+                    <div class="speaker-info" id="{{ speaker.Name | slugify }}-info">
                         <div class="speaker-info-inner">
                             <p class="speaker-bio">
                             {{ speaker.Bio }}
@@ -49,12 +49,6 @@ title: Speakers
                         </div>
                         
                     </div>
-                    {% assign checkOrder = order | modulo:3 %}
-                    {% if checkOrder == 0 %}
-                        {% assign order = order | plus:4 %}
-                    {% else %}
-                        {% assign order = order | plus:1 %}
-                    {% endif %}
                     {% endfor %}
                         <!-- Modal 
                         <div class="modal fade" id="{{ speaker.Name | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ speaker.Name | slugify }}-label">

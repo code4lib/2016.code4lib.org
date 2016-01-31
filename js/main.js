@@ -72,11 +72,18 @@ jQuery(document).ready(function($){
     
     var lhash = location.hash;
     if($(lhash+'-id').length){
-        toggleSpeaker(lhash);
+        setTimeout(function() {
+            toggleSpeaker(lhash);
+        }, 300);
     }
     
     function toggleSpeaker(target){
-        var shownHeight = $('.speaker-info.show').height() + 50;
+        if($('.speaker-info.show').length){
+            var shownHeight = $('.speaker-info.show').height() + 25;
+        } else {
+            var shownHeight = 0;
+        }
+        
         $('html, body').animate({
             scrollTop: $(target+'-id').offset().top - shownHeight
         }, 500);
@@ -96,6 +103,64 @@ jQuery(document).ready(function($){
         var target = $(this).data('target');
         toggleSpeaker(target);
     });
+    
+    resetOrders = function(){
+        var windowWidth = window.innerWidth,
+            infoOrder = 1,
+            i = 1;
+        $('.speaker-box').each(function(){
+            var infoTarget = $(this).data('speaker-info');
+            if(windowWidth >= 935){
+                $(this).css('order',i);
+                infoOrder = i + 3;
+                $(infoTarget).css('order',infoOrder);
+                if((i%3) == 0){
+                    i = i+4;
+                } else {
+                    i++;
+                }
+            } else if (windowWidth >= 635){
+                $(this).css('order',i);
+                infoOrder = i + 2;
+                $(infoTarget).css('order',infoOrder);
+                if((i%2) == 0){
+                    i = i+3;
+                } else {
+                    i++;
+                }
+            } else {
+                $(this).css('order',i);
+                infoOrder = i + 1;
+                $(infoTarget).css('order',infoOrder);
+                i = i+2;
+            }
+        });
+    }
+    
+    resetOrders();
+    
+    var window_frame = $(window);
+    var response_change = {};
+
+    response_change.waitForIdle = function(fn, delay) {
+      var timer = null;
+      return function () {
+        var context = this,
+            args = arguments;
+        clearTimeout(timer);
+        timer = setTimeout(function () {
+          fn.apply(context, args);
+        }, delay);
+      };
+    };
+    
+    window_frame.on('resize', response_change.waitForIdle(function() {
+
+      if ( $('.speaker-box' ).length) {
+        resetOrders();
+      }
+    }, 100));
+    
     
 
 });
