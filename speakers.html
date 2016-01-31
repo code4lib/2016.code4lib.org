@@ -12,58 +12,81 @@ title: Speakers
             </div>
         </div>
         <div class="row">
-            {% for person in site.data.speakers_final %}
-            {% assign speaker = person[1] %}
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-12 text-center" id="{{speaker.Name | slugify }}-id">
-                            <a href="#" data-toggle="modal" data-target="#{{ speaker.Name | slugify }}">
-                                {% if speaker.Image-URL == nil %}
-                                    <img class="clip-circle-lg" src="/img/speakers/none.png" alt="{{ speaker.Name }}">
-                                {% else %}
-                                    <img class="clip-circle-lg" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                {% endif %}
+            <div class="col-xs-12 sequence">
+                {% assign order = 1 %}
+                {% for person in site.data.speakers_final %}
+                {% assign speaker = person[1] %}
+                    <div class="speaker-box text-center" id="{{speaker.Name | slugify }}-id" style="order:{{order}}">
+                        <div class="speaker-box-inner">
+                            <a href="#" class="speaker-info-toggle" data-target="#{{ speaker.Name | slugify }}">
+                                <img class="clip-circle-lg" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
                             </a>
-                            <h4 class="speaker-name"><a href="#" data-toggle="modal" data-target="#{{ speaker.Name | slugify }}">{{ speaker.Name }}</a></h4>
+                            <h4 class="speaker-name"><a href="#" class="speaker-info-toggle" data-target="#{{ speaker.Name | slugify }}">{{ speaker.Name }}</a></h4>
                             <div class="speaker-mini">
                                 <p class="speaker-title">{{ speaker.Work-Title }}</p>
                                 <p class="speaker-inst">{{ speaker.Institution }}</p>
                             </div>
+                            <div class="arrow-down"></div>
                         </div>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="{{ speaker.Name | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ speaker.Name | slugify }}-label">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="{{ speaker.Name | slugify }}-label">{{ speaker.Name }}</h4>
+                    <div class="speaker-info" style="order:{{order | plus:3}}" id="{{ speaker.Name | slugify }}-info">
+                        <div class="speaker-info-inner">
+                            <p class="speaker-bio">
+                            {{ speaker.Bio }}
+                            </p>
+                            <div class="row">
+                                {% if speaker.Twitter-Handle %}
+                                <div class="col-xs-12 col-sm-6 text-center">
+                                    <h4><a href="https://twitter.com/queryluke{{ speaker.Twitter-Handle }}">@{{ speaker.Twitter-Handle }}</a></h4>
                                 </div>
-                                <div class="modal-body">
-                                    <p>
-                                        {{ speaker.Bio }}
-                                    </p>
-                                    <div class="row">
-                                        {% if speaker.Twitter-Handle %}
-                                        <div class="col-xs-12 text-center">
-                                            <h4><a href="https://twitter.com/queryluke{{ speaker.Twitter-Handle }}">@{{ speaker.Twitter-Handle }}</a></h4>
-                                        </div>
-                                        {% endif %}
-                                        {% if speaker.Email %}
-                                        <div class="col-xs-12 text-center">
-                                            <h4>{{ speaker.Email }}</h4>
-                                        </div>
-                                        {% endif %}
-                                    </div>
+                                {% endif %}
+                                {% if speaker.Email %}
+                                <div class="col-xs-12 col-sm-6 text-center">
+                                    <h4><span class="glyphicon glyphicon-envelope"></span>: {{ speaker.Email }}</h4>
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
+                                {% endif %}
                             </div>
                         </div>
+                        
                     </div>
-                </div>
-            {% endfor %}
+                    {% assign checkOrder = order | modulo:3 %}
+                    {% if checkOrder == 0 %}
+                        {% assign order = order | plus:4 %}
+                    {% else %}
+                        {% assign order = order | plus:1 %}
+                    {% endif %}
+                    {% endfor %}
+                        <!-- Modal 
+                        <div class="modal fade" id="{{ speaker.Name | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ speaker.Name | slugify }}-label">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="{{ speaker.Name | slugify }}-label">{{ speaker.Name }}</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            {{ speaker.Bio }}
+                                        </p>
+                                        <div class="row">
+                                            {% if speaker.Twitter-Handle %}
+                                            <div class="col-xs-12 text-center">
+                                                <h4><a href="https://twitter.com/queryluke{{ speaker.Twitter-Handle }}">@{{ speaker.Twitter-Handle }}</a></h4>
+                                            </div>
+                                            {% endif %}
+                                            {% if speaker.Email %}
+                                            <div class="col-xs-12 text-center">
+                                                <h4>{{ speaker.Email }}</h4>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
         </div>
     </div>
 </div>

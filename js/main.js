@@ -70,5 +70,32 @@ jQuery(document).ready(function($){
         }
     }
     
+    var lhash = location.hash;
+    if($(lhash+'-id').length){
+        toggleSpeaker(lhash);
+    }
+    
+    function toggleSpeaker(target){
+        var shownHeight = $('.speaker-info.show').height() + 50;
+        $('html, body').animate({
+            scrollTop: $(target+'-id').offset().top - shownHeight
+        }, 500);
+        if(!$(target+'-id').hasClass('show')){
+                $('.speaker-info').removeClass('show');
+                $('.speaker-box').removeClass('selected');
+                $(target+'-info').addClass('show');
+                $(target+'-id').addClass('selected');
+            } else {    
+                $(target+'-info').removeClass('show');
+                $(target+'-id').removeClass('selected');
+            }
+    }
+    
+    $('.speaker-info-toggle').click(function(e){
+        e.preventDefault();
+        var target = $(this).data('target');
+        toggleSpeaker(target);
+    });
+    
 
 });

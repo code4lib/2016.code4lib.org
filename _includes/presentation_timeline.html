@@ -41,12 +41,12 @@
                                             {% if speaker %}
                                                 <div class="col-sm-3 text-center">
                                                     {% if speaker.Image-URL == nil %}
-                                                        <a href="/speakers.html#{{speaker.Name | slugify }}-id">
+                                                        <a href="/speakers.html#{{speaker.Name | slugify }}">
                                                             <img class="clip-circle-speaker" src="/img/speakers/none.png" alt="{{ speaker.Name }}">
                                                             <span>{{ speaker.Name }}</span>
                                                         </a>
                                                     {% else %}
-                                                        <a href="/speakers.html#{{speaker.Name | slugify }}-id">
+                                                        <a href="/speakers.html#{{speaker.Name | slugify }}">
                                                             <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
                                                             <span>{{ speaker.Name }}</span>
                                                         </a>
