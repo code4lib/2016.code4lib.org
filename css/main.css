@@ -37,6 +37,12 @@ body {
 	color: #7FD3F2;
 }
 
+.footer p {
+	color: #fff;
+	font-size: 0.8em;
+}
+
+
 body {
 	font-family: "Ubuntu",Helvetica,Arial,sans-serif;
 	font-weight: 300;
@@ -58,16 +64,22 @@ h1, h2, h3, h4, h5 {
 	font-weight: 300;
 }
 
+.dropdown-menu {
+	background-color: #fff;
+}
+
 .dropdown-menu > li > a {
-	font-weight: 300;
+	font-weight: 400;
+}
+
+.dropdown-menu .divider {
+	background-color: #eee;
 }
 
 p {
 	color: #1e1e1e;
 	line-height: 2em;
 }
-
-
 
 .section:nth-child(2) {
     background: #EF9A9B;
@@ -605,7 +617,7 @@ p {
 	text-align: left;
 }
 .sched-well p {
-	line-height: 1.3em;
+	line-height: 1.7em;
 	font-size: .9em;
 	word-break: break-word;
 }
@@ -686,8 +698,9 @@ p.speaker-inst{
 .speaker-box.selected a{
     color:#7fd3f2;
 }
-.speaker-box.selected a:hover, .speaker-box.selected a:focus{
-    color:#004761;
+.speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited{
+    color:#7fd3f2;
+		text-decoration: none;
 }
 .speaker-box.selected p{
     color: #eee;
@@ -723,6 +736,7 @@ p.speaker-inst{
     border-radius: 10px;
     background: #fff;
     box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
+		margin-bottom: 100px;
 }
 
 .talk-detail-box .time-slot {
