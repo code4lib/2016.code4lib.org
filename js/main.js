@@ -79,7 +79,7 @@ jQuery(document).ready(function($){
     
     function toggleSpeaker(target){
         if($('.speaker-info.show').length){
-            var shownHeight = $('.speaker-info.show').height() + 25;
+            var shownHeight = $('.speaker-info.show').height();
         } else {
             var shownHeight = 0;
         }

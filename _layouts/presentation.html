@@ -2,7 +2,7 @@
 
 {% if page.type == 'workshop' %}
     {% assign pageLength = 'empty' %}
-    {% assign pageDate = 'March 7th, 2016' %}
+    {% assign pageDate = 'March 7th' %}
     {% for location in site.data.locations %}
         {% assign loc = location[1] %}
         {% if loc.AM-sessions == page.slugTitle and loc.PM-sessions == page.slugTitle %}
@@ -20,13 +20,13 @@
 
 {% if page.type == 'talk' %}
     {% if page.day == 1 %}
-        {% assign pageDate = 'March 8th, 2016' %}
+        {% assign pageDate = 'March 8th' %}
     {% endif %}
     {% if page.day == 2 %}
-        {% assign pageDate = 'March 9th, 2016' %}
+        {% assign pageDate = 'March 9th' %}
     {% endif %}
     {% if page.day == 3 %}
-        {% assign pageDate = 'March 10th, 2016' %}
+        {% assign pageDate = 'March 10th' %}
     {% endif %}
 {% endif %}
 
@@ -111,23 +111,23 @@
 
                     <!-- time of day for presentations -->
                     {% if page.type == 'workshop' %}
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <h3>Time of Day</h3>
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
                         {% if pageLength == 'full' %}
-                        <p>Full Day</p>
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value">Full Day</div>
                         {% else %}
-                        <p class="text-uppercase">{{ pageLength }}</p>
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value"><span class='text-uppercase'>{{ pageLength }}</span></div>
                         {% endif %}
                     </div>
                     {% endif %}
 
                     <!-- building/room for workshops -->
                     {% if page.type == 'workshop' %}
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <h3>Building</h3>
-                            <p>{{ pageLocale.Building }}</p>
-                            <h3>Room</h3>
-                            <p>{{ pageLocale.Room }}</p>
+                        <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                            <div class="talk-box-detail-value">{{ pageLocale.Building }}<br>{{ pageLocale.Room }}</div>
+                            <!--<div class="talk-box-detail-value">{{ pageLocale.Room }}</div>-->
                         </div>
                     {% endif %}
 
