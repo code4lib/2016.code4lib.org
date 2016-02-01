@@ -27,33 +27,31 @@
                                 {% endif %}
                             </div>
                             <div class="col-xs-12 hidden-xs">
-                                {% assign hasSpeakers = 0 %}
                                 {% for speakerId in talk.speakers %}
                                     {% if speakerId != 0 %}
                                         {% assign speaker = site.data.speakers_final[speakerId] %}
                                         {% if speaker %}
-                                            {% assign hasSpeakers = 1 %}
+                                            <div class="col-sm-3 text-center">
+                                                <a href="/speakers.html#{{speaker.Name | slugify }}">
+                                                    <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                                    {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                                    <span>{{ speaker.Name }}</span>
+                                                    {% endif %}
+                                                </a>
+                                            </div>
+                                        {% endif %}
+
+                                        {% assign speaker = site.data.speakers_dummy[speakerId] %}
+                                        {% if speaker %}
+                                            <div class="col-sm-3 text-center">
+                                                <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                                {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                                <span>{{ speaker.Name }}</span>
+                                                {% endif %}
+                                            </div>
                                         {% endif %}
                                     {% endif %}
                                 {% endfor %}
-
-                                {% if hasSpeakers == 1 %}
-                                    {% for speakerId in talk.speakers %}
-                                        {% assign speaker = site.data.speakers_final[speakerId] %}
-                                            {% if speaker %}
-                                                <div class="col-sm-3 text-center">
-                                                    <a href="/speakers.html#{{speaker.Name | slugify }}">
-                                                        <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                                        {% if event.groupId != 'key-open' && event.groupId != 'key-close' %}
-                                                            <span>{{ speaker.Name }}</span>
-                                                        {% endif %}
-                                                    </a>
-                                                </div>
-                                        {% endif %}
-                                    {% endfor %}
-                                {% else %}
-                                    <div class="col-xs-12">{{talk.speakers-text}}</div>
-                                {% endif %}
                             </div>
                         </div>
                     {% endfor %}

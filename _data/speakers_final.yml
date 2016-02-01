@@ -375,13 +375,39 @@
   Image-URL: /img/speakers/cahan.jpg
   Keynote: 0
 
-123456789:
-  Name: Kate Krauss
+4677653080:
+  Name: John Nelson
   Bio: |
-    Kate Krauss is the Director of Communications and Public Policy for the Tor Project, a nonprofit organization that builds free, online privacy tools that allow users to defy shoe companies and intelligence agencies alike while they stay free and anonymous on the internet. As a human rights advocate, Kate lead several successful campaigns to free public health experts and human rights activists who were imprisoned in China. She became interested in internet freedom when she sought help from San Francisco hackers to aid a well-known Chinese health advocate whose huge, popular web site for people with hepatitis had been taken down by the Chinese government.
-  Email: 123456789
+    During his time with NPR’s Digital Media team, John Nelson was the primary architect of the refactored and spiffier Artemis. He is a veteran software developer and maker of interesting projects. Enjoys neatly typed code and simplified processes. Life goals include eating bacon every week and presenting a TED Talk that gets a standing ovation.
+  Email: 4677653080
+  Email-Address: jnelson11@gmail.com
   Twitter-Handle:
-  Work-Title: Director of Communications and Public Policy
-  Institution: Tor Project
-  Keynote: 1
-  Image-URL: /img/speakers/nopic4.jpg
+  Work-Title: Software Developer
+  Institution:
+  Image-URL: /img/speakers/nopic2.jpg
+  Keynote: 0
+
+2553824851:
+  Name: Kim Pham
+  Bio: |
+    Kim is responsible for analysing system requirements, providing technical support and training and product management in the library’s Digital Scholarship Unit.
+
+  Email: 2553824851
+  Email-Address: kim.pham@utoronto.ca
+  Twitter-Handle: tolloid
+  Work-Title: Digital Projects & Technologies Librarian
+  Institution: University of Toronto Scarborough
+  Image-URL: https://pbs.twimg.com/profile_images/611557943037722624/6c-d5RRs.jpg
+  Keynote: 0
+
+3218697351:
+  Name: Ted Lawless
+  Bio: |
+    Ted Lawless is a Solutions Specialist at Thomson Reuters focusing on data integration. He is active in the VIVO community and a committer for that project. He lives in Providence, RI.
+  Email: 3218697351
+  Email-Address: ted.lawless@thomsonreuters.com
+  Twitter-Handle: tedlawless
+  Work-Title: Solutions Specialist
+  Institution: Thomson Reuters
+  Image-URL: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASTAAAAJGVmZmEzNzI2LTcwM2QtNDJkOC1hZjU5LTczMDViNDc3NDllZg.jpg
+  Keynote: 0

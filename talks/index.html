@@ -13,12 +13,10 @@ title: Accepted Conference Talks
         </div>
         <div class="row">
             <div class="col-xs-12 sequence">
-                {% assign top31 = 1 %}
-                {% assign posts = site.posts | where:"type","talk" | sort: 'voteCount' | reverse %}
+                {% assign posts = site.posts | where:"type","talk" | sort:"startTime" %}
                 {% for post in posts %}
-                      {% if top31 < 32 %}
+                    {% if post.group != 'key-close' and post.group != 'key-open' %}
                       <div class="well workshop-well">
-
                           <div class="row">
                               <div class="col-xs-12">
                                   <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -27,8 +25,7 @@ title: Accepted Conference Talks
 
                           </div>
                       </div>
-                      {% endif %}
-                      {% assign top31 = top31 | plus: 1 %}
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>
