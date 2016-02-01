@@ -96,20 +96,22 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-3 text-center">
-                <div class="row">
+                <div class="row talk-detail-box">
                     <!-- date -->
-                    <div class="col-xs-6 col-sm-12 col-md-12">
-                        <h3>Date</h3>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <!--<h3>Date</h3>-->
                         {% if page.type == 'talk' %}
-                            <p><a href="/schedule/day-{{page.day}}">{{ pageDate }}</a></p>
+                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
+                            <div class="talk-box-detail-value"> <a href="/schedule/day-{{page.day}}">{{ pageDate }}</a></div>
                         {% else %}
-                            <p><a href="/workshops">{{ pageDate }}</a></p>
+                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
+                            <div class="talk-box-detail-value"> <a href="/workshops">{{ pageDate }}</a></div>
                         {% endif %}
                     </div>
 
                     <!-- time of day for presentations -->
                     {% if page.type == 'workshop' %}
-                    <div class="col-xs-6 col-sm-12 col-md-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
                         <h3>Time of Day</h3>
                         {% if pageLength == 'full' %}
                         <p>Full Day</p>
@@ -121,7 +123,7 @@
 
                     <!-- building/room for workshops -->
                     {% if page.type == 'workshop' %}
-                        <div class="col-xs-6 col-sm-12 col-md-12">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
                             <h3>Building</h3>
                             <p>{{ pageLocale.Building }}</p>
                             <h3>Room</h3>
@@ -133,23 +135,28 @@
                     {% if page.type == 'talk' %}
                     {% assign group_data = site.data.schedule | where:'groupId', page.group %}
                     {% assign group = group_data | first %}
-                    <div class="col-xs-6 col-sm-12 col-md-12">
-                        <h3>Group {{ page.group }}</h3>
-                        <p>{{ group.time }}</p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                        <!--<h3>Group {{ page.group }}
+                        <p>{{ group.time }}</p></h3>-->
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value"> {{ group.time }}</div>
+
                     </div>
                     {% endif %}
 
                     <!-- length -->
                     {% if page.type == 'talk' %}
-                    <div class="col-xs-6 col-sm-12 col-md-12">
-                        <h3>Length</h3>
-                        <p>{{ page.length }} minutes</p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                        <!--<h3>Length</h3>
+                        <p>{{ page.length }} minutes</p>-->
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-hourglass"></span></div>
+                        <div class="talk-box-detail-value">  {{ page.length }} minutes</div>
                     </div>
                     {% endif %}
 
                     <!-- slides -->
                     {% if page.slides %}
-                        <div class="col-xs-6 col-sm-12 col-md-12">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
                             <a href="{{ page.slides }}" class="btn btn-default btn-lg col-sm-12"><span class="glyphicon glyphicon-blackboard"></span> Slides</a>
                         </div>
                     {% endif %}
