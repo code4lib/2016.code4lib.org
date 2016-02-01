@@ -139,7 +139,7 @@
                         <!--<h3>Group {{ page.group }}
                         <p>{{ group.time }}</p></h3>-->
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
-                        <div class="talk-box-detail-value"> {{ group.time }}</div>
+                        <div class="talk-box-detail-value">{{ page.startTime | date: "%I:%M %p" }}</div>
 
                     </div>
                     {% endif %}

@@ -157,36 +157,48 @@
   day1: 1
   groupId: 1
   time: 10:20-12:00
+  start: 1457432400
+  end: 1457438400
 
 - timeImg: 1.15.png
   title: Group 2&#58; 75 minutes (4 talks & Panel)
   day1: 1
   groupId: 2
   time: 13:15-14:30
+  start: 1457442900
+  end: 1457447400
 
 - timeImg: 9.15.png
   title: Group 3&#58; 85 minutes (5 talks)
   day2: 1
   groupId: 3
   time: 09:15-10:40
+  start: 1457514900
+  end: 1457520000
 
 - timeImg: 1.05.png
   title: Group 4&#58; 80 minutes (5 talks)
   day2: 1
   groupId: 4
   time: 13:05-14:25
+  start: 1457528700
+  end: 1457533500
 
 - timeImg: 3.40.png
   title: Group 5&#58; 80 minutes (6 talks)
   day2: 1
   groupId: 5
   time: 15:40-17:00
+  start: 1457538000
+  end: 1457542800
 
 - timeImg: 11.00.png
   title: Group 6&#58; 60 minutes (5 talks)
   day3: 1
   groupId: 6
   time: 11:00-12:00
+  start: 1457607600
+  end: 1457607600
 
 
 
