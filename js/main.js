@@ -107,8 +107,10 @@ jQuery(document).ready(function($){
     resetOrders = function(){
         var windowWidth = window.innerWidth,
             infoOrder = 1,
-            i = 1;
-        $('.speaker-box').each(function(){
+            i = 1,
+            ik = 1;
+
+        $('.speaker-sequence .speaker-box').each(function(){
             var infoTarget = $(this).data('speaker-info');
             if(windowWidth >= 935){
                 $(this).css('order',i);
@@ -133,6 +135,20 @@ jQuery(document).ready(function($){
                 infoOrder = i + 1;
                 $(infoTarget).css('order',infoOrder);
                 i = i+2;
+            }
+        });
+        $('.keynote-sequence .speaker-box').each(function(){
+            var infoTarget = $(this).data('speaker-info');
+            if(windowWidth >= 635){
+                $(this).css('order',ik);
+                infoOrder = i + 2;
+                $(infoTarget).css('order',infoOrder);
+                ik++;
+            } else {
+                $(this).css('order',ik);
+                infoOrder = i + 1;
+                $(infoTarget).css('order',infoOrder);
+                ik = ik+2;
             }
         });
     }

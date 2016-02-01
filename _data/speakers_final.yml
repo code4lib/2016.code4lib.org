@@ -7,6 +7,7 @@
   Work-Title: Library Applications and Systems Manager
   Institution: The Seattle Public Library
   Image-URL: /img/speakers/yoose.jpg
+  Keynote: 0
 
 1737724082:
   Name: Mike Shallcross
@@ -14,10 +15,11 @@
     Mike Shallcross is the Assistant Director for Curation at the Bentley Historical Library and an Adjunct Instructor at the University of Michigan School of Information.  He currently oversees the Bentley’s digitization program, conservation unit, and processing operations for digital, analog, and physical materials.
   Email: 1737724082
   Email-Address: shallcro@umich.edu
-  Twitter-Handle: 
+  Twitter-Handle:
   Work-Title: Assistant Director for Curation
   Institution: University of Michigan Bentley Historical Library
   Image-URL: /img/speakers/nopic1.jpg
+  Keynote: 0
 
 515949819:
   Name: Nick Ruest
@@ -29,17 +31,19 @@
   Work-Title: Digital Assets Librarian
   Institution: York University
   Image-URL: https://avatars2.githubusercontent.com/u/218561?v=3&s=460
+  Keynote: 0
 
 382258369:
   Name: Ian Milligan
   Bio: |
-    Ian Milligan is an assistant professor of digital and Canadian history at the University of Waterloo. His current project explores the impact of web archives on the historical profession. He is the author of Rebel Youth: 1960s Labour Unrest, Young Workers, and New Leftists in English Canada, which was shortlisted for the Macdonald Prize in Canadian history, and co-author of Exploring Big Historical Data: The Historian's Macroscope. At Waterloo, he is PI of the Web Archives for Historical Research Group. For more, see http://ianmilligan.ca/introduction/. 
+    Ian Milligan is an assistant professor of digital and Canadian history at the University of Waterloo. His current project explores the impact of web archives on the historical profession. He is the author of Rebel Youth: 1960s Labour Unrest, Young Workers, and New Leftists in English Canada, which was shortlisted for the Macdonald Prize in Canadian history, and co-author of Exploring Big Historical Data: The Historian's Macroscope. At Waterloo, he is PI of the Web Archives for Historical Research Group. For more, see http://ianmilligan.ca/introduction/.
   Email: 382258369
   Email-Address: i2millig@uwaterloo.ca
   Twitter-Handle: ianmilligan1
   Work-Title: Assistant Professor
   Institution: University of Waterloo
   Image-URL: /img/speakers/milligan.jpg
+  Keynote: 0
 
 2051383626:
   Name: Christina Harlow
@@ -51,6 +55,7 @@
   Work-Title: Metadataist
   Institution: Cornell University Library
   Image-URL: /img/speakers/nopic2.jpg
+  Keynote: 0
 
 2658729540:
   Name: Matt Carruthers
@@ -62,6 +67,7 @@
   Work-Title: Metadata Projects Librarian
   Institution: University of Michigan
   Image-URL: /img/speakers/carruthers.jpg
+  Keynote: 0
 
 1023567367:
   Name: Monica Maceli
@@ -73,6 +79,7 @@
   Work-Title: Assistant Professor
   Institution: Pratt Institute | School of Information
   Image-URL: /img/speakers/maceli.jpg
+  Keynote: 0
 
 5675446490:
   Name: Alice Sara Prael
@@ -84,6 +91,7 @@
   Work-Title: National Digital Stewardship Resident
   Institution: John F. Kennedy Presidential Library
   Image-URL: /img/speakers/prael.jpg
+  Keynote: 0
 
 3590805250:
   Name: Demian Katz
@@ -95,16 +103,18 @@
   Work-Title: Library Technology Development Specialist
   Institution: Villanova University
   Image-URL: https://avatars3.githubusercontent.com/u/309069?v=3&s=460
+  Keynote: 0
 
 1625030101:
   Name: Julie Swierczek
   Bio: |
-    Julie Swierczek corrals files and tries to make them stick around if needed. She believes that the first step of digital preservation is adopting Camus’ position that “One must imagine Sisyphus happy”.  Julie became interested in digital preservation in a previous job where she proposed starting a digital preservation program using only elbow grease, duct tape, and Amazon Web Services.  The proposal was rejected, which only strengthened her resolve to imagine Sisyphus as a cheerful fellow. Julie has worked as a university archivist and special collections librarian and also as a cataloging and metadata librarian. She is enamored with good documentation.  
+    Julie Swierczek corrals files and tries to make them stick around if needed. She believes that the first step of digital preservation is adopting Camus’ position that “One must imagine Sisyphus happy”.  Julie became interested in digital preservation in a previous job where she proposed starting a digital preservation program using only elbow grease, duct tape, and Amazon Web Services.  The proposal was rejected, which only strengthened her resolve to imagine Sisyphus as a cheerful fellow. Julie has worked as a university archivist and special collections librarian and also as a cataloging and metadata librarian. She is enamored with good documentation.
   Email: 1625030101
   Twitter-Handle: JulieSwierczek
   Work-Title: Digital Asset Manager and Digital Archivist
   Institution: Harvard Art Museums
   Image-URL: https://pbs.twimg.com/profile_images/500275068513968129/fMDnkkO0.jpeg
+  Keynote: 0
 
 1607330871:
   Name: Marya Sawaf
@@ -114,18 +124,20 @@
   Email-Address: sawafmarya@gmail.com
   Twitter-Handle: maryasawaf
   Work-Title: Developer
-  Institution: 
+  Institution:
   Image-URL: /img/speakers/sawaf.jpg
+  Keynote: 0
 
 3020120492:
   Name: Sebastian Hammer
   Bio: |
     Sebastian has worked with library software since he got his first student job with a small government agency in Copenhagen, Denmark. He is a cofounder of Index Data, which has made software tools for librarians and developers for the past 22 years.
   Email: 3020120492
-  Twitter-Handle: 
+  Twitter-Handle:
   Work-Title: President
   Institution: Index Data
   Image-URL: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAWnAAAAJGJlZmM3ZDExLWJiNjItNDQ3NC1hZWQ2LWEwYzViOTQ0MGU2OA.jpg
+  Keynote: 0
 
 2045959834:
   Name: Jim Hahn
@@ -137,6 +149,7 @@
   Work-Title: Orientation Services, Environments Librarian, and Associate Professor
   Institution: University of Illinois at Urbana-Champaign
   Image-URL: http://sif.library.illinois.edu/prototyping/assets/hahn.jpg
+  Keynote: 0
 
 5040186496:
   Name: Steven Duckworth
@@ -148,6 +161,7 @@
   Work-Title: Processing Archivist
   Institution: University of Florida
   Image-URL: http://stevenduckworth.com/wp-content/uploads/2016/01/Duckworth.Steven.2015.jpg
+  Keynote: 0
 
 1620427788:
   Name: Matt Zumwalt
@@ -159,6 +173,7 @@
   Work-Title: Founder
   Institution: DataBindery & MediaShelf
   Image-URL: /img/speakers/zumwalt.jpg
+  Keynote: 0
 
 2612865327:
   Name: Matthew Short
@@ -166,20 +181,22 @@
     Matt is the Metadata Librarian at Northern Illinois University and the project manager for Nickels and Dimes (dimenovels.lib.niu.edu), an online collection of 19th century popular fiction.
   Email: 2612865327
   Email-Address: mshort@niu.edu
-  Twitter-Handle: 
+  Twitter-Handle:
   Work-Title: Metadata Librarian
   Institution: Northern Illinois University
   Image-URL: /img/speakers/nopic3.jpg
+  Keynote: 0
 
 6750445623:
   Name: Dinah Handel
   Bio: |
-    Dinah Handel is presently a National Digital Stewardship Resident at CUNY Television, where she is working on a 9 month project to assess and enhance open source audio visual processing software, as well as conducting a data migration. She holds an MLIS from Pratt Institute and a BA in Women's History from Hampshire College. 
+    Dinah Handel is presently a National Digital Stewardship Resident at CUNY Television, where she is working on a 9 month project to assess and enhance open source audio visual processing software, as well as conducting a data migration. She holds an MLIS from Pratt Institute and a BA in Women's History from Hampshire College.
   Email: 6750445623
   Twitter-Handle: dinahhandel
   Work-Title: National Digital Stewardship Resident
   Institution: CUNY Television
   Image-URL: /img/speakers/handel.jpg
+  Keynote: 0
 
 3781734880:
   Name: Jennifer Colt
@@ -191,6 +208,7 @@
   Work-Title: User Experience Designer
   Institution: Cornell University
   Image-URL: https://lh3.googleusercontent.com/-WmDk1tRjiGY/Ua-zqBHdDpI/AAAAAAAABUU/AGC0NMWFBFo/w140-h140-p/460646_343556402437222_1928260822_o.jpg
+  Keynote: 0
 
 936255212:
   Name: Kirsta Stapelfeldt
@@ -202,6 +220,7 @@
   Work-Title: Coordinator, Digital Scholarship Unit
   Institution: University of Toronto Scarborough
   Image-URL: /img/speakers/stapelfeldt.jpg
+  Keynote: 0
 
 3175145983:
   Name: Eben English
@@ -213,6 +232,7 @@
   Work-Title: Web Services Developer
   Institution: Boston Public Library
   Image-URL: /img/speakers/nopic4.jpg
+  Keynote: 0
 
 4688708614:
   Name: Jordan Fields
@@ -224,6 +244,7 @@
   Work-Title: Program Manager
   Institution: Marmot Library Network
   Image-URL: /img/speakers/jfields.jpg
+  Keynote: 0
 
 1000272445:
   Name: Mark Noble
@@ -231,10 +252,11 @@
     Mark Noble is the R&D Manager and Senior Programmer for Marmot Library Network.  Mark spends most of his time working on the Pika discovery layer to make information from our catalog and digital archive accessible to patrons of Marmot's 27 member libraries.  Mark also helps to support 6 discovery partners also using Pika at their libraries.<br><br>Mark has been doing programming for libraries since 2010. and has a BS in Architectural Engineering from the University of Colorado Boulder.
   Email: 1000272445
   Email-Address: mark@marmot.org
-  Twitter-Handle: 
+  Twitter-Handle:
   Work-Title: R&D Manager
   Institution: Marmot Library Network
   Image-URL: /img/speakers/noble.jpg
+  Keynote: 0
 
 103333904:
   Name: Susan Ley
@@ -246,17 +268,19 @@
   Work-Title: Software Engineer
   Institution: Getty Research Institute
   Image-URL: /img/speakers/sley.jpg
+  Keynote: 0
 
 836580394:
   Name: Allison Jai O'Dell
   Bio: |
-    Allison Jai O'Dell is the Metadata Librarian at the University of Florida, George A. Smathers Libraries.  She works to improve how individuals access, engage with, and create library metadata through a combination of policy, education, and interface design.  
+    Allison Jai O'Dell is the Metadata Librarian at the University of Florida, George A. Smathers Libraries.  She works to improve how individuals access, engage with, and create library metadata through a combination of policy, education, and interface design.
   Email: 836580394
   Email-Address: ajodell@ufl.edu
   Twitter-Handle: AllisonJaiODell
   Work-Title: Metadata Librarian
   Institution: University of Florida, George A. Smathers Libraries
   Image-URL: /img/speakers/odell.png
+  Keynote: 0
 
 5251575310:
   Name: Shira Peltzman
@@ -268,6 +292,7 @@
   Work-Title: Digital Archivist
   Institution: UCLA Library
   Image-URL: /img/speakers/peltzman.jpg
+  Keynote: 0
 
 609078349:
   Name: Camille Salas
@@ -278,6 +303,7 @@
   Work-Title: Product Owner
   Institution: NPR
   Image-URL: /img/speakers/nopic1.jpg
+  Keynote: 0
 
 988759134:
   Name: Ashley Blewer
@@ -289,6 +315,7 @@
   Work-Title: Applications Developer
   Institution: New York Public Library
   Image-URL: https://avatars2.githubusercontent.com/u/3260492?v=3&s=460
+  Keynote: 0
 
 5874327342:
   Name: Paul Beaudoin
@@ -299,6 +326,7 @@
   Work-Title: Applications Developer
   Institution: New York Public Library
   Image-URL: https://s3-us-west-2.amazonaws.com/photos.nonword.com/profile/paul-beaudoin-stockholm.jpg
+  Keynote: 0
 
 2141259371:
   Name: Jason Ronallo
@@ -310,14 +338,50 @@
   Work-Title: Head, Digital Library Initiatives
   Institution: NCSU Libraries
   Image-URL: http://www.lib.ncsu.edu/sites/default/files/styles/medium/public/ronallo-0147-small.jpg
+  Keynote: 0
 
 3076891826:
   Name: David Naughton
   Bio: |
-    Software developer with a mathematics and science background, but no MLS or formal training in library science. Especially interested in research data management, and new ways that libraries can collaborate with scientists and other researchers. Likes dynamic languages and functional programming. Not the actor who starred in An American Werewolf in London or those Dr. Pepper commercials. Not the messiah. A very naughty boy. 
+    Software developer with a mathematics and science background, but no MLS or formal training in library science. Especially interested in research data management, and new ways that libraries can collaborate with scientists and other researchers. Likes dynamic languages and functional programming. Not the actor who starred in An American Werewolf in London or those Dr. Pepper commercials. Not the messiah. A very naughty boy.
   Email: 3076891826
   Email-Address: naughton@umn.edu
   Twitter-Handle: nihiliad
   Work-Title: Software Developer
   Institution: UMN Libraries
   Image-URL: https://en.gravatar.com/userimage/2257807/0bedcde7917175d147e634481d3c747c.png?size=200
+  Keynote: 0
+
+4026284863:
+  Name: Gabriel Weinberg
+  Bio: |
+    Gabriel Weinberg is the CEO & Founder of DuckDuckGo, the search engine that doesn't track you, and the co-author of Traction, the book that helps you get traction.
+  Email: 4026284863
+  Twitter-Handle: yegg
+  Work-Title: CEO & Founder
+  Institution: DuckDuckGo
+  Image-URL: /img/speakers/weinberg.jpg
+  Keynote: 1
+
+3997704807:
+  Name: Adam Cahan
+  Bio: |
+    Adam Cahan is a software developer living and working in Los Angeles. Growing up in Chicago, he experienced both the rich technical and musical heritage of "The Windy City." Adam earned a B.A. from The Colorado College, where he majored in computer science. There he also was exposed to the humanities. Adam has experience developing well-architected and tested web applications on both the server-side and client-side of the divide. He enjoys the ocean, jazz, rap, krautrock, Adidas adipure sneakers, and North Face Summit Series down jackets.
+  Email: 3997704807
+  Email-Address: acahan@getty.edu
+  Twitter-Handle:
+  Work-Title: Software Engineer
+  Institution: Getty Research Institute
+  Image-URL: /img/speakers/cahan.jpg
+  Keynote: 0
+
+123456789:
+  Name: Kate Krauss
+  Bio: |
+    Kate Krauss is the Director of Communications and Public Policy for the Tor Project, a nonprofit organization that builds free, online privacy tools that allow users to defy shoe companies and intelligence agencies alike while they stay free and anonymous on the internet. As a human rights advocate, Kate lead several successful campaigns to free public health experts and human rights activists who were imprisoned in China. She became interested in internet freedom when she sought help from San Francisco hackers to aid a well-known Chinese health advocate whose huge, popular web site for people with hepatitis had been taken down by the Chinese government.
+  Email: 123456789
+  Twitter-Handle:
+  Work-Title: Director of Communications and Public Policy
+  Institution: Tor Project
+  Keynote: 1
+  Image-URL: /img/speakers/nopic4.jpg

@@ -22,7 +22,9 @@
                     {% for talk in talks %}
                         <div class="row talk-row">
                             <div class="col-xs-12">
-                                <h4><a href="{{ talk.url }}">{{ talk.title }}</a></h4>
+                                {% if event.groupId != 'key-open' && event.groupId != 'key-close' %}
+                                    <h4><a href="{{ talk.url }}">{{ talk.title }}</a></h4>
+                                {% endif %}
                             </div>
                             <div class="col-xs-12 hidden-xs">
                                 {% assign hasSpeakers = 0 %}
@@ -40,17 +42,12 @@
                                         {% assign speaker = site.data.speakers_final[speakerId] %}
                                             {% if speaker %}
                                                 <div class="col-sm-3 text-center">
-                                                    {% if speaker.Image-URL == nil %}
-                                                        <a href="/speakers.html#{{speaker.Name | slugify }}">
-                                                            <img class="clip-circle-speaker" src="/img/speakers/none.png" alt="{{ speaker.Name }}">
+                                                    <a href="/speakers.html#{{speaker.Name | slugify }}">
+                                                        <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                                        {% if event.groupId != 'key-open' && event.groupId != 'key-close' %}
                                                             <span>{{ speaker.Name }}</span>
-                                                        </a>
-                                                    {% else %}
-                                                        <a href="/speakers.html#{{speaker.Name | slugify }}">
-                                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                                            <span>{{ speaker.Name }}</span>
-                                                        </a>
-                                                    {% endif %}
+                                                        {% endif %}
+                                                    </a>
                                                 </div>
                                         {% endif %}
                                     {% endfor %}
