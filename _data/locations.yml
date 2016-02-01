@@ -1,8 +1,8 @@
 Garden-3:
   Building: Chemical Heritage Foundation
   Room: Garden 3
-  AM-sessions: the-getting-ready-for-workshops-workshop
-  PM-sessions: user-experience-for-libraries-collections
+  AM-sessions: islandora-for-managers
+  PM-sessions: migrating-hydra-based-repositories-from-fedora-3-to-4
 
 Garden-1:
   Building: Chemical Heritage Foundation
@@ -13,7 +13,7 @@ Garden-1:
 Garden-2:
   Building: Chemical Heritage Foundation
   Room: Garden 2
-  AM-sessions: islandora-for-managers
+  AM-sessions: hands-on-fedora-4
   PM-sessions: islandora-for-developers
 
 Haas:
@@ -25,53 +25,53 @@ Haas:
 Franklin-1:
   Building: Chemical Heritage Foundation
   Room: Franklin 1
-  AM-sessions: it-s-always-sassy-in-philadelphia
-  PM-sessions: catmandu
+  AM-sessions: railsbridge
+  PM-sessions: fail4lib-2016
 
 Franklin-2:
   Building: Chemical Heritage Foundation
   Room: Franklin 2
-  AM-sessions: railsbridge
+  AM-sessions: it-s-always-sassy-in-philadelphia
   PM-sessions: customizing-blacklight
 
 Ullyot-N:
   Building: Chemical Heritage Foundation
   Room: Ullyot N
-  AM-sessions: linked-data-learning
-  PM-sessions: semantic-search-for-the-coder-librarian
+  AM-sessions: code4arc
+  PM-sessions: code4arc
 
 Ullyot-S:
   Building: Chemical Heritage Foundation
   Room: Ullyot S
-  AM-sessions: command-line-bootcamp
+  AM-sessions: linked-data-learning
   PM-sessions: measuring-your-metadata
 
 Large-hall:
   Building: Franklin Hall
   Room: Large hall
-  AM-sessions: code4arc
-  PM-sessions: code4arc
+  AM-sessions: the-getting-ready-for-workshops-workshop
+  PM-sessions: user-experience-for-libraries-collections
 
-Side---East:
+Fels-Room:
   Building: Franklin Hall
-  Room: Side - East
+  Room: Fels Room
   AM-sessions: lodash-js-api-tour
-  PM-sessions: fail4lib-2016
+  PM-sessions: catmandu
 
-Side---West:
+Presidents-Room:
   Building: Franklin Hall
-  Room: Side - West
+  Room: Presidents Room
   AM-sessions: buzzword-compliant-logging
   PM-sessions: digitization-project-starter
 
 Cook:
   Building: Hotel
   Room: Cook
-  AM-sessions: hands-on-fedora-4
-  PM-sessions: migrating-hydra-based-repositories-from-fedora-3-to-4
+  AM-sessions: command-line-bootcamp
+  PM-sessions: dive-deeper-into-hydra
 
 Bromley-Claypoole:
   Building: Hotel
   Room: Bromley-Claypoole
   AM-sessions: dive-into-hydra
-  PM-sessions: dive-deeper-into-hydra
+  PM-sessions: semantic-search-for-the-coder-librarian
