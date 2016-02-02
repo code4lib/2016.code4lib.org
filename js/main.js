@@ -49,8 +49,7 @@ jQuery(document).ready(function($){
         var place = $(this).val();
         sortWorkshops(time,place);
     }).trigger('change');
-
-
+    
 
     function sortWorkshops(time,place){
         if(time == 'all' && place == 'all'){
