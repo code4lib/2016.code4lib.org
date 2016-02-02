@@ -37,6 +37,12 @@ body {
 	color: #7FD3F2;
 }
 
+.footer p {
+	color: #fff;
+	font-size: 0.8em;
+}
+
+
 body {
 	font-family: "Ubuntu",Helvetica,Arial,sans-serif;
 	font-weight: 300;
@@ -58,16 +64,22 @@ h1, h2, h3, h4, h5 {
 	font-weight: 300;
 }
 
+.dropdown-menu {
+	background-color: #fff;
+}
+
 .dropdown-menu > li > a {
-	font-weight: 300;
+	font-weight: 400;
+}
+
+.dropdown-menu .divider {
+	background-color: #eee;
 }
 
 p {
 	color: #1e1e1e;
 	line-height: 2em;
 }
-
-
 
 .section:nth-child(2) {
     background: #EF9A9B;
@@ -314,6 +326,28 @@ p {
 	margin: 0 auto .2em;
 	background: #f7f6f1;
 	border: 6px solid #f7f6f1;
+	box-sizing: content-box;
+}
+
+.clip-circle-speaker {
+    background: #8e908c;
+    border: 6px solid #8e908c;
+    display: block;
+    height: 94px;
+    width: 94px;
+    border-radius: 50%;
+    margin: 0 auto .2em;
+    box-sizing: content-box;
+}
+
+.clip-circle-lg {
+	display: block;
+	height: 172px;
+	width: 172px;
+	border-radius: 50%;
+	margin: 0 auto .2em;
+	background: #4d4d4d;
+	border: 3px solid #4d4d4d;
 	box-sizing: content-box;
 }
 
@@ -575,14 +609,174 @@ p {
 	text-align: left;
 	background-color: #ffffff;
 	margin-bottom: 20px;
-	border-radius: 5px;
+	border-radius: 10px;
+	box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
 }
 .sched-well h3 {
 	padding: 0px 0px 5px 0px;
 	text-align: left;
 }
 .sched-well p {
-	line-height: 1.3em;
+	line-height: 1.7em;
 	font-size: .9em;
 	word-break: break-word;
+}
+
+h4.speaker-name{
+    margin-top: 8px;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.speaker-mini{
+    height: 5.2em;
+    padding: 0 15px;
+}
+p.speaker-title, p.speaker-bio{
+		line-height: 1.5em;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    padding: 0.5em;
+}
+
+p.speaker-title{
+    font-weight: 400;
+}
+
+p.speaker-inst{
+    line-height: 1.4em;
+    font-size: .9em;
+}
+.speaker-info{
+    background-color: #ffffff;
+    width: 900px;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transition: max-height .15s ease;
+    -o-transition: max-height .15s ease;
+    -moz-transition: max-height .15s ease;
+    transition: max-height .15s ease;
+
+}
+.speaker-info.show{
+    max-height: 600px;
+    -webkit-transition: max-height .35s ease;
+    -o-transition: max-height .35s ease;
+    -moz-transition: max-height .35s ease;
+    transition: max-height .35s ease;
+    transition-delay: .15s;
+}
+.speaker-info-inner{
+    padding: 20px 15px 10px 15px;
+}
+.speaker-info-inner h4{
+    padding: 0.5em;
+}
+
+.speaker-box{
+    padding: 10px 10px 0px 10px;
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.speaker-box-inner{
+    padding: 15px 0;
+    width: 100%
+}
+.speaker-box.selected .speaker-box-inner{
+    background-color:#C82829;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.speaker-box.selected a{
+    color:#7fd3f2;
+}
+.speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited{
+    color:#7fd3f2;
+		text-decoration: none;
+}
+.speaker-box.selected p{
+    color: #eee;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    position: absolute;
+    z-index: 99;
+    border-top: 15px solid #C82829;
+    margin-top: 15px;
+    opacity: 0;
+}
+
+.speaker-box.selected .arrow-down{
+    opacity:1;
+}
+
+.talk-row:nth-child(odd){
+    background-color: #e9e9e9;
+}
+.talk-row{
+    padding: 11px 0 11px 11px;
+    margin-top: 11px;
+}
+
+.talk-detail-box{
+		animation: intro .34s .4s cubic-bezier(1.000, 1.400, 0.410, 1.010) forwards;
+    transform: translateY(-50%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(10deg);
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
+		margin-bottom: 100px;
+}
+
+.talk-detail-box .time-slot {
+	background: #7FD3F2;
+}
+
+.talk-detail-box .time-length {
+	background: #00AEEF;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.talk-box-detail-icon {
+	display: table-cell;
+	width:50px;
+	height: 100px;
+	vertical-align: middle;
+	padding:10px;
+	font-size: 16px;
+}
+
+.talk-box-detail-value {
+	display: table-cell;
+	width:100%;
+	height: 100px;
+	vertical-align: middle;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	padding:10px;
+}
+
+@keyframes intro{
+  0%{transform: translateY(25%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(40deg)}
+  100%{transform: translateY(25%) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
+}
+
+.icon > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 }

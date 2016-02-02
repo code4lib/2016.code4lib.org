@@ -1,3 +1,4 @@
 url: http://code4lib.github.io/2016.code4lib.org
 permalink: /:categories/:title
 exclude: [node_modules]
+future: true
