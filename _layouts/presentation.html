@@ -66,31 +66,31 @@
                         {% endif %}
 
                         {% if page.type == 'talk' %}
-                            {% assign hasSpeakers = 0 %}
                             {% for speakerId in page.speakers %}
                                 {% if speakerId != 0 %}
                                     {% assign speaker = site.data.speakers_final[speakerId] %}
                                     {% if speaker %}
-                                        {% assign hasSpeakers = 1 %}
+                                    <div class="col-sm-3 text-center">
+                                        <a href="/speakers.html#{{speaker.Name | slugify }}">
+                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                            {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                            <span>{{ speaker.Name }}</span>
+                                            {% endif %}
+                                        </a>
+                                    </div>
+                                    {% endif %}
+
+                                    {% assign speaker = site.data.speakers_dummy[speakerId] %}
+                                    {% if speaker %}
+                                    <div class="col-sm-3 text-center">
+                                        <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                        {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                        <span>{{ speaker.Name }}</span>
+                                        {% endif %}
+                                    </div>
                                     {% endif %}
                                 {% endif %}
                             {% endfor %}
-
-                            {% if hasSpeakers == 1 %}
-                                {% for speakerId in page.speakers %}
-                                    {% assign speaker = site.data.speakers_final[speakerId] %}
-                                    {% if speaker %}
-                                        <div class="col-xs-6 col-sm-4 col-md-3 text-center">
-                                                <a href="/speakers.html#{{speaker.Name | slugify }}">
-                                                    <img class="clip-circle" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                                    {{ speaker.Name }}
-                                                </a>
-                                        </div>
-                                    {% endif %}
-                                {% endfor %}
-                            {% else %}
-                            <div class="col-xs-6 col-sm-4 col-md-3">{{talk.speakers-text}}</div>
-                            {% endif %}
                         {% endif %}
                     </div>
                 </div>
