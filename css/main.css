@@ -632,10 +632,17 @@ h4.speaker-name{
     padding: 0 15px;
 }
 p.speaker-title, p.speaker-bio{
-		line-height: 1.5em;
-    margin-bottom: 5px;
+	line-height: 1.5em;
     font-size: 1.1em;
-    padding: 0.5em;
+}
+p.speaker-title{
+	padding: 0.2em 0.5em;
+	margin-bottom: 0;
+}
+
+p.speaker-bio {
+	padding: 0.5em;
+	margin-bottom: 5px;
 }
 
 p.speaker-title{
