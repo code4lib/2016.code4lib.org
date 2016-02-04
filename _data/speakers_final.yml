@@ -456,3 +456,50 @@
   Institution: NPR
   Image-URL: /img/speakers/nopic3.jpg
   Keynote: 0
+
+2439622798:
+  Name: Patrick Hochstenbach
+  Bio: |
+    I'm a digital architect currently working at Ghent University Library in Belgium. In the past I worked at Los Alamos National Laboratory and Lund University in Sweden. In the late 90-s I was the developer of the SFX software now marketed by Ex Libris (ProQuest). Besides programming I published on standards such as OpenURL, OAI Static Repositories, and MPEG21.
+  Email: 2439622798
+  Email-Address: patrick.hochstenbach@ugent.be
+  Twitter-Handle: hochstenbach
+  Work-Title: Digital Architect
+  Institution: Ghent University Library
+  Image-URL: https://hochstenbach.files.wordpress.com/2008/04/pat1.jpg
+  Keynote: 0
+
+326359983:
+  Name: Karen A. Coombs
+  Bio: |
+    Karen is a librarian and geek coder with an interest in mashups, web services, and Linked Data. She currently works as a Senior Product Analyst at OCLC. Prior to joining OCLC, she worked in academic library information technology for 10 years. Karen writes, teaches and presents on a broad range of topics including web services & APIs, application development, Linked Data and open source software in libraries.
+  Email: 326359983
+  Email-Address: coombsk@oclc.org
+  Twitter-Handle: librarywebchic
+  Work-Title: Senior Product Analyst
+  Institution: OCLC
+  Image-URL: /img/speakers/coombs.jpg
+  Keynote: 0
+
+5758496247:
+  Name: Megan Slemons
+  Bio: |
+    As the GIS Librarian in the Emory Center for Digital Scholarship, Megan works with students and faculty who want to incorporate geospatial technologies into their research and teaching. She offers consultations on using geospatial tools, finding and using data, and designing projects with spatial components. She also teaches workshops, provides classroom instruction, and works to develop and provide access to the libraries’ data collections.
+  Email: 5758496247
+  Twitter-Handle:
+  Work-Title: GIS Librarian
+  Institution: Emory University
+  Image-URL: /img/speakers/slemons.jpg
+  Keynote: 0
+
+2423441898:
+  Name: Michael Tedeschi
+  Bio: |
+    Michael Tedeschi has worked with several interactive and user experience design teams before forming Interactive Mechanics. He is responsible for the overall creative direction of each project and works closely with his clients to develop compelling stories. Prior to founding Interactive Mechanics, he spent several years designing award-winning interactives and applications for Azavea (Lead UI/UX Designer) and Night Kitchen Interactive (Interactive Designer). Michael specializes in art direction, front-end development, and user interface and experience design for web, mobile, and display solutions, and is an active public speaker.
+  Email: 2423441898
+  Email-Address: mike@interactivemechanics.com
+  Twitter-Handle: mike_tedeschi
+  Work-Title: Owner, Creative Lead
+  Institution: Interactive Mechanics
+  Image-URL: /img/speakers/tedeschi.jpg
+  Keynote: 0
