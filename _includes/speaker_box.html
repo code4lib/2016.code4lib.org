@@ -43,6 +43,15 @@
                     {% endif %}
                 {% endfor %}
             {% endfor %}
+
+            {% assign workshops = site.posts | where:'type','workshop' %}
+            {% for shop in workshops  %}
+                {% for speakerId in shop.speakers %}
+                    {% if speakerId == speaker.Email %}
+                    <h4>Workshop: <a href="{{ shop.url }}">{{ shop.title }}</a></h4>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
         {% endif %}
         <!--
         <div class="row">

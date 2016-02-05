@@ -43,23 +43,29 @@
                     <div class="col-xs-12">
                         <h3>Speaker(s)</h3>
                         {% if page.type == 'workshop' %}
-                            {% for speaker in page.speakers %}
+                            {% for speakerId in page.speakers %}
                                 {% if speaker != 0 %}
-                                {% assign sp = site.data.speakers_temp[speaker] %}
-                                    {% if sp %}
-                                    <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <!--<a href="#" class="speaker-overlay" data-content="{{ sp.name }}">
-                                            <img class="clip-circle" src="http://cdn-img.easyicon.net/png/11100/1110055.gif" alt="{{ sp.name }}">
-                                        </a>-->
-                                        {{ sp.name }}
+
+                                    {% assign speaker = site.data.speakers_final[speakerId] %}
+                                    {% if speaker %}
+                                    <div class="col-sm-3 text-center">
+                                        <a href="/speakers.html#{{speaker.Name | slugify }}">
+                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                            {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                            <span>{{ speaker.Name }}</span>
+                                            {% endif %}
+                                        </a>
                                     </div>
+
                                     {% else %}
+
+                                        {% assign speaker = site.data.speakers_temp[speakerId] %}
+                                        {% if speaker %}
                                         <div class="col-xs-6 col-sm-4 col-md-3">
-                                            <!--<a href="#" class="speaker-overlay" data-content="{{ sp.name }}">
-                                                <img class="clip-circle" src="http://cdn-img.easyicon.net/png/11100/1110055.gif" alt="{{ sp.name }}">
-                                            </a>-->
-                                            {{ speaker }}
+                                            {{ speaker.name }}
                                         </div>
+                                        {% endif %}
+
                                     {% endif %}
                                 {% endif %}
                             {% endfor %}
