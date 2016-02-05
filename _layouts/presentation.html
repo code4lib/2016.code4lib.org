@@ -61,11 +61,11 @@
 
                                         {% assign speaker = site.data.speakers_temp[speakerId] %}
                                         {% if speaker %}
-                                        <div class="col-xs-6 col-sm-4 col-md-3">
-                                            {{ speaker.name }}
+                                        <div class="col-sm-3 text-center">
+                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                            <span>{{ speaker.name }}</span>
                                         </div>
                                         {% endif %}
-
                                     {% endif %}
                                 {% endif %}
                             {% endfor %}
@@ -84,16 +84,18 @@
                                             {% endif %}
                                         </a>
                                     </div>
-                                    {% endif %}
+                                    {% else %}
 
-                                    {% assign speaker = site.data.speakers_dummy[speakerId] %}
-                                    {% if speaker %}
-                                    <div class="col-sm-3 text-center">
-                                        <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                        {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                        <span>{{ speaker.Name }}</span>
+                                        {% assign speaker = site.data.speakers_dummy[speakerId] %}
+                                        {% if speaker %}
+                                        <div class="col-sm-3 text-center">
+                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                            {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                            <span>{{ speaker.Name }}</span>
+                                            {% endif %}
+                                        </div>
                                         {% endif %}
-                                    </div>
+
                                     {% endif %}
                                 {% endif %}
                             {% endfor %}
