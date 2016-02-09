@@ -13,3 +13,52 @@ slugTitle: linked-data-learning
 title: Linked Data Learning, Tips, Tricks and Lessons Learned
 ---
 <p>Ready to harness the power of linked data but don’t know where to start? This hands-on workshop will move you from a bystander to an active participant in the new frontier of linked data in just a few hours.  We will begin with a basic overview of linked data principles before diving into techniques and tools for consuming and producing linked data. Participants will actively manipulate linked data graphs using several tools and programming languages, including Ruby, PHP, Javascript and SPARQL. We’ll review RDFa, JSON-LD serializations, framing and how JSON-LD can be used to easily publish linked data. Participants will practice using framing to publish an existing JSON document as linked data and adding RDFa to an HTML document.</p>
+
+<h4>To Dos Before Workshop</h4>
+<ol>
+<li><a href="https://docs.google.com/forms/d/1lHJ8CFlFJEn3TXRVYsPIJ8ASmGL03YXF1_cBY_NZbF0/viewform?usp=send_form">Participant Survey</a> Help us tailor the session to the groups needs!</li>
+<li>Install jena-fuseki1-1.3.1
+	<ul>
+	<li><a href="https://jena.apache.org/download/#apache-jena-fuseki">Download</a></li>
+	<li><a href="https://jena.apache.org/documentation/serving_data/#getting-started-with-fuseki">Install instructions</a></li>
+	</ul>
+</li>
+<li>Load sample data into Fuseki
+	<ul>
+	<li>Download the sample data files</li>
+	<li>Unzip sample data files</li>
+	<li>Load sample data into Fuseki
+	<li>Change into the fuseki directory on your computer</li>
+	<li>Start Fuseki
+		<ul>
+		<li>You want to start the server so that it allows update and the data is permanently stored</li>
+		<li>./fuseki-server --update --loc={path_to_storage}/c4lpc /c4lpc</li>
+		</ul>
+	</li>
+	<li>Go to - http://localhost:3030/sparql.tpl</li>
+	<li>Select the /c4lpc dataset</li>
+	<li>File upload the sample data – there should be XX triples</li>
+	</ul>
+</li>
+
+<li>Install a Linked Data Library in your language of choice<br>
+The ones listed below are the ones we're familiar with and/or use
+	<ul>
+	<li><a href="http://www.easyrdf.org/">PHP - Easy RDF</a></li>
+	<li><a href="https://github.com/ruby-rdf">Ruby - RDF (specifically: rdf, rdf-rdfxml, sparql-client, spira))</a></li>
+	<li><a href="https://github.com/RDFLib">Python - RDFLib (specifically: rdf-lib, rdflib-jsonld)</a></li>
+	<li><a href="https://jena.apache.org/">Java - Jena</a></li>
+	<li><a href="https://github.com/linkeddata/rdflib.js">Javascript</a></li>
+	</ul>
+</li>
+</ol>
+
+<p>Optional Additional Readings</p>
+
+<ul>
+<li><a href="http://www.oclc.org/developer/news/2014/worldcat-discovery-api-and-linked-data.en.html">WorldCat Discovery API and Linked Data</a></li>
+<li><a href="www.oclc.org/developer/news/2014/learning-linked-data-some-handy-tools.en.html">Learning Linked Data: Some Handy Tools</a></li>
+<li><a href="www.oclc.org/developer/news/2014/learning-linked-data-sparql.en.html">Learning Linked Data: SPARQL</a></li>
+<li><a href="www.oclc.org/developer/news/2015/learning-linked-data-finding-and-consuming-rdfa.en.html">Learning Linked Data: Finding and Consuming RDFa</a></li>
+<li><a href="www.oclc.org/developer/news/2015/learning-linked-data-making-your-data-harvestable-via-rdfa.en.html">Learning Linked Data: Making your Data Harvestable via RDFa</a></li>
+</ul>
