@@ -582,3 +582,26 @@
   Institution:
   Image-URL: /img/speakers/nopic10.jpg
   Keynote: 0
+
+3476985546:
+  Name: Jay Varner
+  Bio: |
+    Jay is a software engineer at the Emory University Library. He loves developing new ways to display and interact with old material. Jay lives in Atlanta with his spouse, young daughter and three dogs. He is an avid bicycle commuter and co-founder of the Sopo Bicycle Co-op, a community-run-non-profit bicycle repair shop. He’s also pretty handy in the wood shop.
+  Email: 3476985546
+  Email-Address: jay.varner@emory.edu
+  Twitter-Handle: jayvarner
+  Work-Title: Software Engineer
+  Institution: Emory University Library
+  Image-URL: /img/speakers/varner.jpg
+  Keynote: 0
+
+1668486352:
+  Name: Mark A. Matienzo
+  Bio: |
+    Mark A. Matienzo first used Lotus 1-2-3 in 1989.
+  Email: 1668486352
+  Twitter-Handle: anarchivist
+  Work-Title: Director of Technology
+  Institution: Digital Public Library of America
+  Image-URL: /img/speakers/matienzo.jpg
+  Keynote: 0
