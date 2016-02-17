@@ -3,75 +3,88 @@ Garden-3:
   Room: Garden 3
   AM-sessions: islandora-for-managers
   PM-sessions: migrating-hydra-based-repositories-from-fedora-3-to-4
+  Map: https://goo.gl/maps/nfeLoHPS9rP2
 
 Garden-1:
   Building: Chemical Heritage Foundation
   Room: Garden 1
   AM-sessions: publishing-research-data-with-r-knitr-and-shiny
   PM-sessions: publishing-research-data-with-r-knitr-and-shiny
+  Map: https://goo.gl/maps/nfeLoHPS9rP2
 
 Garden-2:
   Building: Chemical Heritage Foundation
   Room: Garden 2
   AM-sessions: hands-on-fedora-4
   PM-sessions: islandora-for-developers
+  Map: https://goo.gl/maps/nfeLoHPS9rP2
 
 Haas:
   Building: Chemical Heritage Foundation
   Room: Haas
   AM-sessions: building-a-geocoding-toolset-for-libraries
   PM-sessions: getting-more-out-of-your-maps
+  Map: https://goo.gl/maps/nfeLoHPS9rP2
 
 Franklin-1:
   Building: Chemical Heritage Foundation
   Room: Franklin 1
   AM-sessions: railsbridge
   PM-sessions: fail4lib-2016
+  Map: https://goo.gl/maps/nfeLoHPS9rP2
 
 Franklin-2:
   Building: Chemical Heritage Foundation
   Room: Franklin 2
   AM-sessions: it-s-always-sassy-in-philadelphia
   PM-sessions: customizing-blacklight
+  Map: https://goo.gl/maps/nfeLoHPS9rP2
 
 Ullyot-N:
   Building: Chemical Heritage Foundation
   Room: Ullyot N
   AM-sessions: code4arc
   PM-sessions: code4arc
+  Map: https://goo.gl/maps/nfeLoHPS9rP2
 
 Ullyot-S:
   Building: Chemical Heritage Foundation
   Room: Ullyot S
   AM-sessions: linked-data-learning
   PM-sessions: measuring-your-metadata
+  Map: https://goo.gl/maps/nfeLoHPS9rP2
 
 Large-hall:
   Building: Franklin Hall
   Room: Large hall
   AM-sessions: the-getting-ready-for-workshops-workshop
   PM-sessions: user-experience-for-libraries-collections
+  Map: https://goo.gl/maps/2y2C27cqUAq
 
 Fels-Room:
   Building: Franklin Hall
   Room: Fels Room
   AM-sessions: lodash-js-api-tour
   PM-sessions: catmandu
+  Map: https://goo.gl/maps/2y2C27cqUAq
 
 Presidents-Room:
   Building: Franklin Hall
   Room: Presidents Room
   AM-sessions: buzzword-compliant-logging
   PM-sessions: digitization-project-starter
+  Map: https://goo.gl/maps/2y2C27cqUAq
 
 Cook:
   Building: Hotel
   Room: Cook
   AM-sessions: command-line-bootcamp
   PM-sessions: dive-deeper-into-hydra
+  Map: https://goo.gl/maps/HqWfH2Xhjjq
 
 Bromley-Claypoole:
   Building: Hotel
   Room: Bromley-Claypoole
   AM-sessions: dive-into-hydra
   PM-sessions: semantic-search-for-the-coder-librarian
+  Map: https://goo.gl/maps/HqWfH2Xhjjq
