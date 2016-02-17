@@ -39,16 +39,19 @@ title: Preconference Workshops
                         {% assign loc = location[1] %}
                         {% if loc.AM-sessions == post.slugTitle and loc.PM-sessions == post.slugTitle %}
                             {% assign postLength = '9:00-4:30 (w/ lunch break)' %}
+                            {% assign postTime = 'full' %}
                             {% assign postLocale = loc %}
                         {% elsif loc.AM-sessions == post.slugTitle %}
                             {% assign postLength = '9-12' %}
+                            {% assign postTime = 'am' %}
                             {% assign postLocale = loc %}
                         {% elsif loc.PM-sessions == post.slugTitle %}
                             {% assign postLength = '1:30-4:30' %}
+                            {% assign postTime = 'pm' %}
                             {% assign postLocale = loc %}
                         {% endif %}
                     {% endfor %}
-                    <div class="well workshop-well" data-length="{{ postLength }}" data-location="{{ postLocale.Room | slugify }}">
+                    <div class="well workshop-well" data-length="{{ postTime }}" data-location="{{ postLocale.Room | slugify }}">
                         <div class="row">
                             <div class="col-xs-12">
                                 <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
