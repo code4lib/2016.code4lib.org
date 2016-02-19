@@ -123,24 +123,29 @@
                     <!-- time of day for presentations -->
                     {% if page.type == 'workshop' %}
                     <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
-                        {% if pageLength == 'full' %}
-                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
-                        <div class="talk-box-detail-value">Full Day</div>
-                        {% else %}
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
                         <div class="talk-box-detail-value">{{ pageLength }}</div>
-                        {% endif %}
                     </div>
                     {% endif %}
 
-                    <!-- building/room for workshops -->
+                    <!-- building for workshops -->
                     {% if page.type == 'workshop' %}
-                        <div class="col-xs-12 col-sm-12 col-md-12 time-length">
-                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
-                            <div class="talk-box-detail-value">{{ pageLocale.Building }}<br>{{ pageLocale.Room }}</div>
-                            <!--<div class="talk-box-detail-value"><a href="{{ pageLocale.Map }}" target="_blank">{{ pageLocale.Building }}<br>{{ pageLocale.Room }}</a></div>-->
-                            <!--<div class="talk-box-detail-value">{{ pageLocale.Room }}</div>-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 building">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                        <div class="talk-box-detail-value">
+                            <a href="{{ pageLocale.Map }}" target="_blank">{{ pageLocale.Building }}</a>
                         </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- building for workshops -->
+                    {% if page.type == 'workshop' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                        <div class="talk-box-detail-value">
+                            <a href="" data-toggle="modal" data-target="#floorplan">{{ pageLocale.Room }}</a>
+                        </div>
+                    </div>
                     {% endif %}
 
                     <!-- group -->
@@ -177,5 +182,26 @@
         </div>
     </div>
 </div>
+
+{% if page.type == 'workshop' %}
+<!-- Floor plan modal -->
+<div class="modal fade" id="floorplan" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">{{pageLocale.Building}} Floor Plan</h4>
+            </div>
+            <div class="modal-body">
+                <p>{{pageLocale.Strat}}</p>
+                <img class="img-responsive" src="{{pageLocale.Floor}}">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+{% endif %}
 
 {% include footer.html %}
