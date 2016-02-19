@@ -197,6 +197,14 @@
                 <img class="img-responsive" src="{{pageLocale.Floor}}">
             </div>
             <div class="modal-footer">
+                <div class="pull-left">
+                    {% if pageLocale.Building == 'Chemical Heritage Foundation' %}
+                    <span><small>Image by <a href="http://www.chemheritage.org/visit/conference-center-rental/floor-plans.aspx">Chemical Heritage Foundation</a></small></span>
+                    {% endif %}
+                    {% if pageLocale.Building == 'Sheraton Hotel' %}
+                    <span><small>Image by <a href="http://www.starwoodhotels.com/sheraton/property/meetings/stacked_map.html?propertyID=166&buildingKey=1013372586&floorKey=all">Sheraton</a></small></span>
+                    {% endif %}
+                </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div><!-- /.modal-content -->
