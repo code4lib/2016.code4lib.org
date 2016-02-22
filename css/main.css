@@ -750,6 +750,11 @@ p.speaker-inst{
 	background: #7FD3F2;
 }
 
+.talk-detail-box .building {
+	background: #fff;
+}
+
+
 .talk-detail-box .time-length {
 	background: #00AEEF;
 	border-bottom-left-radius: 10px;

@@ -4,6 +4,8 @@ Garden-3:
   AM-sessions: islandora-for-managers
   PM-sessions: migrating-hydra-based-repositories-from-fedora-3-to-4
   Map: https://goo.gl/maps/nfeLoHPS9rP2
+  Floor: /img/floor-plans/conference-center_second-floor.gif
+  Strat: Enter and head up the main exhibit staircase (veer left). Turn left at the top. Garden 3, is the last room on the right.
 
 Garden-1:
   Building: Chemical Heritage Foundation
@@ -11,6 +13,8 @@ Garden-1:
   AM-sessions: publishing-research-data-with-r-knitr-and-shiny
   PM-sessions: publishing-research-data-with-r-knitr-and-shiny
   Map: https://goo.gl/maps/nfeLoHPS9rP2
+  Floor: /img/floor-plans/conference-center_second-floor.gif
+  Strat: Enter and head up the main exhibit staircase (veer left). Turn left at the top. Garden 1, is the first room on the right.
 
 Garden-2:
   Building: Chemical Heritage Foundation
@@ -18,6 +22,9 @@ Garden-2:
   AM-sessions: hands-on-fedora-4
   PM-sessions: islandora-for-developers
   Map: https://goo.gl/maps/nfeLoHPS9rP2
+  Floor: /img/floor-plans/conference-center_second-floor.gif
+  Strat: |
+    Enter and head up the main exhibit staircase (veer left). Turn left at the top. Garden 2, is the second room on the right.
 
 Haas:
   Building: Chemical Heritage Foundation
@@ -25,6 +32,8 @@ Haas:
   AM-sessions: building-a-geocoding-toolset-for-libraries
   PM-sessions: getting-more-out-of-your-maps
   Map: https://goo.gl/maps/nfeLoHPS9rP2
+  Floor: /img/floor-plans/conference-center_second-floor.gif
+  Strat: Enter and head up the main exhibit staircase (veer left). Turn right at the top. Haas is at the end of the hall.
 
 Franklin-1:
   Building: Chemical Heritage Foundation
@@ -32,6 +41,8 @@ Franklin-1:
   AM-sessions: railsbridge
   PM-sessions: fail4lib-2016
   Map: https://goo.gl/maps/nfeLoHPS9rP2
+  Floor: /img/floor-plans/conference-center_second-floor.gif
+  Strat: Enter and head up the main exhibit staircase (veer left). Turn left at the top. Franklin 1&2 are in a back hallway, adjacent the Garden rooms and restrooms.
 
 Franklin-2:
   Building: Chemical Heritage Foundation
@@ -39,6 +50,8 @@ Franklin-2:
   AM-sessions: it-s-always-sassy-in-philadelphia
   PM-sessions: customizing-blacklight
   Map: https://goo.gl/maps/nfeLoHPS9rP2
+  Floor: /img/floor-plans/conference-center_second-floor.gif
+  Strat: Enter and head up the main exhibit staircase (veer left). Turn left at the top. Franklin 1&2 are in a back hallway, adjacent the Garden rooms and restrooms.
 
 Ullyot-N:
   Building: Chemical Heritage Foundation
@@ -46,6 +59,8 @@ Ullyot-N:
   AM-sessions: code4arc
   PM-sessions: code4arc
   Map: https://goo.gl/maps/nfeLoHPS9rP2
+  Floor: /img/floor-plans/conference-center_first-floor.gif
+  Strat: Enter, walk past the stairwell, turn right.
 
 Ullyot-S:
   Building: Chemical Heritage Foundation
@@ -53,6 +68,8 @@ Ullyot-S:
   AM-sessions: linked-data-learning
   PM-sessions: measuring-your-metadata
   Map: https://goo.gl/maps/nfeLoHPS9rP2
+  Floor: /img/floor-plans/conference-center_first-floor.gif
+  Strat: Enter, turn right.
 
 Large-hall:
   Building: Franklin Hall
@@ -60,6 +77,9 @@ Large-hall:
   AM-sessions: the-getting-ready-for-workshops-workshop
   PM-sessions: user-experience-for-libraries-collections
   Map: https://goo.gl/maps/2y2C27cqUAq
+  Floor: /img/floor-plans/franklinhall.png
+  Strat: There wasn't a map, so we drew you one. [NOT TO SCALE]. <br> Enter, walk straight.
+
 
 Fels-Room:
   Building: Franklin Hall
@@ -67,6 +87,8 @@ Fels-Room:
   AM-sessions: lodash-js-api-tour
   PM-sessions: catmandu
   Map: https://goo.gl/maps/2y2C27cqUAq
+  Floor: /img/floor-plans/franklinhall.png
+  Strat: There wasn't a map, so we drew you one. [NOT TO SCALE]. <br> Enter. It's on the left.
 
 Presidents-Room:
   Building: Franklin Hall
@@ -74,17 +96,23 @@ Presidents-Room:
   AM-sessions: buzzword-compliant-logging
   PM-sessions: digitization-project-starter
   Map: https://goo.gl/maps/2y2C27cqUAq
+  Floor: /img/floor-plans/franklinhall.png
+  Strat: There wasn't a map, so we drew you one. [NOT TO SCALE]. <br> Enter. It's on the right.
 
 Cook:
-  Building: Hotel
+  Building: Sheraton Hotel
   Room: Cook
   AM-sessions: command-line-bootcamp
   PM-sessions: dive-deeper-into-hydra
   Map: https://goo.gl/maps/HqWfH2Xhjjq
+  Floor: /img/floor-plans/sheraton.png
+  Strat: Enter via the outdoor Garden/Patio, turn right Room is straight ahead at the end of the hall. (#9 on the map)
 
 Bromley-Claypoole:
-  Building: Hotel
+  Building: Sheraton Hotel
   Room: Bromley-Claypoole
   AM-sessions: dive-into-hydra
   PM-sessions: semantic-search-for-the-coder-librarian
   Map: https://goo.gl/maps/HqWfH2Xhjjq
+  Floor: /img/floor-plans/sheraton.png
+  Strat: Enter via the outdoor Garden/Patio, turn left down the hallway, then right. Rooms are on the left. (#2 & #3 on the map)
