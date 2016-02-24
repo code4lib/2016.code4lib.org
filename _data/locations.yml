@@ -5,7 +5,7 @@ Garden-3:
   PM-sessions: migrating-hydra-based-repositories-from-fedora-3-to-4
   Map: https://goo.gl/maps/nfeLoHPS9rP2
   Floor: /img/floor-plans/conference-center_second-floor.gif
-  Strat: Enter and head up the main exhibit staircase (veer left). Turn left at the top. Garden 3, is the last room on the right.
+  Strat: Enter and pass the main reception desk. Take the elevator or stairs (on your right) to the 2nd floor. Turn right out of the elevator. Garden 3 is the last room on the right.
 
 Garden-1:
   Building: Chemical Heritage Foundation
@@ -14,7 +14,7 @@ Garden-1:
   PM-sessions: publishing-research-data-with-r-knitr-and-shiny
   Map: https://goo.gl/maps/nfeLoHPS9rP2
   Floor: /img/floor-plans/conference-center_second-floor.gif
-  Strat: Enter and head up the main exhibit staircase (veer left). Turn left at the top. Garden 1, is the first room on the right.
+  Strat: Enter and pass the main reception desk. Take the elevator or stairs (on your right) to the 2nd floor. Turn right out of the elevator. Garden 1 is the first room on the right.
 
 Garden-2:
   Building: Chemical Heritage Foundation
@@ -24,7 +24,7 @@ Garden-2:
   Map: https://goo.gl/maps/nfeLoHPS9rP2
   Floor: /img/floor-plans/conference-center_second-floor.gif
   Strat: |
-    Enter and head up the main exhibit staircase (veer left). Turn left at the top. Garden 2, is the second room on the right.
+    Enter and pass the main reception desk. Take the elevator or stairs (on your right) to the 2nd floor. Turn right out of the elevator. Garden 2 is the second room on the right.
 
 Haas:
   Building: Chemical Heritage Foundation
@@ -33,7 +33,7 @@ Haas:
   PM-sessions: getting-more-out-of-your-maps
   Map: https://goo.gl/maps/nfeLoHPS9rP2
   Floor: /img/floor-plans/conference-center_second-floor.gif
-  Strat: Enter and head up the main exhibit staircase (veer left). Turn right at the top. Haas is at the end of the hall.
+  Strat: Enter and pass the main reception desk. Take the elevator or stairs (on your right) to the 2nd floor. Turn left out of the elevator. Haas is at the end of the hall.
 
 Franklin-1:
   Building: Chemical Heritage Foundation
@@ -42,7 +42,7 @@ Franklin-1:
   PM-sessions: fail4lib-2016
   Map: https://goo.gl/maps/nfeLoHPS9rP2
   Floor: /img/floor-plans/conference-center_second-floor.gif
-  Strat: Enter and head up the main exhibit staircase (veer left). Turn left at the top. Franklin 1&2 are in a back hallway, adjacent the Garden rooms and restrooms.
+  Strat: Enter and pass the main reception desk. Take the elevator or stairs (on your right) to the 2nd floor. Turn right out of the elevator. Pass the Overlook Lounge and turn left to find Franklin 1 and 2.
 
 Franklin-2:
   Building: Chemical Heritage Foundation
@@ -51,7 +51,7 @@ Franklin-2:
   PM-sessions: customizing-blacklight
   Map: https://goo.gl/maps/nfeLoHPS9rP2
   Floor: /img/floor-plans/conference-center_second-floor.gif
-  Strat: Enter and head up the main exhibit staircase (veer left). Turn left at the top. Franklin 1&2 are in a back hallway, adjacent the Garden rooms and restrooms.
+  Strat: Enter and pass the main reception desk. Take the elevator or stairs (on your right) to the 2nd floor. Turn right out of the elevator. Pass the Overlook Lounge and turn left to find Franklin 1 and 2.
 
 Ullyot-N:
   Building: Chemical Heritage Foundation
@@ -60,7 +60,7 @@ Ullyot-N:
   PM-sessions: code4arc
   Map: https://goo.gl/maps/nfeLoHPS9rP2
   Floor: /img/floor-plans/conference-center_first-floor.gif
-  Strat: Enter, walk past the stairwell, turn right.
+  Strat: Enter, walk past the reception desk and elevators, turn right.
 
 Ullyot-S:
   Building: Chemical Heritage Foundation
@@ -106,7 +106,7 @@ Cook:
   PM-sessions: dive-deeper-into-hydra
   Map: https://goo.gl/maps/HqWfH2Xhjjq
   Floor: /img/floor-plans/sheraton.png
-  Strat: Enter via the outdoor Garden/Patio, turn right Room is straight ahead at the end of the hall. (#9 on the map)
+  Strat: Enter through the Lobby and walk through the Ballroom Foyer. The room is straight ahead. (#9 on the map)
 
 Bromley-Claypoole:
   Building: Sheraton Hotel
@@ -115,4 +115,4 @@ Bromley-Claypoole:
   PM-sessions: semantic-search-for-the-coder-librarian
   Map: https://goo.gl/maps/HqWfH2Xhjjq
   Floor: /img/floor-plans/sheraton.png
-  Strat: Enter via the outdoor Garden/Patio, turn left down the hallway, then right. Rooms are on the left. (#2 & #3 on the map)
+  Strat: Enter through the Lobby and walk toward the Ballroom Foyer. Take the first left before you enter the foyer. Rooms are on the left. (#2 & #3 on the map)
