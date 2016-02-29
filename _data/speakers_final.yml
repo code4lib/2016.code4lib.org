@@ -1,531 +1,15 @@
-788180752:
-  Name: Becky Yoose
+3518211291:
+  Name: Daniel Aitken
   Bio: |
-    Becky is the Library Applications and Systems Manager at The Seattle Public Library. She previous worked at Grinnell College as the Discovery and Integrated Systems Librarian and Miami University as the Bibliographic Systems Librarian. Becky received her MLIS from University of Wisconsin - Madison in 2008.<br><br>Most importantly, Becky is the wearer of The Hat, bakes an unhealthy amount of pie, and is between cat servant gigs.
-  Email: 788180752
-  Twitter-Handle: yo_bj
-  Work-Title: Library Applications and Systems Manager
-  Institution: The Seattle Public Library
-  Image-URL: /img/speakers/yoose.jpg
-  Keynote: 0
-
-1737724082:
-  Name: Mike Shallcross
-  Bio: |
-    Mike Shallcross is the Assistant Director for Curation at the Bentley Historical Library and an Adjunct Instructor at the University of Michigan School of Information.  He currently oversees the Bentley’s digitization program, conservation unit, and processing operations for digital, analog, and physical materials.
-  Email: 1737724082
-  Email-Address: shallcro@umich.edu
-  Twitter-Handle: 
-  Work-Title: Assistant Director for Curation
-  Institution: University of Michigan Bentley Historical Library
-  Image-URL: /img/speakers/nopic1.jpg
-  Keynote: 0
-
-515949819:
-  Name: Nick Ruest
-  Bio: |
-    Nick Ruest is the Digital Assets Librarian at York University, and co-Principal Investigator of the SSHRC grant "A Longitudinal Analysis of the Canadian World Wide Web as a Historical Resource, 1996-2014".<br><br>At York University, he oversees the development of data curation, asset management and preservation initiatives, along with creating and implementing systems that support the capture, description, delivery, and preservation of digital objects having significant content of enduring value. He is also active in the Islandora and Fedora communities, serving as Project Director for the Islandora CLAW project, member of the Islandora Foundation's Roadmap Committee and Board of Directors, and contributes code to the project. In the past he has served as the Release Manager for Islandora, the moderator for the OCUL Digital Curation Community, the President of the Ontario Library and Technology Association, and President of McMaster University Academic Librarians' Association.
-  Email: 515949819
-  Email-Address: ruestn@yorku.ca
-  Twitter-Handle: ruebot
-  Work-Title: Digital Assets Librarian
-  Institution: York University
-  Image-URL: /img/speakers/ruest.jpg
-  Keynote: 0
-
-382258369:
-  Name: Ian Milligan
-  Bio: |
-    Ian Milligan is an assistant professor of digital and Canadian history at the University of Waterloo. His current project explores the impact of web archives on the historical profession. He is the author of Rebel Youth: 1960s Labour Unrest, Young Workers, and New Leftists in English Canada, which was shortlisted for the Macdonald Prize in Canadian history, and co-author of Exploring Big Historical Data: The Historian's Macroscope. At Waterloo, he is PI of the Web Archives for Historical Research Group. For more, see <a href="http://ianmilligan.ca/introduction/" target="_blank">http://ianmilligan.ca/introduction/</a>.
-  Email: 382258369
-  Email-Address: i2millig@uwaterloo.ca
-  Twitter-Handle: ianmilligan1
-  Work-Title: Assistant Professor
-  Institution: University of Waterloo
-  Image-URL: /img/speakers/milligan.jpg
-  Keynote: 0
-
-2051383626:
-  Name: Christina Harlow
-  Bio: |
-    Christina works with metadata.
-  Email: 2051383626
-  Email-Address: cmharlow@gmail.com
-  Twitter-Handle: cm_harlow
-  Work-Title: Metadataist
-  Institution: Cornell University Library
-  Image-URL: /img/speakers/nopic2.jpg
-  Keynote: 0
-
-2658729540:
-  Name: Matt Carruthers
-  Bio: |
-    I am a metadata specialist and aspiring technologist, and have been a library professional since 2012.  Since 2014 I have been the Metadata Projects Librarian at the University of Michigan, where I create, transform, and use metadata in support of both library and university projects.
-  Email: 2658729540
-  Email-Address: mcarruth@umich.edu
-  Twitter-Handle: mattadata2
-  Work-Title: Metadata Projects Librarian
-  Institution: University of Michigan
-  Image-URL: /img/speakers/carruthers.jpg
-  Keynote: 0
-
-1023567367:
-  Name: Monica Maceli
-  Bio: |
-    Monica Maceli is an assistant professor at Pratt Institute’s School of Information, where she focuses on emerging technologies in the information and library science domain. She earned her Ph.D. and MSIS from the College of Information Science and Technology (iSchool) at Drexel University. She has an industry background in web development and user experience, having held positions in e-commerce, online learning, and academic libraries.  Her research areas of interest include end-user development, human-computer interaction, socio-technical systems, and information technology education.
-  Email: 1023567367
-  Email-Address: mmaceli@pratt.edu
-  Twitter-Handle: monicamaceli
-  Work-Title: Assistant Professor
-  Institution: Pratt Institute | School of Information
-  Image-URL: /img/speakers/maceli.jpg
-  Keynote: 0
-
-5675446490:
-  Name: Alice Sara Prael
-  Bio: |
-    I am currently the National Digital Stewardship Resident for the John F. Kennedy Presidential Library, where I am developing a long-range digital preservation strategy for born-digital and digitized archival assets.<br><br>I graduated with an MLS from the University of Maryland, College Park, specializing in the curation and management of digital assets. During that time I served as the Digital Programs and Initiatives Graduate Assistant at University of Maryland Libraries.  In this position I discovered a passion for digital archives and partnered with the Special Collections and University Archives to create a workflow for processing born digital content. I currently live in Cambridge where I paint, play ukulele, and skate with my roller derby team.
-  Email: 5675446490
-  Email-Address: alicesaraprael@gmail.com
-  Twitter-Handle: AlicePrael
-  Work-Title: National Digital Stewardship Resident
-  Institution: John F. Kennedy Presidential Library
-  Image-URL: /img/speakers/prael.jpg
-  Keynote: 0
-
-3590805250:
-  Name: Demian Katz
-  Bio: |
-    Demian Katz is the lead developer for Villanova University's open source VuFind discovery layer and devotes much of his time to extending and supporting that package. He dedicates his daily train commute and much of his free time at home to processing 19th century texts for Project Gutenberg and maintaining specialized online bibliographies at gamebooks.org and dimenovels.org.
-  Email: 3590805250
-  Email-Address: demian.katz@villanova.edu
-  Twitter-Handle: demiankatz
-  Work-Title: Library Technology Development Specialist
-  Institution: Villanova University
-  Image-URL: /img/speakers/katz.jpg
-  Keynote: 0
-
-1625030101:
-  Name: Julie Swierczek
-  Bio: |
-    Julie Swierczek corrals files and tries to make them stick around if needed. She believes that the first step of digital preservation is adopting Camus’ position that “One must imagine Sisyphus happy”.  Julie became interested in digital preservation in a previous job where she proposed starting a digital preservation program using only elbow grease, duct tape, and Amazon Web Services.  The proposal was rejected, which only strengthened her resolve to imagine Sisyphus as a cheerful fellow. Julie has worked as a university archivist and special collections librarian and also as a cataloging and metadata librarian. She is enamored with good documentation.
-  Email: 1625030101
-  Twitter-Handle: JulieSwierczek
-  Work-Title: Digital Asset Manager and Digital Archivist
-  Institution: Harvard Art Museums
-  Image-URL: /img/speakers/swierczek.jpg
-  Keynote: 0
-
-1607330871:
-  Name: Marya Sawaf
-  Bio: |
-    Marya works in technical support for a retail point of sale system in Montreal, Canada. She was previously an aviation lawyer in Dubai. Having studied law and computer science at McGill University, she has a keen interest in self-driven learning, custom search applications, search UX and open access.
-  Email: 1607330871
-  Email-Address: sawafmarya@gmail.com
-  Twitter-Handle: maryasawaf
+    Daniel has been working for discoverygarden since 2013, and was dubbed "QA Dan" early on due to an organizational overload of Dans at that time. Since then, he's gone on to shore up the automated testing and delivery of Islandora components, quality check more pieces of the Islandora framework than he can actually remember, and now works fully on the development side of the project. He keeps the moniker, though, as it would be too much of a hassle to change his twitter handle and GitHub credentials over at this point.
+  Email: 3518211291
+  Email-Address: daitken@discoverygarden.ca
+  Twitter-Handle: itsqadan
   Work-Title: Developer
-  Institution:
-  Image-URL: /img/speakers/sawaf.jpg
+  Institution: discoverygarden, inc
+  Image-URL: /img/speakers/nopic11.jpg
   Keynote: 0
-
-3020120492:
-  Name: Sebastian Hammer
-  Bio: |
-    Sebastian has worked with library software since he got his first student job with a small government agency in Copenhagen, Denmark. He is a cofounder of Index Data, which has made software tools for librarians and developers for the past 22 years.
-  Email: 3020120492
-  Twitter-Handle:
-  Work-Title: President
-  Institution: Index Data
-  Image-URL: /img/speakers/hammer.jpg
-  Keynote: 0
-
-2045959834:
-  Name: Jim Hahn
-  Bio: |
-    Jim Hahn is Orientation Services and Environments Librarian and Associate Professor at the University of Illinois Undergraduate Library. His research into technology-enhanced learning investigates the development of mobile software applications (<a href="http://minrvaproject.org/" target="_blank">http://minrvaproject.org/</a>) within library settings and provides unique insights into new students’ expectations and needs. He founded and manages the <a href="http://sif.library.illinois.edu" target="_blank">Technology Prototyping Service</a> at the University of Illinois.
-  Email: 2045959834
-  Email-Address: jimhahn@illinois.edu
-  Twitter-Handle: phobiaofthis
-  Work-Title: Orientation Services, Environments Librarian, and Associate Professor
-  Institution: University of Illinois at Urbana-Champaign
-  Image-URL: /img/speakers/hahn.jpg
-  Keynote: 0
-
-5040186496:
-  Name: Steven Duckworth
-  Bio: |
-    Steve Duckworth is a graduate of Drexel University’s MSLIS program with a concentration in Archival Studies. He is currently the Processing Archivist for the University of Florida (Gainesville). Previous positions include Project Archivist with the National Park Service (Anchorage, AK), Archives Processor with the PACSCL/CLIR Hidden Collections project (Philadelphia), and Records Management Assistant at the Drexel University Archives (Philadelphia).
-  Email: 5040186496
-  Email-Address: steve@stevenduckworth.com
-  Twitter-Handle: ArchiveSteve
-  Work-Title: Processing Archivist
-  Institution: University of Florida
-  Image-URL: /img/speakers/duckworth.jpg
-  Keynote: 0
-
-1620427788:
-  Name: Matt Zumwalt
-  Bio: |
-    For the first 3 years of the <a href="http://hydraproject.org" target="_blank">Hydra Project</a>. Matt was the software architect and lead engineer. He sat on the Hydra Steering group and played a major role in creating ActiveFedora, OM, Sufia, CurationConcerns, and numerous Hydra implementations around the world.  As co-founder of MediaShelf and Data Curation Experts he contributed code, trained engineers and advised managers at many of the Hydra Partner institutions.  His current interests are focused on building tools like <a href="http://databindery.com" target="_blank">DataBindery</a> to accommodate trust and trustworthiness in systems where people exchange data.
-  Email: 1620427788
-  Email-Address: matt@databindery.com
-  Twitter-Handle: flyingzumwalt
-  Work-Title: Founder
-  Institution: DataBindery & MediaShelf
-  Image-URL: /img/speakers/zumwalt.jpg
-  Keynote: 0
-
-2612865327:
-  Name: Matthew Short
-  Bio: |
-    Matt is the Metadata Librarian at Northern Illinois University and the project manager for <a href="dimenovels.lib.niu.edu" target="_blank">Nickels and Dimes</a>, an online collection of 19th century popular fiction.
-  Email: 2612865327
-  Email-Address: mshort@niu.edu
-  Twitter-Handle:
-  Work-Title: Metadata Librarian
-  Institution: Northern Illinois University
-  Image-URL: /img/speakers/nopic3.jpg
-  Keynote: 0
-
-6750445623:
-  Name: Dinah Handel
-  Bio: |
-    Dinah Handel is presently a National Digital Stewardship Resident at CUNY Television, where she is working on a 9 month project to assess and enhance open source audio visual processing software, as well as conducting a data migration. She holds an MLIS from Pratt Institute and a BA in Women's History from Hampshire College.
-  Email: 6750445623
-  Twitter-Handle: dinahhandel
-  Work-Title: National Digital Stewardship Resident
-  Institution: CUNY Television
-  Image-URL: /img/speakers/handel.jpg
-  Keynote: 0
-
-3781734880:
-  Name: Jennifer Colt
-  Bio: |
-    Jennifer is a user experience developer at Cornell University Library. Projects she has contributed to recently include the library's blacklight catalog, DLXS to hydra migrations and the development of a blacklight-based digital portal.
-  Email: 3781734880
-  Email-Address: jrc88@cornell.edu
-  Twitter-Handle: starsplatter
-  Work-Title: User Experience Designer
-  Institution: Cornell University
-  Image-URL: /img/speakers/colt.jpg
-  Keynote: 0
-
-936255212:
-  Name: Kirsta Stapelfeldt
-  Bio: |
-    Past manager of the Islandora project and University of Prince Edward Island's Virtual Research Environment service.
-  Email: 936255212
-  Email-Address: Kirsta.Stapelfeldt@utoronto.ca
-  Twitter-Handle: Kstapelfeldt
-  Work-Title: Coordinator, Digital Scholarship Unit
-  Institution: University of Toronto Scarborough
-  Image-URL: /img/speakers/stapelfeldt.jpg
-  Keynote: 0
-
-3175145983:
-  Name: Eben English
-  Bio: |
-    Eben English is a Web Services Developer at the Boston Public Library. Prior to this position, he worked in a number of academic libraries in Chicago, focusing on digital collection development and library website design. He holds an MLIS from the University of Illinois Urbana-Champaign.
-  Email: 3175145983
-  Email-Address: eenglish@bpl.org
-  Twitter-Handle: ebenenglish
-  Work-Title: Web Services Developer
-  Institution: Boston Public Library
-  Image-URL: /img/speakers/nopic4.jpg
-  Keynote: 0
-
-4688708614:
-  Name: Jordan Fields
-  Bio: |
-    Jordan Fields is the Program Manager for the Marmot Library Network’s Digital Archive. She has previously worked in library technology and digital repositories for Garfield County Libraries in Colorado and the Kansas City Public Library in Missouri. Jordan holds an MSLIS and CAS in Digital Libraries from Syracuse University and a BA in Comparative Literature from Indiana University.
-  Email: 4688708614
-  Email-Address: jordan@marmot.org
-  Twitter-Handle: jordanfp
-  Work-Title: Program Manager
-  Institution: Marmot Library Network
-  Image-URL: /img/speakers/jfields.jpg
-  Keynote: 0
-
-1000272445:
-  Name: Mark Noble
-  Bio: |
-    Mark Noble is the R&D Manager and Senior Programmer for Marmot Library Network.  Mark spends most of his time working on the Pika discovery layer to make information from our catalog and digital archive accessible to patrons of Marmot's 27 member libraries.  Mark also helps to support 6 discovery partners also using Pika at their libraries.<br><br>Mark has been doing programming for libraries since 2010. and has a BS in Architectural Engineering from the University of Colorado Boulder.
-  Email: 1000272445
-  Email-Address: mark@marmot.org
-  Twitter-Handle:
-  Work-Title: R&D Manager
-  Institution: Marmot Library Network
-  Image-URL: /img/speakers/noble.jpg
-  Keynote: 0
-
-103333904:
-  Name: Susan Ley
-  Bio: |
-    Currently a software engineer at the Getty Research Institute. Frequent freelancer, avid runner, incorrigible optimist. Interested in all things art, JavaScript frameworks, and iOS development with Swift.
-  Email: 103333904
-  Email-Address: sley@getty.edu
-  Twitter-Handle: susieley
-  Work-Title: Software Engineer
-  Institution: Getty Research Institute
-  Image-URL: /img/speakers/sley.jpg
-  Keynote: 0
-
-836580394:
-  Name: Allison Jai O'Dell
-  Bio: |
-    Allison Jai O'Dell is the Metadata Librarian at the University of Florida, George A. Smathers Libraries.  She works to improve how individuals access, engage with, and create library metadata through a combination of policy, education, and interface design.
-  Email: 836580394
-  Email-Address: ajodell@ufl.edu
-  Twitter-Handle: AllisonJaiODell
-  Work-Title: Metadata Librarian
-  Institution: University of Florida, George A. Smathers Libraries
-  Image-URL: /img/speakers/odell.png
-  Keynote: 0
-
-5251575310:
-  Name: Shira Peltzman
-  Bio: |
-    Shira Peltzman is the Digital Archivist for the UCLA Library where she leads the development of a sustainable preservation program for born-digital material. Shira received her M.A. in Moving Image Archiving and Preservation from New York University’s Tisch School of the Arts, after which she was selected for the inaugural class of the National Digital Stewardship Residency in New York (NDSR-NY). Shira has worked at several organizations globally that strive to preserve digital material and make it widely accessible, including Martin Scorsese's World Cinema Foundation, the British Film Institute in London, the Bay Area TV Archive in San Francisco, and Carnegie Hall in New York City.
-  Email: 5251575310
-  Email-Address: speltzman@library.ucla.edu
-  Twitter-Handle: shirapeltzman
-  Work-Title: Digital Archivist
-  Institution: UCLA Library
-  Image-URL: /img/speakers/peltzman.jpg
-  Keynote: 0
-
-609078349:
-  Name: Camille Salas
-  Bio: |
-    Camille Salas is the product owner of Artemis, NPR’s internal digital archives of programming spanning 1971 to the present. As a member of the Research, Archives and Data Strategy (RAD) team, she works closely with RAD developer Will Boyd to ensure the archive is not only stable but also flexible and responsive to NPR’s ever-evolving business needs. Camille holds an MLS from the University of Maryland’s College of Information Studies and in a former life worked as a business analyst. Originally from El Paso, Texas, her member station is KTEP.
-  Email: 609078349
-  Twitter-Handle: unacamisa
-  Work-Title: Product Owner
-  Institution: NPR
-  Image-URL: /img/speakers/nopic5.jpg
-  Keynote: 0
-
-988759134:
-  Name: Ashley Blewer
-  Bio: |
-    Ashley Blewer is an audiovisual archivist, technologist, and enthusiast. She works as an Applications Developer at the New York Public Library, formerly as a web developer and digital archives consultant. She has previously worked in the private sector as an integrations engineer and at the University of South Carolina Moving Image Research Collections as a cataloging manager. She cares about education (especially in tech), access (especially to moving images), the act of creation (especially on the web), and good archival practice (especially with digital formats). She holds Master of Library and Information Science (Archives) and Bachelor of Arts (Graphic Design) degrees from the University of South Carolina and is a graduate of the Flatiron School’s Web Immersive program.. She is an active contributor to MediaConch, a open source digital video file conformance checker software project, and QCTools, an open source digitized video analysis software project.
-  Email: 988759134
-  Email-Address: ashley.blewer@gmail.com
-  Twitter-Handle: ablwr
-  Work-Title: Applications Developer
-  Institution: New York Public Library
-  Image-URL: /img/speakers/blewer.jpg
-  Keynote: 0
-
-5874327342:
-  Name: Paul Beaudoin
-  Bio: |
-    Paul Beaudoin has built tools, websites, and apis for all sorts of purposes since 1998. He studied Computer Science at the University of Oregon and University of East Anglia. At NYPL Labs, Paul's work primarily involves expanding access to and engagement with collections through OCR-assisted data extraction and community driven transcription projects.
-  Email: 5874327342
-  Twitter-Handle: nonword
-  Work-Title: Applications Developer
-  Institution: New York Public Library
-  Image-URL: /img/speakers/beaudoin.jpg
-  Keynote: 0
-
-2141259371:
-  Name: Jason Ronallo
-  Bio: |
-    Jason Ronallo is the <a href="http://www.lib.ncsu.edu/staff/jnronall/" target="_blank">Head of Digital Library Initiatives</a> at <a href="http://www.lib.ncsu.edu" target"_blank">NCSU Libraries</a>. He has presented and written on topics related to digital special collections and Web technologies like video accessibility, real-time and interactive interfaces, and embedded semantic markup. You can learn more about him on his website: <<a href="http://ronallo.com" target="_blank">http://ronallo.com</a>>.
-  Email: 2141259371
-  Email-Address: jnronall@ncsu.edu
-  Twitter-Handle: ronallo
-  Work-Title: Head, Digital Library Initiatives
-  Institution: NCSU Libraries
-  Image-URL: /img/speakers/ronallo.jpg
-  Keynote: 0
-
-3076891826:
-  Name: David Naughton
-  Bio: |
-    Software developer with a mathematics and science background, but no MLS or formal training in library science. Especially interested in research data management, and new ways that libraries can collaborate with scientists and other researchers. Likes dynamic languages and functional programming. Not the actor who starred in An American Werewolf in London or those Dr. Pepper commercials. Not the messiah. A very naughty boy.
-  Email: 3076891826
-  Email-Address: naughton@umn.edu
-  Twitter-Handle: nihiliad
-  Work-Title: Software Developer
-  Institution: UMN Libraries
-  Image-URL: /img/speakers/naughton.jpg
-  Keynote: 0
-
-4026284863:
-  Name: Gabriel Weinberg
-  Bio: |
-    Gabriel Weinberg is the CEO & Founder of DuckDuckGo, the search engine that doesn't track you, and the co-author of Traction, the book that helps you get traction.
-  Email: 4026284863
-  Twitter-Handle: yegg
-  Work-Title: CEO & Founder
-  Institution: DuckDuckGo
-  Image-URL: /img/speakers/weinberg.jpg
-  Keynote: 1
-
-3997704807:
-  Name: Adam Cahan
-  Bio: |
-    Adam Cahan is a software developer living and working in Los Angeles. Growing up in Chicago, he experienced both the rich technical and musical heritage of "The Windy City." Adam earned a B.A. from The Colorado College, where he majored in computer science. There he also was exposed to the humanities. Adam has experience developing well-architected and tested web applications on both the server-side and client-side of the divide. He enjoys the ocean, jazz, rap, krautrock, Adidas adipure sneakers, and North Face Summit Series down jackets.
-  Email: 3997704807
-  Email-Address: acahan@getty.edu
-  Twitter-Handle:
-  Work-Title: Software Engineer
-  Institution: Getty Research Institute
-  Image-URL: /img/speakers/cahan.jpg
-  Keynote: 0
-
-4677653080:
-  Name: John Nelson
-  Bio: |
-    During his time with NPR’s Digital Media team, John Nelson was the primary architect of the refactored and spiffier Artemis. He is a veteran software developer and maker of interesting projects. Enjoys neatly typed code and simplified processes. Life goals include eating bacon every week and presenting a TED Talk that gets a standing ovation.
-  Email: 4677653080
-  Email-Address: jnelson11@gmail.com
-  Twitter-Handle:
-  Work-Title: Software Developer
-  Institution:
-  Image-URL: /img/speakers/nopic6.jpg
-  Keynote: 0
-
-2553824851:
-  Name: Kim Pham
-  Bio: |
-    Kim is responsible for analysing system requirements, providing technical support and training and product management in the library’s Digital Scholarship Unit.
-  Email: 2553824851
-  Email-Address: kim.pham@utoronto.ca
-  Twitter-Handle: tolloid
-  Work-Title: Digital Projects & Technologies Librarian
-  Institution: University of Toronto Scarborough
-  Image-URL: /img/speakers/pham.jpg
-  Keynote: 0
-
-3218697351:
-  Name: Ted Lawless
-  Bio: |
-    Ted Lawless is a Solutions Specialist at Thomson Reuters focusing on data integration. He is active in the VIVO community and a committer for that project. He lives in Providence, RI.
-  Email: 3218697351
-  Email-Address: ted.lawless@thomsonreuters.com
-  Twitter-Handle: tedlawless
-  Work-Title: Solutions Specialist
-  Institution: Thomson Reuters
-  Image-URL: /img/speakers/lawless.jpg
-  Keynote: 0
-
-5752376246:
-  Name: Ekatarina (Eka) Grguric
-  Bio: |
-    Ekatarina Grguric is a Fellow at North Carolina State University Libraries working in the User Experience department, on the Web Team, and in the Digital Libraries Initiatives department on an initiative to support Open Science activity at NCSU. She recently completed a Master of Library and Information Studies at the University of British Columbia iSchool, throughout which she focused on issues surrounding Human Computer Interaction.
-  Email: 5752376246
-  Email-Address: egrguri@ncsu.edu
-  Twitter-Handle: egrguric
-  Work-Title: NCSU Libraries Fellow
-  Institution: NCSU Libraries
-  Image-URL: /img/speakers/grguric.jpg
-  Keynote: 0
-
-289422297:
-  Name: Kate Krauss
-  Bio: |
-    Katie has been an influential political strategist and organizer since the late 1980s. An early member of ACT UP, she lead and organized a diverse statewide coalition that succeeded in tripling the budget of California's AIDS Drug Assistance Program and restructuring the State of California's AIDS funding priorities. One of the first US activists to embrace international AIDS advocacy, she was a key strategist behind the global AIDS treatment movement in the late 1990s, working with groups such as Health GAP and TAC of South Africa.<br>In 2002, Katie founded the AIDS Policy Project (www.AIDSPolicyProject.org) to work on AIDS issues relevant to the global community. She currently directs a national advocacy campaign focused on re-establishing a cure for AIDS as major public goal. She works with leading researchers and international health societies to identify and overcome obstacles to this critical research<br>Katie also works closely with Chinese AIDS activists and human rights defenders and has built a diverse, powerful coalition of western advocacy groups interested in AIDS in China. Her advocacy was influential in securing some $90 million in aid for China's HIV/AIDS programs and instrumental in the release of nearly three dozen Chinese activists detained by Chinese authorities for their work since 2002. She organized the successful international campaign for the release of Wan Yanhai, which was covered on the front page of the New York Times.<br>As Communications Coordinator for the AIDS campaign at Physicians for Human Rights, Katie has placed front page stories in the Washington Post and many other outlets.<br>Katie has worked as an advocate on diverse AIDS issues such as clinical trial ethics, vaccine advocacy, the structure of medical research, pediatric AIDS, trade and IP issues, harm reduction, prison health care, Medicaid, the AIDS Drug Assistance Program, Africa's health worker shortage, financing for the Global Fund, and PEPFAR reauthorization.
-  Email: 289422297
-  Twitter-Handle:
-  Work-Title: Director of Communications and Public Policy
-  Institution: The Tor Project
-  Image-URL: /img/speakers/krauss.jpg
-  Keynote: 1
-
-848986989:
-  Name: Andreas Orphanides
-  Bio: |
-    Andreas Orphanides is the Librarian for Digital Technologies and Learning at the NCSU Libraries. His work focuses on developing high-quality, thoughtfully designed technology solutions to support teaching, learning, and information discovery.
-  Email: 848986989
-  Email-Address: akorphan@ncsu.edu
-  Twitter-Handle:
-  Work-Title: Librarian for Digital Technologies and Learning
-  Institution: NCSU Libraries
-  Image-URL: /img/speakers/orphanides.jpg
-  Keynote: 0
-
-976825525:
-  Name: Will Boyd
-  Bio: |
-    Will Boyd is NPR RAD's first-ever full stack developer. He is building the next iteration of RAD's search tool Artemis 2.0 and is excited to be bringing elegant code to the masses. In addition to producing the aforementioned heaps of code Will likes to play with soccer balls and puppies, though not necessarily at the same time.
-  Email: 976825525
-  Twitter-Handle:
-  Work-Title: Software Developer
-  Institution: NPR
-  Image-URL: /img/speakers/nopic7.jpg
-  Keynote: 0
-
-2439622798:
-  Name: Patrick Hochstenbach
-  Bio: |
-    I'm a digital architect currently working at Ghent University Library in Belgium. In the past I worked at Los Alamos National Laboratory and Lund University in Sweden. In the late 90-s I was the developer of the SFX software now marketed by Ex Libris (ProQuest). Besides programming I published on standards such as OpenURL, OAI Static Repositories, and MPEG21.
-  Email: 2439622798
-  Email-Address: patrick.hochstenbach@ugent.be
-  Twitter-Handle: hochstenbach
-  Work-Title: Digital Architect
-  Institution: Ghent University Library
-  Image-URL: /img/speakers/hochstenbach.jpg
-  Keynote: 0
-
-326359983:
-  Name: Karen A. Coombs
-  Bio: |
-    Karen is a librarian and geek coder with an interest in mashups, web services, and Linked Data. She currently works as a Senior Product Analyst at OCLC. Prior to joining OCLC, she worked in academic library information technology for 10 years. Karen writes, teaches and presents on a broad range of topics including web services & APIs, application development, Linked Data and open source software in libraries.
-  Email: 326359983
-  Email-Address: coombsk@oclc.org
-  Twitter-Handle: librarywebchic
-  Work-Title: Senior Product Analyst
-  Institution: OCLC
-  Image-URL: /img/speakers/coombs.jpg
-  Keynote: 0
-
-5758496247:
-  Name: Megan Slemons
-  Bio: |
-    As the GIS Librarian in the Emory Center for Digital Scholarship, Megan works with students and faculty who want to incorporate geospatial technologies into their research and teaching. She offers consultations on using geospatial tools, finding and using data, and designing projects with spatial components. She also teaches workshops, provides classroom instruction, and works to develop and provide access to the libraries’ data collections.
-  Email: 5758496247
-  Twitter-Handle:
-  Work-Title: GIS Librarian
-  Institution: Emory University
-  Image-URL: /img/speakers/slemons.jpg
-  Keynote: 0
-
-2423441898:
-  Name: Michael Tedeschi
-  Bio: |
-    Michael Tedeschi has worked with several interactive and user experience design teams before forming Interactive Mechanics. He is responsible for the overall creative direction of each project and works closely with his clients to develop compelling stories. Prior to founding Interactive Mechanics, he spent several years designing award-winning interactives and applications for Azavea (Lead UI/UX Designer) and Night Kitchen Interactive (Interactive Designer). Michael specializes in art direction, front-end development, and user interface and experience design for web, mobile, and display solutions, and is an active public speaker.
-  Email: 2423441898
-  Email-Address: mike@interactivemechanics.com
-  Twitter-Handle: mike_tedeschi
-  Work-Title: Owner, Creative Lead
-  Institution: Interactive Mechanics
-  Image-URL: /img/speakers/tedeschi.jpg
-  Keynote: 0
-
-797487030:
-  Name: Eric Phetteplace
-  Bio: |
-    Eric Phetteplace is Systems Librarian at California College of the Arts, where his primary duties are maintaining and developing websites, an institutional repository, and an ILS. Previously, he was Emerging Technologies Librarian at Chesapeake College. In 2015, he was a fellow at the inaugural Institute of Open Leadership organized by Creative Commons. He holds a Bachelors of Arts and Sciences in English and Mathematics from Stanford University and a Masters of Library and Information Science from the University of Illinois at Urbana-Champaign. In his spare time, he plays the card game Netrunner and fiddles with code on GitHub.
-  Email: 797487030
-  Twitter-Handle: phette23
-  Work-Title: Systems Librarian
-  Institution: California College of the Arts
-  Image-URL: /img/speakers/phette.jpg
-  Keynote: 0
-
-3166383267:
-  Name: Sam Meister
-  Bio: |
-    Sam Meister is the Preservation Communities Manager, working with the MetaArchive Cooperative and BitCurator Consortium communities. Previously, he worked as Digital Archivist and Assistant Professor at the University of Montana. Sam holds a Master of Library and Information Science degree from San Jose State University and a B.A. in Visual Arts from the University of California San Diego. Sam is also an Instructor in the Library of Congress Digital Preservation Education and Outreach Program.
-  Email: 3166383267
-  Email-Address: sam@educopia.org
-  Twitter-Handle: samalanmeister
-  Work-Title: Preservation Communities Manager
-  Institution: Educopia Institute
-  Image-URL: /img/speakers/nopic8.jpg
-  Keynote: 0
+  Last: Aitken
 
 1814256299:
   Name: Steven Carl Anderson
@@ -538,6 +22,224 @@
   Institution: Boston Public Library
   Image-URL: /img/speakers/anderson.jpg
   Keynote: 0
+  Last: Anderson
+
+5874327342:
+  Name: Paul Beaudoin
+  Bio: |
+    Paul Beaudoin has built tools, websites, and apis for all sorts of purposes since 1998. He studied Computer Science at the University of Oregon and University of East Anglia. At NYPL Labs, Paul's work primarily involves expanding access to and engagement with collections through OCR-assisted data extraction and community driven transcription projects.
+  Email: 5874327342
+  Twitter-Handle: nonword
+  Work-Title: Applications Developer
+  Institution: New York Public Library
+  Image-URL: /img/speakers/beaudoin.jpg
+  Keynote: 0
+  Last: Beaudoin
+
+988759134:
+  Name: Ashley Blewer
+  Bio: |
+    Ashley Blewer is an audiovisual archivist, technologist, and enthusiast. She works as an Applications Developer at the New York Public Library, formerly as a web developer and digital archives consultant. She has previously worked in the private sector as an integrations engineer and at the University of South Carolina Moving Image Research Collections as a cataloging manager. She cares about education (especially in tech), access (especially to moving images), the act of creation (especially on the web), and good archival practice (especially with digital formats). She holds Master of Library and Information Science (Archives) and Bachelor of Arts (Graphic Design) degrees from the University of South Carolina and is a graduate of the Flatiron School’s Web Immersive program.. She is an active contributor to MediaConch, a open source digital video file conformance checker software project, and QCTools, an open source digitized video analysis software project.
+  Email: 988759134
+  Email-Address: ashley.blewer@gmail.com
+  Twitter-Handle: ablwr
+  Work-Title: Applications Developer
+  Institution: New York Public Library
+  Image-URL: /img/speakers/blewer.jpg
+  Keynote: 0
+  Last: Blewer
+
+976825525:
+  Name: Will Boyd
+  Bio: |
+    Will Boyd is NPR RAD's first-ever full stack developer. He is building the next iteration of RAD's search tool Artemis 2.0 and is excited to be bringing elegant code to the masses. In addition to producing the aforementioned heaps of code Will likes to play with soccer balls and puppies, though not necessarily at the same time.
+  Email: 976825525
+  Twitter-Handle:
+  Work-Title: Software Developer
+  Institution: NPR
+  Image-URL: /img/speakers/nopic7.jpg
+  Keynote: 0
+  Last: Boyd
+
+3997704807:
+  Name: Adam Cahan
+  Bio: |
+    Adam Cahan is a software developer living and working in Los Angeles. Growing up in Chicago, he experienced both the rich technical and musical heritage of "The Windy City." Adam earned a B.A. from The Colorado College, where he majored in computer science. There he also was exposed to the humanities. Adam has experience developing well-architected and tested web applications on both the server-side and client-side of the divide. He enjoys the ocean, jazz, rap, krautrock, Adidas adipure sneakers, and North Face Summit Series down jackets.
+  Email: 3997704807
+  Email-Address: acahan@getty.edu
+  Twitter-Handle:
+  Work-Title: Software Engineer
+  Institution: Getty Research Institute
+  Image-URL: /img/speakers/cahan.jpg
+  Keynote: 0
+  Last: Cahan
+
+2658729540:
+  Name: Matt Carruthers
+  Bio: |
+    I am a metadata specialist and aspiring technologist, and have been a library professional since 2012.  Since 2014 I have been the Metadata Projects Librarian at the University of Michigan, where I create, transform, and use metadata in support of both library and university projects.
+  Email: 2658729540
+  Email-Address: mcarruth@umich.edu
+  Twitter-Handle: mattadata2
+  Work-Title: Metadata Projects Librarian
+  Institution: University of Michigan
+  Image-URL: /img/speakers/carruthers.jpg
+  Keynote: 0
+  Last: Carruthers
+
+3781734880:
+  Name: Jennifer Colt
+  Bio: |
+    Jennifer is a user experience developer at Cornell University Library. Projects she has contributed to recently include the library's blacklight catalog, DLXS to hydra migrations and the development of a blacklight-based digital portal.
+  Email: 3781734880
+  Email-Address: jrc88@cornell.edu
+  Twitter-Handle: starsplatter
+  Work-Title: User Experience Designer
+  Institution: Cornell University
+  Image-URL: /img/speakers/colt.jpg
+  Keynote: 0
+  Last: Colt
+
+326359983:
+  Name: Karen A. Coombs
+  Bio: |
+    Karen is a librarian and geek coder with an interest in mashups, web services, and Linked Data. She currently works as a Senior Product Analyst at OCLC. Prior to joining OCLC, she worked in academic library information technology for 10 years. Karen writes, teaches and presents on a broad range of topics including web services & APIs, application development, Linked Data and open source software in libraries.
+  Email: 326359983
+  Email-Address: coombsk@oclc.org
+  Twitter-Handle: librarywebchic
+  Work-Title: Senior Product Analyst
+  Institution: OCLC
+  Image-URL: /img/speakers/coombs.jpg
+  Keynote: 0
+  Last: Coombs
+
+5040186496:
+  Name: Steven Duckworth
+  Bio: |
+    Steve Duckworth is a graduate of Drexel University’s MSLIS program with a concentration in Archival Studies. He is currently the Processing Archivist for the University of Florida (Gainesville). Previous positions include Project Archivist with the National Park Service (Anchorage, AK), Archives Processor with the PACSCL/CLIR Hidden Collections project (Philadelphia), and Records Management Assistant at the Drexel University Archives (Philadelphia).
+  Email: 5040186496
+  Email-Address: steve@stevenduckworth.com
+  Twitter-Handle: ArchiveSteve
+  Work-Title: Processing Archivist
+  Institution: University of Florida
+  Image-URL: /img/speakers/duckworth.jpg
+  Keynote: 0
+  Last: Duckworth
+
+3175145983:
+  Name: Eben English
+  Bio: |
+    Eben English is a Web Services Developer at the Boston Public Library. Prior to this position, he worked in a number of academic libraries in Chicago, focusing on digital collection development and library website design. He holds an MLIS from the University of Illinois Urbana-Champaign.
+  Email: 3175145983
+  Email-Address: eenglish@bpl.org
+  Twitter-Handle: ebenenglish
+  Work-Title: Web Services Developer
+  Institution: Boston Public Library
+  Image-URL: /img/speakers/nopic4.jpg
+  Keynote: 0
+  Last: English
+
+4688708614:
+  Name: Jordan Fields
+  Bio: |
+    Jordan Fields is the Program Manager for the Marmot Library Network’s Digital Archive. She has previously worked in library technology and digital repositories for Garfield County Libraries in Colorado and the Kansas City Public Library in Missouri. Jordan holds an MSLIS and CAS in Digital Libraries from Syracuse University and a BA in Comparative Literature from Indiana University.
+  Email: 4688708614
+  Email-Address: jordan@marmot.org
+  Twitter-Handle: jordanfp
+  Work-Title: Program Manager
+  Institution: Marmot Library Network
+  Image-URL: /img/speakers/jfields.jpg
+  Keynote: 0
+  Last: Fields
+
+5752376246:
+  Name: Ekatarina (Eka) Grguric
+  Bio: |
+    Ekatarina Grguric is a Fellow at North Carolina State University Libraries working in the User Experience department, on the Web Team, and in the Digital Libraries Initiatives department on an initiative to support Open Science activity at NCSU. She recently completed a Master of Library and Information Studies at the University of British Columbia iSchool, throughout which she focused on issues surrounding Human Computer Interaction.
+  Email: 5752376246
+  Email-Address: egrguri@ncsu.edu
+  Twitter-Handle: egrguric
+  Work-Title: NCSU Libraries Fellow
+  Institution: NCSU Libraries
+  Image-URL: /img/speakers/grguric.jpg
+  Keynote: 0
+  Last: Grguric
+
+2045959834:
+  Name: Jim Hahn
+  Bio: |
+    Jim Hahn is Orientation Services and Environments Librarian and Associate Professor at the University of Illinois Undergraduate Library. His research into technology-enhanced learning investigates the development of mobile software applications (<a href="http://minrvaproject.org/" target="_blank">http://minrvaproject.org/</a>) within library settings and provides unique insights into new students’ expectations and needs. He founded and manages the <a href="http://sif.library.illinois.edu" target="_blank">Technology Prototyping Service</a> at the University of Illinois.
+  Email: 2045959834
+  Email-Address: jimhahn@illinois.edu
+  Twitter-Handle: phobiaofthis
+  Work-Title: Orientation Services, Environments Librarian, and Associate Professor
+  Institution: University of Illinois at Urbana-Champaign
+  Image-URL: /img/speakers/hahn.jpg
+  Keynote: 0
+  Last: Hahn
+
+3020120492:
+  Name: Sebastian Hammer
+  Bio: |
+    Sebastian has worked with library software since he got his first student job with a small government agency in Copenhagen, Denmark. He is a cofounder of Index Data, which has made software tools for librarians and developers for the past 22 years.
+  Email: 3020120492
+  Twitter-Handle:
+  Work-Title: President
+  Institution: Index Data
+  Image-URL: /img/speakers/hammer.jpg
+  Keynote: 0
+  Last: Hammer
+
+6750445623:
+  Name: Dinah Handel
+  Bio: |
+    Dinah Handel is presently a National Digital Stewardship Resident at CUNY Television, where she is working on a 9 month project to assess and enhance open source audio visual processing software, as well as conducting a data migration. She holds an MLIS from Pratt Institute and a BA in Women's History from Hampshire College.
+  Email: 6750445623
+  Twitter-Handle: dinahhandel
+  Work-Title: National Digital Stewardship Resident
+  Institution: CUNY Television
+  Image-URL: /img/speakers/handel.jpg
+  Keynote: 0
+  Last: Handel
+
+2051383626:
+  Name: Christina Harlow
+  Bio: |
+    Christina works with metadata.
+  Email: 2051383626
+  Email-Address: cmharlow@gmail.com
+  Twitter-Handle: cm_harlow
+  Work-Title: Metadataist
+  Institution: Cornell University Library
+  Image-URL: /img/speakers/nopic2.jpg
+  Keynote: 0
+  Last: Harlow
+
+2439622798:
+  Name: Patrick Hochstenbach
+  Bio: |
+    I'm a digital architect currently working at Ghent University Library in Belgium. In the past I worked at Los Alamos National Laboratory and Lund University in Sweden. In the late 90-s I was the developer of the SFX software now marketed by Ex Libris (ProQuest). Besides programming I published on standards such as OpenURL, OAI Static Repositories, and MPEG21.
+  Email: 2439622798
+  Email-Address: patrick.hochstenbach@ugent.be
+  Twitter-Handle: hochstenbach
+  Work-Title: Digital Architect
+  Institution: Ghent University Library
+  Image-URL: /img/speakers/hochstenbach.jpg
+  Keynote: 0
+  Last: Hochstenbach
+
+3590805250:
+  Name: Demian Katz
+  Bio: |
+    Demian Katz is the lead developer for Villanova University's open source VuFind discovery layer and devotes much of his time to extending and supporting that package. He dedicates his daily train commute and much of his free time at home to processing 19th century texts for Project Gutenberg and maintaining specialized online bibliographies at gamebooks.org and dimenovels.org.
+  Email: 3590805250
+  Email-Address: demian.katz@villanova.edu
+  Twitter-Handle: demiankatz
+  Work-Title: Library Technology Development Specialist
+  Institution: Villanova University
+  Image-URL: /img/speakers/katz.jpg
+  Keynote: 0
+  Last: Katz
 
 417994769:
   Name: Francis Kayiwa
@@ -549,6 +251,19 @@
   Institution: Virginia Tech University
   Image-URL: /img/speakers/kayiwa.jpg
   Keynote: 0
+  Last: Kayiwa
+
+289422297:
+  Name: Kate Krauss
+  Bio: |
+    Katie has been an influential political strategist and organizer since the late 1980s. An early member of ACT UP, she lead and organized a diverse statewide coalition that succeeded in tripling the budget of California's AIDS Drug Assistance Program and restructuring the State of California's AIDS funding priorities. One of the first US activists to embrace international AIDS advocacy, she was a key strategist behind the global AIDS treatment movement in the late 1990s, working with groups such as Health GAP and TAC of South Africa.<br>In 2002, Katie founded the AIDS Policy Project (www.AIDSPolicyProject.org) to work on AIDS issues relevant to the global community. She currently directs a national advocacy campaign focused on re-establishing a cure for AIDS as major public goal. She works with leading researchers and international health societies to identify and overcome obstacles to this critical research<br>Katie also works closely with Chinese AIDS activists and human rights defenders and has built a diverse, powerful coalition of western advocacy groups interested in AIDS in China. Her advocacy was influential in securing some $90 million in aid for China's HIV/AIDS programs and instrumental in the release of nearly three dozen Chinese activists detained by Chinese authorities for their work since 2002. She organized the successful international campaign for the release of Wan Yanhai, which was covered on the front page of the New York Times.<br>As Communications Coordinator for the AIDS campaign at Physicians for Human Rights, Katie has placed front page stories in the Washington Post and many other outlets.<br>Katie has worked as an advocate on diverse AIDS issues such as clinical trial ethics, vaccine advocacy, the structure of medical research, pediatric AIDS, trade and IP issues, harm reduction, prison health care, Medicaid, the AIDS Drug Assistance Program, Africa's health worker shortage, financing for the Global Fund, and PEPFAR reauthorization.
+  Email: 289422297
+  Twitter-Handle:
+  Work-Title: Director of Communications and Public Policy
+  Institution: The Tor Project
+  Image-URL: /img/speakers/krauss.jpg
+  Keynote: 1
+  Last: Krauss
 
 1238476639:
   Name: Megan Kudzia
@@ -560,17 +275,136 @@
   Institution: Michigan State University
   Image-URL: /img/speakers/kudzia.jpg
   Keynote: 0
+  Last: Kudzia
 
-5304497895:
-  Name: Sarah Romkey
+3218697351:
+  Name: Ted Lawless
   Bio: |
-    Sarah is the Archivematica Program Manager at Artefactual Systems, where she is responsible for community dialogue, requirements gathering, software testing and documentation. She has MLIS/MAS degrees from University of British Columbia and was previously an archivist for the UBC Library Rare Books and Special Collections department.
-  Email: 5304497895
-  Twitter-Handle: archivematica
-  Work-Title: Archivematica Program Manager
-  Institution: Artefactual Systems
-  Image-URL: /img/speakers/nopic9.jpg
+    Ted Lawless is a Solutions Specialist at Thomson Reuters focusing on data integration. He is active in the VIVO community and a committer for that project. He lives in Providence, RI.
+  Email: 3218697351
+  Email-Address: ted.lawless@thomsonreuters.com
+  Twitter-Handle: tedlawless
+  Work-Title: Solutions Specialist
+  Institution: Thomson Reuters
+  Image-URL: /img/speakers/lawless.jpg
   Keynote: 0
+  Last: Lawless
+
+103333904:
+  Name: Susan Ley
+  Bio: |
+    Currently a software engineer at the Getty Research Institute. Frequent freelancer, avid runner, incorrigible optimist. Interested in all things art, JavaScript frameworks, and iOS development with Swift.
+  Email: 103333904
+  Email-Address: sley@getty.edu
+  Twitter-Handle: susieley
+  Work-Title: Software Engineer
+  Institution: Getty Research Institute
+  Image-URL: /img/speakers/sley.jpg
+  Keynote: 0
+  Last: Ley
+
+1023567367:
+  Name: Monica Maceli
+  Bio: |
+    Monica Maceli is an assistant professor at Pratt Institute’s School of Information, where she focuses on emerging technologies in the information and library science domain. She earned her Ph.D. and MSIS from the College of Information Science and Technology (iSchool) at Drexel University. She has an industry background in web development and user experience, having held positions in e-commerce, online learning, and academic libraries.  Her research areas of interest include end-user development, human-computer interaction, socio-technical systems, and information technology education.
+  Email: 1023567367
+  Email-Address: mmaceli@pratt.edu
+  Twitter-Handle: monicamaceli
+  Work-Title: Assistant Professor
+  Institution: Pratt Institute | School of Information
+  Image-URL: /img/speakers/maceli.jpg
+  Keynote: 0
+  Last: Maceli
+
+1668486352:
+  Name: Mark A. Matienzo
+  Bio: |
+    Mark A. Matienzo first used Lotus 1-2-3 in 1989.
+  Email: 1668486352
+  Twitter-Handle: anarchivist
+  Work-Title: Director of Technology
+  Institution: Digital Public Library of America
+  Image-URL: /img/speakers/matienzo.jpg
+  Keynote: 0
+  Last: Matienzo
+
+3166383267:
+  Name: Sam Meister
+  Bio: |
+    Sam Meister is the Preservation Communities Manager, working with the MetaArchive Cooperative and BitCurator Consortium communities. Previously, he worked as Digital Archivist and Assistant Professor at the University of Montana. Sam holds a Master of Library and Information Science degree from San Jose State University and a B.A. in Visual Arts from the University of California San Diego. Sam is also an Instructor in the Library of Congress Digital Preservation Education and Outreach Program.
+  Email: 3166383267
+  Email-Address: sam@educopia.org
+  Twitter-Handle: samalanmeister
+  Work-Title: Preservation Communities Manager
+  Institution: Educopia Institute
+  Image-URL: /img/speakers/nopic8.jpg
+  Keynote: 0
+  Last: Meister
+
+382258369:
+  Name: Ian Milligan
+  Bio: |
+    Ian Milligan is an assistant professor of digital and Canadian history at the University of Waterloo. His current project explores the impact of web archives on the historical profession. He is the author of Rebel Youth: 1960s Labour Unrest, Young Workers, and New Leftists in English Canada, which was shortlisted for the Macdonald Prize in Canadian history, and co-author of Exploring Big Historical Data: The Historian's Macroscope. At Waterloo, he is PI of the Web Archives for Historical Research Group. For more, see <a href="http://ianmilligan.ca/introduction/" target="_blank">http://ianmilligan.ca/introduction/</a>.
+  Email: 382258369
+  Email-Address: i2millig@uwaterloo.ca
+  Twitter-Handle: ianmilligan1
+  Work-Title: Assistant Professor
+  Institution: University of Waterloo
+  Image-URL: /img/speakers/milligan.jpg
+  Keynote: 0
+  Last: Milligan
+
+3076891826:
+  Name: David Naughton
+  Bio: |
+    Software developer with a mathematics and science background, but no MLS or formal training in library science. Especially interested in research data management, and new ways that libraries can collaborate with scientists and other researchers. Likes dynamic languages and functional programming. Not the actor who starred in An American Werewolf in London or those Dr. Pepper commercials. Not the messiah. A very naughty boy.
+  Email: 3076891826
+  Email-Address: naughton@umn.edu
+  Twitter-Handle: nihiliad
+  Work-Title: Software Developer
+  Institution: UMN Libraries
+  Image-URL: /img/speakers/naughton.jpg
+  Keynote: 0
+  Last: Naughton
+
+4677653080:
+  Name: John Nelson
+  Bio: |
+    During his time with NPR’s Digital Media team, John Nelson was the primary architect of the refactored and spiffier Artemis. He is a veteran software developer and maker of interesting projects. Enjoys neatly typed code and simplified processes. Life goals include eating bacon every week and presenting a TED Talk that gets a standing ovation.
+  Email: 4677653080
+  Email-Address: jnelson11@gmail.com
+  Twitter-Handle:
+  Work-Title: Software Developer
+  Institution:
+  Image-URL: /img/speakers/nopic6.jpg
+  Keynote: 0
+  Last: Nelson
+
+1000272445:
+  Name: Mark Noble
+  Bio: |
+    Mark Noble is the R&D Manager and Senior Programmer for Marmot Library Network.  Mark spends most of his time working on the Pika discovery layer to make information from our catalog and digital archive accessible to patrons of Marmot's 27 member libraries.  Mark also helps to support 6 discovery partners also using Pika at their libraries.<br><br>Mark has been doing programming for libraries since 2010. and has a BS in Architectural Engineering from the University of Colorado Boulder.
+  Email: 1000272445
+  Email-Address: mark@marmot.org
+  Twitter-Handle:
+  Work-Title: R&D Manager
+  Institution: Marmot Library Network
+  Image-URL: /img/speakers/noble.jpg
+  Keynote: 0
+  Last: Noble
+
+836580394:
+  Name: Allison Jai O'Dell
+  Bio: |
+    Allison Jai O'Dell is the Metadata Librarian at the University of Florida, George A. Smathers Libraries.  She works to improve how individuals access, engage with, and create library metadata through a combination of policy, education, and interface design.
+  Email: 836580394
+  Email-Address: ajodell@ufl.edu
+  Twitter-Handle: AllisonJaiODell
+  Work-Title: Metadata Librarian
+  Institution: University of Florida, George A. Smathers Libraries
+  Image-URL: /img/speakers/odell.png
+  Keynote: 0
+  Last: O'Dell
 
 10134637153:
   Name: Robert Olendorf
@@ -582,6 +416,247 @@
   Institution:
   Image-URL: /img/speakers/nopic10.jpg
   Keynote: 0
+  Last: Olendorf
+
+848986989:
+  Name: Andreas Orphanides
+  Bio: |
+    Andreas Orphanides is the Librarian for Digital Technologies and Learning at the NCSU Libraries. His work focuses on developing high-quality, thoughtfully designed technology solutions to support teaching, learning, and information discovery.
+  Email: 848986989
+  Email-Address: akorphan@ncsu.edu
+  Twitter-Handle:
+  Work-Title: Librarian for Digital Technologies and Learning
+  Institution: NCSU Libraries
+  Image-URL: /img/speakers/orphanides.jpg
+  Keynote: 0
+  Last: Orphanides
+
+5251575310:
+  Name: Shira Peltzman
+  Bio: |
+    Shira Peltzman is the Digital Archivist for the UCLA Library where she leads the development of a sustainable preservation program for born-digital material. Shira received her M.A. in Moving Image Archiving and Preservation from New York University’s Tisch School of the Arts, after which she was selected for the inaugural class of the National Digital Stewardship Residency in New York (NDSR-NY). Shira has worked at several organizations globally that strive to preserve digital material and make it widely accessible, including Martin Scorsese's World Cinema Foundation, the British Film Institute in London, the Bay Area TV Archive in San Francisco, and Carnegie Hall in New York City.
+  Email: 5251575310
+  Email-Address: speltzman@library.ucla.edu
+  Twitter-Handle: shirapeltzman
+  Work-Title: Digital Archivist
+  Institution: UCLA Library
+  Image-URL: /img/speakers/peltzman.jpg
+  Keynote: 0
+  Last: Peltzman
+
+2553824851:
+  Name: Kim Pham
+  Bio: |
+    Kim is responsible for analysing system requirements, providing technical support and training and product management in the library’s Digital Scholarship Unit.
+  Email: 2553824851
+  Email-Address: kim.pham@utoronto.ca
+  Twitter-Handle: tolloid
+  Work-Title: Digital Projects & Technologies Librarian
+  Institution: University of Toronto Scarborough
+  Image-URL: /img/speakers/pham.jpg
+  Keynote: 0
+  Last: Pham
+
+797487030:
+  Name: Eric Phetteplace
+  Bio: |
+    Eric Phetteplace is Systems Librarian at California College of the Arts, where his primary duties are maintaining and developing websites, an institutional repository, and an ILS. Previously, he was Emerging Technologies Librarian at Chesapeake College. In 2015, he was a fellow at the inaugural Institute of Open Leadership organized by Creative Commons. He holds a Bachelors of Arts and Sciences in English and Mathematics from Stanford University and a Masters of Library and Information Science from the University of Illinois at Urbana-Champaign. In his spare time, he plays the card game Netrunner and fiddles with code on GitHub.
+  Email: 797487030
+  Twitter-Handle: phette23
+  Work-Title: Systems Librarian
+  Institution: California College of the Arts
+  Image-URL: /img/speakers/phette.jpg
+  Keynote: 0
+  Last: Phetteplace
+
+5675446490:
+  Name: Alice Sara Prael
+  Bio: |
+    I am currently the National Digital Stewardship Resident for the John F. Kennedy Presidential Library, where I am developing a long-range digital preservation strategy for born-digital and digitized archival assets.<br><br>I graduated with an MLS from the University of Maryland, College Park, specializing in the curation and management of digital assets. During that time I served as the Digital Programs and Initiatives Graduate Assistant at University of Maryland Libraries.  In this position I discovered a passion for digital archives and partnered with the Special Collections and University Archives to create a workflow for processing born digital content. I currently live in Cambridge where I paint, play ukulele, and skate with my roller derby team.
+  Email: 5675446490
+  Email-Address: alicesaraprael@gmail.com
+  Twitter-Handle: AlicePrael
+  Work-Title: National Digital Stewardship Resident
+  Institution: John F. Kennedy Presidential Library
+  Image-URL: /img/speakers/prael.jpg
+  Keynote: 0
+  Last: Prael
+
+205200221:
+  Name: Kevin Reiss
+  Bio: |
+    Coding 4 Libraries over the last 13 years. Primarily working with Rails and Drupal at the moment.
+  Email: 205200221
+  Email-Address: kr2@princeton.edu
+  Twitter-Handle: kevinreiss
+  Work-Title: Library Web Development Manager
+  Institution: Princeton University Library
+  Image-URL: /img/speakers/nopic2.jpg
+  Keynote: 0
+  Last: Reiss
+
+5304497895:
+  Name: Sarah Romkey
+  Bio: |
+    Sarah is the Archivematica Program Manager at Artefactual Systems, where she is responsible for community dialogue, requirements gathering, software testing and documentation. She has MLIS/MAS degrees from University of British Columbia and was previously an archivist for the UBC Library Rare Books and Special Collections department.
+  Email: 5304497895
+  Twitter-Handle: archivematica
+  Work-Title: Archivematica Program Manager
+  Institution: Artefactual Systems
+  Image-URL: /img/speakers/nopic9.jpg
+  Keynote: 0
+  Last: Romkey
+
+2141259371:
+  Name: Jason Ronallo
+  Bio: |
+    Jason Ronallo is the <a href="http://www.lib.ncsu.edu/staff/jnronall/" target="_blank">Head of Digital Library Initiatives</a> at <a href="http://www.lib.ncsu.edu" target"_blank">NCSU Libraries</a>. He has presented and written on topics related to digital special collections and Web technologies like video accessibility, real-time and interactive interfaces, and embedded semantic markup. You can learn more about him on his website: <<a href="http://ronallo.com" target="_blank">http://ronallo.com</a>>.
+  Email: 2141259371
+  Email-Address: jnronall@ncsu.edu
+  Twitter-Handle: ronallo
+  Work-Title: Head, Digital Library Initiatives
+  Institution: NCSU Libraries
+  Image-URL: /img/speakers/ronallo.jpg
+  Keynote: 0
+  Last: Ronallo
+
+923806354:
+  Name: Sara Rubinow
+  Bio: |
+    Sara Rubinow is a Metadata Specialist in the Metadata Services Unit of NYPL Labs, The New York Public Library's digital innovation unit. Prior to NYPL, Sara was a stealth librarian at Cooper Hewitt, Smithsonian Design Museum.
+  Email: 923806354
+  Twitter-Handle:
+  Work-Title: Metadata Specialist
+  Institution: New York Public Library
+  Image-URL: /img/speakers/nopic1.jpg
+  Keynote: 0
+  Last: Rubinow
+
+515949819:
+  Name: Nick Ruest
+  Bio: |
+    Nick Ruest is the Digital Assets Librarian at York University, and co-Principal Investigator of the SSHRC grant "A Longitudinal Analysis of the Canadian World Wide Web as a Historical Resource, 1996-2014".<br><br>At York University, he oversees the development of data curation, asset management and preservation initiatives, along with creating and implementing systems that support the capture, description, delivery, and preservation of digital objects having significant content of enduring value. He is also active in the Islandora and Fedora communities, serving as Project Director for the Islandora CLAW project, member of the Islandora Foundation's Roadmap Committee and Board of Directors, and contributes code to the project. In the past he has served as the Release Manager for Islandora, the moderator for the OCUL Digital Curation Community, the President of the Ontario Library and Technology Association, and President of McMaster University Academic Librarians' Association.
+  Email: 515949819
+  Email-Address: ruestn@yorku.ca
+  Twitter-Handle: ruebot
+  Work-Title: Digital Assets Librarian
+  Institution: York University
+  Image-URL: /img/speakers/ruest.jpg
+  Keynote: 0
+  Last: Ruest
+
+609078349:
+  Name: Camille Salas
+  Bio: |
+    Camille Salas is the product owner of Artemis, NPR’s internal digital archives of programming spanning 1971 to the present. As a member of the Research, Archives and Data Strategy (RAD) team, she works closely with RAD developer Will Boyd to ensure the archive is not only stable but also flexible and responsive to NPR’s ever-evolving business needs. Camille holds an MLS from the University of Maryland’s College of Information Studies and in a former life worked as a business analyst. Originally from El Paso, Texas, her member station is KTEP.
+  Email: 609078349
+  Twitter-Handle: unacamisa
+  Work-Title: Product Owner
+  Institution: NPR
+  Image-URL: /img/speakers/nopic5.jpg
+  Keynote: 0
+  Last: Salas
+
+1607330871:
+  Name: Marya Sawaf
+  Bio: |
+    Marya works in technical support for a retail point of sale system in Montreal, Canada. She was previously an aviation lawyer in Dubai. Having studied law and computer science at McGill University, she has a keen interest in self-driven learning, custom search applications, search UX and open access.
+  Email: 1607330871
+  Email-Address: sawafmarya@gmail.com
+  Twitter-Handle: maryasawaf
+  Work-Title: Developer
+  Institution:
+  Image-URL: /img/speakers/sawaf.jpg
+  Keynote: 0
+  Last: Sawaf
+
+1737724082:
+  Name: Mike Shallcross
+  Bio: |
+    Mike Shallcross is the Assistant Director for Curation at the Bentley Historical Library and an Adjunct Instructor at the University of Michigan School of Information.  He currently oversees the Bentley’s digitization program, conservation unit, and processing operations for digital, analog, and physical materials.
+  Email: 1737724082
+  Email-Address: shallcro@umich.edu
+  Twitter-Handle:
+  Work-Title: Assistant Director for Curation
+  Institution: University of Michigan Bentley Historical Library
+  Image-URL: /img/speakers/nopic1.jpg
+  Keynote: 0
+  Last: Shallcross
+
+1371902264:
+  Name: Coral Sheldon-Hess
+  Bio: |
+    Coral is a librarian, a developer, and an engineer. She is currently a library and web consultant, though in the past she has worked in both public and academic libraries. In 2012 she was recognized as an ALA Emerging Leader, and before that she attended PNLA's Leadership Institute.<br>She is excited that Code4Lib is happening in her home state, even if she had to drive across the whole thing to get here. :)<br>Come find her if you want to talk about Python, open data, coffee, birds, cross-stitch, or terrible (or great) urban fantasy.
+  Email: 1371902264
+  Twitter-Handle: web_librarian
+  Work-Title:
+  Institution:
+  Image-URL: /img/speakers/sheldon.jpg
+  Keynote: 0
+  Last: Sheldon
+
+2612865327:
+  Name: Matthew Short
+  Bio: |
+    Matt is the Metadata Librarian at Northern Illinois University and the project manager for <a href="dimenovels.lib.niu.edu" target="_blank">Nickels and Dimes</a>, an online collection of 19th century popular fiction.
+  Email: 2612865327
+  Email-Address: mshort@niu.edu
+  Twitter-Handle:
+  Work-Title: Metadata Librarian
+  Institution: Northern Illinois University
+  Image-URL: /img/speakers/nopic3.jpg
+  Keynote: 0
+  Last: Short
+
+5758496247:
+  Name: Megan Slemons
+  Bio: |
+    As the GIS Librarian in the Emory Center for Digital Scholarship, Megan works with students and faculty who want to incorporate geospatial technologies into their research and teaching. She offers consultations on using geospatial tools, finding and using data, and designing projects with spatial components. She also teaches workshops, provides classroom instruction, and works to develop and provide access to the libraries’ data collections.
+  Email: 5758496247
+  Twitter-Handle:
+  Work-Title: GIS Librarian
+  Institution: Emory University
+  Image-URL: /img/speakers/slemons.jpg
+  Keynote: 0
+  Last: Slemons
+
+936255212:
+  Name: Kirsta Stapelfeldt
+  Bio: |
+    Past manager of the Islandora project and University of Prince Edward Island's Virtual Research Environment service.
+  Email: 936255212
+  Email-Address: Kirsta.Stapelfeldt@utoronto.ca
+  Twitter-Handle: Kstapelfeldt
+  Work-Title: Coordinator, Digital Scholarship Unit
+  Institution: University of Toronto Scarborough
+  Image-URL: /img/speakers/stapelfeldt.jpg
+  Keynote: 0
+  Last: Stapelfeldt
+
+1625030101:
+  Name: Julie Swierczek
+  Bio: |
+    Julie Swierczek corrals files and tries to make them stick around if needed. She believes that the first step of digital preservation is adopting Camus’ position that “One must imagine Sisyphus happy”.  Julie became interested in digital preservation in a previous job where she proposed starting a digital preservation program using only elbow grease, duct tape, and Amazon Web Services.  The proposal was rejected, which only strengthened her resolve to imagine Sisyphus as a cheerful fellow. Julie has worked as a university archivist and special collections librarian and also as a cataloging and metadata librarian. She is enamored with good documentation.
+  Email: 1625030101
+  Twitter-Handle: JulieSwierczek
+  Work-Title: Digital Asset Manager and Digital Archivist
+  Institution: Harvard Art Museums
+  Image-URL: /img/speakers/swierczek.jpg
+  Keynote: 0
+  Last: Swierczek
+
+2423441898:
+  Name: Michael Tedeschi
+  Bio: |
+    Michael Tedeschi has worked with several interactive and user experience design teams before forming Interactive Mechanics. He is responsible for the overall creative direction of each project and works closely with his clients to develop compelling stories. Prior to founding Interactive Mechanics, he spent several years designing award-winning interactives and applications for Azavea (Lead UI/UX Designer) and Night Kitchen Interactive (Interactive Designer). Michael specializes in art direction, front-end development, and user interface and experience design for web, mobile, and display solutions, and is an active public speaker.
+  Email: 2423441898
+  Email-Address: mike@interactivemechanics.com
+  Twitter-Handle: mike_tedeschi
+  Work-Title: Owner, Creative Lead
+  Institution: Interactive Mechanics
+  Image-URL: /img/speakers/tedeschi.jpg
+  Keynote: 0
+  Last: Tedeschi
 
 3476985546:
   Name: Jay Varner
@@ -594,26 +669,41 @@
   Institution: Emory University Library
   Image-URL: /img/speakers/varner.jpg
   Keynote: 0
+  Last: Varner
 
-1668486352:
-  Name: Mark A. Matienzo
+4026284863:
+  Name: Gabriel Weinberg
   Bio: |
-    Mark A. Matienzo first used Lotus 1-2-3 in 1989.
-  Email: 1668486352
-  Twitter-Handle: anarchivist
-  Work-Title: Director of Technology
-  Institution: Digital Public Library of America
-  Image-URL: /img/speakers/matienzo.jpg
-  Keynote: 0
+    Gabriel Weinberg is the CEO & Founder of DuckDuckGo, the search engine that doesn't track you, and the co-author of Traction, the book that helps you get traction.
+  Email: 4026284863
+  Twitter-Handle: yegg
+  Work-Title: CEO & Founder
+  Institution: DuckDuckGo
+  Image-URL: /img/speakers/weinberg.jpg
+  Keynote: 1
+  Last: Weinberg
 
-3518211291:
-  Name: Daniel Aitken
+788180752:
+  Name: Becky Yoose
   Bio: |
-    Daniel has been working for discoverygarden since 2013, and was dubbed "QA Dan" early on due to an organizational overload of Dans at that time. Since then, he's gone on to shore up the automated testing and delivery of Islandora components, quality check more pieces of the Islandora framework than he can actually remember, and now works fully on the development side of the project. He keeps the moniker, though, as it would be too much of a hassle to change his twitter handle and GitHub credentials over at this point.
-  Email: 3518211291
-  Email-Address: daitken@discoverygarden.ca
-  Twitter-Handle: itsqadan
-  Work-Title: Developer
-  Institution: discoverygarden, inc
-  Image-URL: /img/speakers/nopic11.jpg
+    Becky is the Library Applications and Systems Manager at The Seattle Public Library. She previous worked at Grinnell College as the Discovery and Integrated Systems Librarian and Miami University as the Bibliographic Systems Librarian. Becky received her MLIS from University of Wisconsin - Madison in 2008.<br><br>Most importantly, Becky is the wearer of The Hat, bakes an unhealthy amount of pie, and is between cat servant gigs.
+  Email: 788180752
+  Twitter-Handle: yo_bj
+  Work-Title: Library Applications and Systems Manager
+  Institution: The Seattle Public Library
+  Image-URL: /img/speakers/yoose.jpg
   Keynote: 0
+  Last: Yoose
+
+1620427788:
+  Name: Matt Zumwalt
+  Bio: |
+    For the first 3 years of the <a href="http://hydraproject.org" target="_blank">Hydra Project</a>. Matt was the software architect and lead engineer. He sat on the Hydra Steering group and played a major role in creating ActiveFedora, OM, Sufia, CurationConcerns, and numerous Hydra implementations around the world.  As co-founder of MediaShelf and Data Curation Experts he contributed code, trained engineers and advised managers at many of the Hydra Partner institutions.  His current interests are focused on building tools like <a href="http://databindery.com" target="_blank">DataBindery</a> to accommodate trust and trustworthiness in systems where people exchange data.
+  Email: 1620427788
+  Email-Address: matt@databindery.com
+  Twitter-Handle: flyingzumwalt
+  Work-Title: Founder
+  Institution: DataBindery & MediaShelf
+  Image-URL: /img/speakers/zumwalt.jpg
+  Keynote: 0
+  Last: Zumwalt
