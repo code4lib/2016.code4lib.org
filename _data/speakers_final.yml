@@ -520,6 +520,18 @@
   Keynote: 0
   Last: Ronallo
 
+923806354:
+  Name: Sara Rubinow
+  Bio: |
+    Sara Rubinow is a Metadata Specialist in the Metadata Services Unit of NYPL Labs, The New York Public Library's digital innovation unit. Prior to NYPL, Sara was a stealth librarian at Cooper Hewitt, Smithsonian Design Museum.
+  Email: 923806354
+  Twitter-Handle:
+  Work-Title: Metadata Specialist
+  Institution: New York Public Library
+  Image-URL: /img/speakers/nopic1.jpg
+  Keynote: 0
+  Last: Rubinow
+
 515949819:
   Name: Nick Ruest
   Bio: |
@@ -570,6 +582,18 @@
   Image-URL: /img/speakers/nopic1.jpg
   Keynote: 0
   Last: Shallcross
+
+1371902264:
+  Name: Coral Sheldon-Hess
+  Bio: |
+    Coral is a librarian, a developer, and an engineer. She is currently a library and web consultant, though in the past she has worked in both public and academic libraries. In 2012 she was recognized as an ALA Emerging Leader, and before that she attended PNLA's Leadership Institute.<br>She is excited that Code4Lib is happening in her home state, even if she had to drive across the whole thing to get here. :)<br>Come find her if you want to talk about Python, open data, coffee, birds, cross-stitch, or terrible (or great) urban fantasy.
+  Email: 1371902264
+  Twitter-Handle: web_librarian
+  Work-Title:
+  Institution:
+  Image-URL: /img/speakers/sheldon.jpg
+  Keynote: 0
+  Last: Sheldon
 
 2612865327:
   Name: Matthew Short
