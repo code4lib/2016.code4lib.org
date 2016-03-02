@@ -1,22 +1,22 @@
 ---
 layout: presentation
-speakers: 
+speakers:
+- 2552835479
 - 3649696289
-- 0
 - 0
 - 0
 - 0
 type: workshop
 date: 2016-03-07
 categories: workshops
-slugTitle: hands-on-fedora-4
-title: Hands-On Fedora 4
+slugTitle: migrating-hydra-based-repositories-from-fedora-3-to-4
+title: Migrating Hydra-based repositories from Fedora 3 to 4
 ---
-<p>This workshop is a hands-on introduction to:
-- the core Fedora 4 RESTful services
-- the external integration components
+Do you have a Hydra-based repository that is still on Fedora 3?
 
-In this session, you will work on your own laptops with a provided Vagrant image through a series of exercises that demonstrate how to use Fedora 4's core services, how to use external services, and how to think about adding new external integrations.</p>
+This is a hands-on workshop for digging into the details of performing an actual migration using the fedora-migrate [1] Ruby gem. In this session, you will be working on your own laptop with a provided Vagrant image through a series of step-by-step exercises that incrementally demonstrate how to approach such a migration.
+
+[1] https://github.com/projecthydra-labs/fedora-migrate
 
 The workshops will include several hands-on sections using a Fedora 4 virtual machine image, so please follow these instructions to get the VM up and running on your laptop *before* the workshop. Let me know if you run into any problems - we are doing this in advance so we do not have to troubleshoot problems at the workshop.
 
