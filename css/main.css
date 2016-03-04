@@ -795,7 +795,7 @@ p.speaker-inst{
 
 
 .menu-panel {
-    border: 10px solid #d7d7d7;
+    border: 10px solid #d1d3d4;
     margin-bottom: 39px;
     padding: 15px;
 }
@@ -803,9 +803,9 @@ p.speaker-inst{
 .tasting-menu {
     padding: 20px 18px 40px;
     margin-bottom: 75px;
-    border: #bdbaba 4px double;
+    border: #7fd3f2 4px double;
     margin-right: 0;
-		background: white;
+		background: #fdebee;
 }
 
 .tasting-menu .tasting-intro {
@@ -823,9 +823,10 @@ p.speaker-inst{
 }
 
 .tasting-menu .tasting-options li {
-    border-bottom: 1px dashed #d7d7d7;
+    border-bottom: 1px dashed #d1d3d4;
     padding: 0 0 13px;
     margin-bottom: 20px;
+		list-style-type: none;
 }
 
 .tasting-menu h4 {
@@ -849,8 +850,15 @@ p.speaker-inst{
     font-size: 20px;
 }
 
-.tasting-menu .tasting-options p {
+.tasting-menu .tasting-options .items li {
     text-transform: none;
     font-style: italic;
     margin: 0;
+		color: #4D4D4D;
+		border: 0;
+}
+
+.tasting-menu img {
+	margin-bottom: 0.5em;
+  margin-left: 0.5em;
 }
