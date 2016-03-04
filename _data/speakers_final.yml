@@ -9,7 +9,6 @@
   Institution: discoverygarden, inc
   Image-URL: /img/speakers/nopic11.jpg
   Keynote: 0
-  Last: Aitken
 
 1814256299:
   Name: Steven Carl Anderson
@@ -22,7 +21,6 @@
   Institution: Boston Public Library
   Image-URL: /img/speakers/anderson.jpg
   Keynote: 0
-  Last: Anderson
 
 5874327342:
   Name: Paul Beaudoin
@@ -34,7 +32,6 @@
   Institution: New York Public Library
   Image-URL: /img/speakers/beaudoin.jpg
   Keynote: 0
-  Last: Beaudoin
 
 988759134:
   Name: Ashley Blewer
@@ -47,7 +44,6 @@
   Institution: New York Public Library
   Image-URL: /img/speakers/blewer.jpg
   Keynote: 0
-  Last: Blewer
 
 976825525:
   Name: Will Boyd
@@ -59,7 +55,6 @@
   Institution: NPR
   Image-URL: /img/speakers/nopic7.jpg
   Keynote: 0
-  Last: Boyd
 
 3997704807:
   Name: Adam Cahan
@@ -72,7 +67,6 @@
   Institution: Getty Research Institute
   Image-URL: /img/speakers/cahan.jpg
   Keynote: 0
-  Last: Cahan
 
 2658729540:
   Name: Matt Carruthers
@@ -85,7 +79,6 @@
   Institution: University of Michigan
   Image-URL: /img/speakers/carruthers.jpg
   Keynote: 0
-  Last: Carruthers
 
 3781734880:
   Name: Jennifer Colt
@@ -98,7 +91,6 @@
   Institution: Cornell University
   Image-URL: /img/speakers/colt.jpg
   Keynote: 0
-  Last: Colt
 
 326359983:
   Name: Karen A. Coombs
@@ -111,7 +103,6 @@
   Institution: OCLC
   Image-URL: /img/speakers/coombs.jpg
   Keynote: 0
-  Last: Coombs
 
 5040186496:
   Name: Steven Duckworth
@@ -124,7 +115,6 @@
   Institution: University of Florida
   Image-URL: /img/speakers/duckworth.jpg
   Keynote: 0
-  Last: Duckworth
 
 3175145983:
   Name: Eben English
@@ -137,7 +127,6 @@
   Institution: Boston Public Library
   Image-URL: /img/speakers/english.jpg
   Keynote: 0
-  Last: English
 
 4688708614:
   Name: Jordan Fields
@@ -150,7 +139,6 @@
   Institution: Marmot Library Network
   Image-URL: /img/speakers/jfields.jpg
   Keynote: 0
-  Last: Fields
 
 5752376246:
   Name: Ekatarina (Eka) Grguric
@@ -163,7 +151,18 @@
   Institution: NCSU Libraries
   Image-URL: /img/speakers/grguric.jpg
   Keynote: 0
-  Last: Grguric
+
+4469205391:
+  Name: Josh Hadro
+  Bio: |
+    Josh supports the Digital Imaging Unit, the Metadata Services Unit, the Permissions and Reproductions unit, and the Semantic Applications and Data Research program, while also coordinating NYPL's partnerships with the Digital Public Library of America (DPLA), HathiTrust, Google Books, and others. Josh holds a BA from Columbia University and an MSLIS from Pratt Institute. He also teaches at the Pratt Institute, and serves as an editorial board member of the open-access Weave Journal of Library User Experience.
+  Email: 4469205391
+  Email-Address: joshhadro@nypl.org
+  Twitter-Handle: hadro
+  Work-Title: Deputy Director, NYPL Labs
+  Institution: The New York Public Library
+  Image-URL: /img/speakers/hadro.jpg
+  Keynote: 0
 
 2045959834:
   Name: Jim Hahn
@@ -176,7 +175,6 @@
   Institution: University of Illinois at Urbana-Champaign
   Image-URL: /img/speakers/hahn.jpg
   Keynote: 0
-  Last: Hahn
 
 3020120492:
   Name: Sebastian Hammer
@@ -188,7 +186,6 @@
   Institution: Index Data
   Image-URL: /img/speakers/hammer.jpg
   Keynote: 0
-  Last: Hammer
 
 6750445623:
   Name: Dinah Handel
@@ -200,7 +197,6 @@
   Institution: CUNY Television
   Image-URL: /img/speakers/handel.jpg
   Keynote: 0
-  Last: Handel
 
 2051383626:
   Name: Christina Harlow
@@ -213,7 +209,6 @@
   Institution: Cornell University Library
   Image-URL: /img/speakers/nopic2.jpg
   Keynote: 0
-  Last: Harlow
 
 2439622798:
   Name: Patrick Hochstenbach
@@ -226,7 +221,6 @@
   Institution: Ghent University Library
   Image-URL: /img/speakers/hochstenbach.jpg
   Keynote: 0
-  Last: Hochstenbach
 
 3590805250:
   Name: Demian Katz
@@ -239,7 +233,6 @@
   Institution: Villanova University
   Image-URL: /img/speakers/katz.jpg
   Keynote: 0
-  Last: Katz
 
 417994769:
   Name: Francis Kayiwa
@@ -251,7 +244,6 @@
   Institution: Virginia Tech University
   Image-URL: /img/speakers/kayiwa.jpg
   Keynote: 0
-  Last: Kayiwa
 
 289422297:
   Name: Kate Krauss
@@ -263,7 +255,6 @@
   Institution: The Tor Project
   Image-URL: /img/speakers/krauss.jpg
   Keynote: 1
-  Last: Krauss
 
 1238476639:
   Name: Megan Kudzia
@@ -275,7 +266,6 @@
   Institution: Michigan State University
   Image-URL: /img/speakers/kudzia.jpg
   Keynote: 0
-  Last: Kudzia
 
 3218697351:
   Name: Ted Lawless
@@ -288,7 +278,6 @@
   Institution: Thomson Reuters
   Image-URL: /img/speakers/lawless.jpg
   Keynote: 0
-  Last: Lawless
 
 103333904:
   Name: Susan Ley
@@ -301,7 +290,6 @@
   Institution: Getty Research Institute
   Image-URL: /img/speakers/sley.jpg
   Keynote: 0
-  Last: Ley
 
 1023567367:
   Name: Monica Maceli
@@ -314,7 +302,6 @@
   Institution: Pratt Institute | School of Information
   Image-URL: /img/speakers/maceli.jpg
   Keynote: 0
-  Last: Maceli
 
 1668486352:
   Name: Mark A. Matienzo
@@ -326,7 +313,6 @@
   Institution: Digital Public Library of America
   Image-URL: /img/speakers/matienzo.jpg
   Keynote: 0
-  Last: Matienzo
 
 3166383267:
   Name: Sam Meister
@@ -339,7 +325,6 @@
   Institution: Educopia Institute
   Image-URL: /img/speakers/nopic8.jpg
   Keynote: 0
-  Last: Meister
 
 382258369:
   Name: Ian Milligan
@@ -352,7 +337,6 @@
   Institution: University of Waterloo
   Image-URL: /img/speakers/milligan.jpg
   Keynote: 0
-  Last: Milligan
 
 3076891826:
   Name: David Naughton
@@ -365,7 +349,6 @@
   Institution: UMN Libraries
   Image-URL: /img/speakers/naughton.jpg
   Keynote: 0
-  Last: Naughton
 
 4677653080:
   Name: John Nelson
@@ -378,7 +361,6 @@
   Institution:
   Image-URL: /img/speakers/nopic6.jpg
   Keynote: 0
-  Last: Nelson
 
 1000272445:
   Name: Mark Noble
@@ -391,7 +373,6 @@
   Institution: Marmot Library Network
   Image-URL: /img/speakers/noble.jpg
   Keynote: 0
-  Last: Noble
 
 836580394:
   Name: Allison Jai O'Dell
@@ -404,7 +385,6 @@
   Institution: University of Florida, George A. Smathers Libraries
   Image-URL: /img/speakers/odell.png
   Keynote: 0
-  Last: O'Dell
 
 10134637153:
   Name: Robert Olendorf
@@ -416,7 +396,6 @@
   Institution:
   Image-URL: /img/speakers/nopic10.jpg
   Keynote: 0
-  Last: Olendorf
 
 848986989:
   Name: Andreas Orphanides
@@ -429,7 +408,6 @@
   Institution: NCSU Libraries
   Image-URL: /img/speakers/orphanides.jpg
   Keynote: 0
-  Last: Orphanides
 
 5251575310:
   Name: Shira Peltzman
@@ -442,7 +420,6 @@
   Institution: UCLA Library
   Image-URL: /img/speakers/peltzman.jpg
   Keynote: 0
-  Last: Peltzman
 
 2553824851:
   Name: Kim Pham
@@ -455,7 +432,6 @@
   Institution: University of Toronto Scarborough
   Image-URL: /img/speakers/pham.jpg
   Keynote: 0
-  Last: Pham
 
 797487030:
   Name: Eric Phetteplace
@@ -467,7 +443,6 @@
   Institution: California College of the Arts
   Image-URL: /img/speakers/phette.jpg
   Keynote: 0
-  Last: Phetteplace
 
 5675446490:
   Name: Alice Sara Prael
@@ -480,7 +455,6 @@
   Institution: John F. Kennedy Presidential Library
   Image-URL: /img/speakers/prael.jpg
   Keynote: 0
-  Last: Prael
 
 205200221:
   Name: Kevin Reiss
@@ -493,7 +467,6 @@
   Institution: Princeton University Library
   Image-URL: /img/speakers/nopic2.jpg
   Keynote: 0
-  Last: Reiss
 
 5304497895:
   Name: Sarah Romkey
@@ -505,7 +478,6 @@
   Institution: Artefactual Systems
   Image-URL: /img/speakers/nopic9.jpg
   Keynote: 0
-  Last: Romkey
 
 2141259371:
   Name: Jason Ronallo
@@ -518,7 +490,6 @@
   Institution: NCSU Libraries
   Image-URL: /img/speakers/ronallo.jpg
   Keynote: 0
-  Last: Ronallo
 
 923806354:
   Name: Sara Rubinow
@@ -530,7 +501,6 @@
   Institution: New York Public Library
   Image-URL: /img/speakers/nopic1.jpg
   Keynote: 0
-  Last: Rubinow
 
 515949819:
   Name: Nick Ruest
@@ -543,7 +513,6 @@
   Institution: York University
   Image-URL: /img/speakers/ruest.jpg
   Keynote: 0
-  Last: Ruest
 
 609078349:
   Name: Camille Salas
@@ -555,7 +524,6 @@
   Institution: NPR
   Image-URL: /img/speakers/nopic5.jpg
   Keynote: 0
-  Last: Salas
 
 1607330871:
   Name: Marya Sawaf
@@ -568,7 +536,6 @@
   Institution:
   Image-URL: /img/speakers/sawaf.jpg
   Keynote: 0
-  Last: Sawaf
 
 1737724082:
   Name: Mike Shallcross
@@ -581,19 +548,17 @@
   Institution: University of Michigan Bentley Historical Library
   Image-URL: /img/speakers/nopic1.jpg
   Keynote: 0
-  Last: Shallcross
 
 1371902264:
   Name: Coral Sheldon-Hess
   Bio: |
-    Coral is a librarian, a developer, and an engineer. She is currently a library and web consultant, though in the past she has worked in both public and academic libraries. In 2012 she was recognized as an ALA Emerging Leader, and before that she attended PNLA's Leadership Institute.<br>She is excited that Code4Lib is happening in her home state, even if she had to drive across the whole thing to get here. :)<br>Come find her if you want to talk about Python, open data, coffee, birds, cross-stitch, or terrible (or great) urban fantasy.
+    Coral is a librarian, a developer, and an engineer. She is currently a library and web consultant, though in the past she has worked in both public and academic libraries. In 2012 she was recognized as an ALA Emerging Leader, and before that she attended PNLA's Leadership Institute. <br>She is excited that Code4Lib is happening in her home state, even if she had to drive across the whole thing to get here. :) <br> Come find her if you want to talk about Python, open data, coffee, birds, cross-stitch, or terrible (or great) urban fantasy.
   Email: 1371902264
   Twitter-Handle: web_librarian
   Work-Title:
   Institution:
   Image-URL: /img/speakers/sheldon.jpg
   Keynote: 0
-  Last: Sheldon
 
 2612865327:
   Name: Matthew Short
@@ -606,7 +571,6 @@
   Institution: Northern Illinois University
   Image-URL: /img/speakers/nopic3.jpg
   Keynote: 0
-  Last: Short
 
 5758496247:
   Name: Megan Slemons
@@ -618,7 +582,6 @@
   Institution: Emory University
   Image-URL: /img/speakers/slemons.jpg
   Keynote: 0
-  Last: Slemons
 
 936255212:
   Name: Kirsta Stapelfeldt
@@ -631,7 +594,6 @@
   Institution: University of Toronto Scarborough
   Image-URL: /img/speakers/stapelfeldt.jpg
   Keynote: 0
-  Last: Stapelfeldt
 
 1625030101:
   Name: Julie Swierczek
@@ -643,7 +605,6 @@
   Institution: Harvard Art Museums
   Image-URL: /img/speakers/swierczek.jpg
   Keynote: 0
-  Last: Swierczek
 
 2423441898:
   Name: Michael Tedeschi
@@ -656,7 +617,6 @@
   Institution: Interactive Mechanics
   Image-URL: /img/speakers/tedeschi.jpg
   Keynote: 0
-  Last: Tedeschi
 
 3476985546:
   Name: Jay Varner
@@ -669,7 +629,6 @@
   Institution: Emory University Library
   Image-URL: /img/speakers/varner.jpg
   Keynote: 0
-  Last: Varner
 
 4026284863:
   Name: Gabriel Weinberg
@@ -681,7 +640,6 @@
   Institution: DuckDuckGo
   Image-URL: /img/speakers/weinberg.jpg
   Keynote: 1
-  Last: Weinberg
 
 788180752:
   Name: Becky Yoose
@@ -693,7 +651,6 @@
   Institution: The Seattle Public Library
   Image-URL: /img/speakers/yoose.jpg
   Keynote: 0
-  Last: Yoose
 
 1620427788:
   Name: Matt Zumwalt
@@ -706,4 +663,3 @@
   Institution: DataBindery & MediaShelf
   Image-URL: /img/speakers/zumwalt.jpg
   Keynote: 0
-  Last: Zumwalt
