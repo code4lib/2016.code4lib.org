@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-4">
+    <nav>
+      <ul class="pagination">
+        <li {% if include.param == "day1" %}class="active" {% endif %}><a href="/schedule/day-1">Day 1</a></li>
+        <li {% if include.param == "day2" %}class="active" {% endif %}><a href="/schedule/day-2">Day 2</a></li>
+        <li {% if include.param == "day3" %}class="active" {% endif %}><a href="/schedule/day-3">Day 3</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
