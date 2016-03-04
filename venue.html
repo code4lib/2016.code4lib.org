@@ -19,7 +19,7 @@ title: Venue
               <p>
               One Dock Street<br />
               Philadelphia, Pennsylvania 19106 <br>
-              <a href="tel:12152386000"> +1-215-238-6000</a> | <a href="https://www.starwoodhotels.com/sheraton/property/landing/index.html?propertyID=166"> Hotel website</a>
+              <a href="tel:12152386000"> +1-215-238-6000</a> | <a href="https://www.starwoodhotels.com/sheraton/property/landing/index.html?propertyID=166"> Hotel website</a> | <a href="{{ site.data.path }}img/AnnotatedHotelFloorPlan.pdf">Annotated Floorplan</a>
               </p>
               <p>
                  <a href="#getting-here">Getting to the Sheraton</a>
@@ -40,7 +40,7 @@ title: Venue
               <p>
                 315 Chestnut Street<br>
                 Philadelphia, PA 19106<br/>
-                <a href="tel:2159252222"> +1-215-925-2222</a> | <a href="http://www.chemheritage.org/">CHF Website</a>
+                <a href="tel:2159252222"> +1-215-925-2222</a> | <a href="http://www.chemheritage.org/">CHF Website</a> | <a href="" data-toggle="modal" data-target="#chf-floorplan">CHF Floorplan</a>
               </p>
               <a name="aps"></a>
               <h3>American Philosophical Society (APS)</h3>
@@ -48,7 +48,7 @@ title: Venue
                 Franklin Hall<br>
                 427 Chestnut St<br>
                 Philadelphia, PA 19106-3386<br>
-                <a href="tel:2154403400"> +1-215-440-3400</a> | <a href="https://amphilsoc.org/">APS Website</a>
+                <a href="tel:2154403400"> +1-215-440-3400</a> | <a href="https://amphilsoc.org/">APS Website</a> | <a href="" data-toggle="modal" data-target="#aps-floorplan">APS Franklin Hall Floorplan</a>
 
               </p>
 
@@ -56,13 +56,10 @@ title: Venue
           <br />
           <div class="col-md-12">
             <a name="reception"></a>
-            <h2>Reception</h2>
+            <h2>Reception at the M&uuml;tter Museum</h2>
               <h3>The M&uuml;tter Museum</h3>
               <p>
-                19 S 22nd Street<br />
-                Philadelphia, PA 19103<br />
-
-                <a href="tel:2155608564"> +1-215-560-8564</a> | <a href="http://muttermuseum.org/">M&uuml;tter Museum Website</a>
+                Please see the <a href="{{ site.data.path }}mutter.html">reception page</a> for more information.
               </p>
           </div>
         </div> <!-- /.cell-lg -->
@@ -95,4 +92,51 @@ title: Venue
       </div>
       </div>
 
+      <!-- Chemical Heritage Foundation Floor plan modal -->
+      <div class="modal fade" id="chf-floorplan" tabindex="-1" role="dialog">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Chemical Heritage Foundation Floor Plan</h4>
+                  </div>
+                  <div class="modal-body">
+                      <p><strong>PRE-CONFERENCE ONLY</strong></p>
+                      <img class="img-responsive" src="{{ site.data.path }}img/floor-plans/conference-center_second-floor.gif">
+                  </div>
+                  <div class="modal-footer">
+                      <div class="pull-left">
+                          <span><small>Image by <a href="http://www.chemheritage.org/visit/conference-center-rental/floor-plans.aspx">Chemical Heritage Foundation</a></small></span>
+                      </div>
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
 
+      <!-- American Philosophical Society / Franklin Hall Floor plan modal -->
+      <div class="modal fade" id="aps-floorplan" tabindex="-1" role="dialog">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">American Philosophical Society, Franklin Hall Floor Plan</h4>
+                  </div>
+                  <div class="modal-body">
+                      <p><strong>PRE-CONFERENCE ONLY</strong></p><p>There wasn't a map, so we drew you one. [NOT TO SCALE]. </p>
+                      <img class="img-responsive" src="{{ site.data.path }}img/floor-plans/franklinhall.png">
+                  </div>
+                  <div class="modal-footer">
+                      <div class="pull-left">
+                          {% if pageLocale.Building == 'Chemical Heritage Foundation' %}
+                          <span><small>Image by <a href="http://www.chemheritage.org/visit/conference-center-rental/floor-plans.aspx">Chemical Heritage Foundation</a></small></span>
+                          {% endif %}
+                          {% if pageLocale.Building == 'Sheraton Hotel' %}
+                          <span><small>Image by <a href="http://www.starwoodhotels.com/sheraton/property/meetings/stacked_map.html?propertyID=166&buildingKey=1013372586&floorKey=all">Sheraton</a></small></span>
+                          {% endif %}
+                      </div>
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
