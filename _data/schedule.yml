@@ -14,7 +14,7 @@
   time: 09:00-09:15
 
 - timeImg: 9.00.png
-  title: Announcements/Housekeeping
+  title: Announcements
   day2: 1
   day3: 1
   time: 09:00-09:15
@@ -23,7 +23,7 @@
 - timeImg: 10.00.png
   title: Break
   day1: 1
-  time: 10:00-10:20
+  time: 10:00-10:15
 
 - timeImg: 2.30.png
   title: Break
@@ -38,7 +38,7 @@
 - timeImg: 10.40.png
   title: Break
   day2: 1
-  time: 10:40-11:00
+  time: 10:40-10:55
 
 - timeImg: 2.25.png
   title: Break
@@ -53,7 +53,7 @@
 - timeImg: 10.00.png
   title: Break
   day3: 1
-  time: 10:00-10:15
+  time: 10:00-10:10
 
 # Breakouts
 - timeImg: 2.45.png
@@ -110,33 +110,52 @@
   time: 18:00-20:00
 
 # lunches
-- timeImg: 12.00.png
+- timeImg: 12.10.png
   title: Lunch
   day1: 1
+  time: 12:10-13:00
+
+- timeImg: 12.00.png
+  title: Lunch
   day2: 1
   time: 12:00-13:00
 
-# housekeeping
+# housekeeping (announcements and giveaways)
+- timeImg: 10.15.png
+  title: Announcements
+  day1: 1
+  time: 10:15-10:20
+
 - timeImg: 1.10.png
-  title: Housekeeping
+  title: Announcements
   day1: 1
   time: 13:10-13:15
 
 - timeImg: 3.45.png
-  title: Housekeeping
+  title: Announcements
   day1: 1
   time: 15:45-15:50
 
+- timeImg: 10.55.png
+  title: Announcements
+  day2: 1
+  time: 10:55-11:00
+
 - timeImg: 1.00.png
-  title: Housekeeping
+  title: Announcements
   day2: 1
   time: 13:00-13:05
 
 - timeImg: 3.35.png
-  title: Housekeeping
+  title: Announcements
   day2: 1
   time: 15:35-15:40
 
+- timeImg: 10.10.png
+  title: Announcements
+  day3: 1
+  time: 10:10-10:15
+  
 # keynotes
 - timeImg: 9.15.png
   title: Opening Keynote - Kate Krauss
