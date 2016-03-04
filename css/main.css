@@ -792,3 +792,73 @@ p.speaker-inst{
     height: 16px;
     vertical-align: middle;
 }
+
+
+.menu-panel {
+    border: 10px solid #d1d3d4;
+    margin-bottom: 39px;
+    padding: 15px;
+}
+
+.tasting-menu {
+    padding: 20px 18px 40px;
+    margin-bottom: 75px;
+    border: #7fd3f2 4px double;
+    margin-right: 0;
+		background: #fdebee;
+}
+
+.tasting-menu .tasting-intro {
+    font-size: 26px;
+    text-align: center;
+    padding: 0 15px;
+    line-height: 1.2;
+    font-family: franklin-gothic-urw-cond, sans-serif;
+}
+
+.tasting-menu .tasting-options {
+    text-align: center;
+    margin-bottom: 0;
+		padding: 0 20px;
+}
+
+.tasting-menu .tasting-options li {
+    border-bottom: 1px dashed #d1d3d4;
+    padding: 0 0 13px;
+    margin-bottom: 20px;
+		list-style-type: none;
+}
+
+.tasting-menu h4 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background: #00AEEF;
+    text-align: center;
+    padding: 20px 60px;
+    margin-bottom: 26px;
+    font: 48px/1 din-condensed-web, sans-serif;
+    background-color: #00AEEF;
+    padding: 10px 20px;
+    margin-top: 0;
+}
+
+.tasting-menu .tasting-options h5 {
+    font-style: normal;
+    color: #00AEEF;
+    font-family: din-condensed-web, sans-serif;
+    font-size: 20px;
+}
+
+.tasting-menu .tasting-options .items li {
+    text-transform: none;
+    font-style: italic;
+    margin: 0;
+		color: #4D4D4D;
+		border: 0;
+}
+
+.tasting-menu img {
+	margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
