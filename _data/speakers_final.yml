@@ -22,6 +22,18 @@
   Image-URL: /img/speakers/anderson.jpg
   Keynote: 0
 
+1304742367:
+  Name: Shawn Averkamp
+  Bio: |
+    Shawn oversees metadata production and directs the development of metadata infrastructure for NYPL’s unique digital resources. Prior to joining NYPL, she supported metadata management, digital humanities, digital preservation, and data curation at the University of Iowa Libraries as Data Services Librarian and Interim Head of Digital Research & Publishing and as a Metadata Librarian at the University of Alabama Libraries. She earned her MLIS from the University of Iowa and holds a BA in Music from Luther College.
+  Email: 1304742367
+  Email-Address: shawnaverkamp@nypl.org
+  Twitter-Handle: saverkamp
+  Work-Title: Manager, Metadata Services
+  Institution: The New York Public Library
+  Image-URL: /img/speakers/averkamp.jpg
+  Keynote: 0
+
 5874327342:
   Name: Paul Beaudoin
   Bio: |
@@ -386,6 +398,17 @@
   Image-URL: /img/speakers/odell.png
   Keynote: 0
 
+5380921135:
+  Name: John Mark Ockerbloom
+  Bio: |
+    John Mark Ockerbloom is a digital library planner at the University of Pennsylvania Libraries, and editor of The Online Books Page and the Forward to Libraries service.  He lives in Philadelphia with his family, and enjoys singing, hiking, and bicycling.  His website is at https://everybodyslibraries.com/ and his Github repository is at https://github.com/JohnMarkOckerbloom .
+  Email: 5380921135
+  Twitter-Handle: JMarkOckerbloom
+  Work-Title: Digital library planner
+  Institution: University of Pennsylvania
+  Image-URL: /img/speakers/ockerbloom.jpg
+  Keynote: 0
+
 10134637153:
   Name: Robert Olendorf
   Bio: |
@@ -454,6 +477,17 @@
   Work-Title: National Digital Stewardship Resident
   Institution: John F. Kennedy Presidential Library
   Image-URL: /img/speakers/prael.jpg
+  Keynote: 0
+
+445736699:
+  Name: Jack Reed
+  Bio: |
+    Jack works on increasing access to geospatial data at Stanford University Libraries. A contributor to open-source software, Jack is active in the GIS, library, and open-data communities. He also serves on the executive committee of The International Association for Geoscience Diversity.
+  Email: 445736699
+  Twitter-Handle: mejackreed
+  Work-Title: Geospatial Web Engineer
+  Institution: Stanford University
+  Image-URL: /img/speakers/reed.jpg
   Keynote: 0
 
 205200221:
