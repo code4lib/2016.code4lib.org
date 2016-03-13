@@ -11,6 +11,7 @@ date: 2016-03-07
 categories: workshops
 slugTitle: hands-on-fedora-4
 title: Hands-On Fedora 4
+slides: '/slides/Workshop-Fedora4.pdf'
 ---
 
 This workshop is a hands-on introduction to:
