@@ -11,6 +11,7 @@ date: 2016-03-07
 categories: workshops
 slugTitle: migrating-hydra-based-repositories-from-fedora-3-to-4
 title: Migrating Hydra-based repositories from Fedora 3 to 4
+slides: '/slides/Workshop-Fedora4-Hydra-Migration.pdf'
 ---
 Do you have a Hydra-based repository that is still on Fedora 3?
 
