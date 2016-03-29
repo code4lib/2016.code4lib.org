@@ -69,7 +69,7 @@
                     </ul>
                 </li>-->
                 <li><a href="{{ site.data.path }}speakers.html">Speakers</a></li>
-                
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Venues <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -83,7 +83,16 @@
                 <li><a href="{{ site.data.path }}diversity-scholarships/recipients.html">Scholarships</a></li>
                 <li><a href="{{ site.data.path }}conduct.html">Conduct</a></li>
                 <li><a href="{{ site.data.path }}about.html">About</a></li>
+                <li><form class="navbar-form" action="get" id="site_search">
+                  <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Search" id="search_box">
+                    <div class="input-group-btn">
+                      <button class="btn btn-default" type="submit" alt="Search"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                  </div>
+                </form></li>
             </ul>
+
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
