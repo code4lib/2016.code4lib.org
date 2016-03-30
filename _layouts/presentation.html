@@ -46,64 +46,28 @@
                     </div>
                     <div class="col-xs-12">
                         <h3>Speaker(s)</h3>
-                        {% if page.type == 'workshop' %}
-                            {% for speakerId in page.speakers %}
-                                {% if speaker != 0 %}
-
-                                    {% assign speaker = site.data.speakers_final[speakerId] %}
-                                    {% if speaker %}
-                                    <div class="col-sm-3 text-center">
-                                        <a href="/speakers.html#{{speaker.Name | slugify }}">
-                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                            {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                            <span>{{ speaker.Name }}</span>
-                                            {% endif %}
-                                        </a>
-                                    </div>
-
-                                    {% else %}
-
-                                        {% assign speaker = site.data.speakers_temp[speakerId] %}
-                                        {% if speaker %}
-                                        <div class="col-sm-3 text-center">
-                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                            <span>{{ speaker.name }}</span>
-                                        </div>
+                        {% for speakerId in page.speakers %}
+                            {% if speakerId != 0 %}
+                                {% assign speaker = site.data.speakers_final[speakerId] %}
+                                {% if speaker.Show == 1 %}
+                                <div class="col-sm-3 text-center">
+                                    <a href="/speakers.html#{{speaker.Name | slugify }}">
+                                        <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                        {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                        <span>{{ speaker.Name }}</span>
                                         {% endif %}
-                                    {% endif %}
-                                {% endif %}
-                            {% endfor %}
-                        {% endif %}
-
-                        {% if page.type == 'talk' %}
-                            {% for speakerId in page.speakers %}
-                                {% if speakerId != 0 %}
-                                    {% assign speaker = site.data.speakers_final[speakerId] %}
-                                    {% if speaker %}
+                                    </a>
+                                </div>
+                                {% else %}
                                     <div class="col-sm-3 text-center">
-                                        <a href="/speakers.html#{{speaker.Name | slugify }}">
-                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                            {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                            <span>{{ speaker.Name }}</span>
-                                            {% endif %}
-                                        </a>
-                                    </div>
-                                    {% else %}
-
-                                        {% assign speaker = site.data.speakers_dummy[speakerId] %}
-                                        {% if speaker %}
-                                        <div class="col-sm-3 text-center">
-                                            <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                                            {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                            <span>{{ speaker.Name }}</span>
-                                            {% endif %}
-                                        </div>
+                                        <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                        {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                        <span>{{ speaker.Name }}</span>
                                         {% endif %}
-
-                                    {% endif %}
+                                    </div>
                                 {% endif %}
-                            {% endfor %}
-                        {% endif %}
+                            {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
             </div>
