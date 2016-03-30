@@ -3,13 +3,17 @@ layout: null
 ---
 {
   {% for post in site.posts %}
+    {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+      {% if year == "2016" %}
+      {% unless forloop.first %},{% endunless %}
+      "{{ post.url | slugify }}": {
+        "title": "{{ post.title | xml_escape }}",
+        "url": " {{ post.url | xml_escape }}",
+        "speakers": "{{ post.speakers-text | xml_escape }}",
+        "type": "{{ post.type | xml_escape }}"
+      }
 
-    "{{ post.url | slugify }}": {
-      "title": "{{ post.title | xml_escape }}",
-      "url": " {{ post.url | xml_escape }}",
-      "speakers": "{{ post.speakers-text | xml_escape }}",
-      "type": "{{ post.type | xml_escape }}"
-    }
-    {% unless forloop.last %},{% endunless %}
+      {% endif %}
+
   {% endfor %}
 }
