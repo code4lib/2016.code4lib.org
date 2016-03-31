@@ -78,7 +78,7 @@ jQuery(function() {
           var item = loaded_data[result.ref];
 
           // Build a snippet of HTML for this result
-          var appendString = '<li><a href="' + item.url + '">' + decodeEntities(item.title) + '</a><br/><span><strong>Speakers: </strong>' + item.speakers + '</span></li>';
+          var appendString = '<li><a href="' + item.url + '">' + decodeEntities(item.title) + '</a><br/><span><strong>Speakers: </strong>' + item.speakers + '</span><br/><span class="label label-default">' + item.type + '</span></li>';
 
           // Add it to the results
           $search_results.append(appendString);
