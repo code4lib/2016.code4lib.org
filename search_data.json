@@ -1,0 +1,58 @@
+---
+layout: null
+---
+{
+  {% for post in site.posts %}
+
+    {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+
+    {% assign speakers = "" %}
+    {% assign counter = 0 %}
+    {% assign inc = 0 %}
+
+    {% for speakerId in post.speakers %}
+
+      {% if speakerId != 0 %}
+
+        {% assign counter = counter | plus: 1 %}
+
+      {% endif %}
+    {% endfor %}
+
+    {% for speakerId in post.speakers %}
+
+      {% if speakerId != 0 %}
+
+        {% assign inc = inc | plus: 1 %}
+
+        {% if inc == counter %}
+
+          {% capture spacing %}{% endcapture %}
+
+        {% else %}
+
+          {% capture spacing %}, {% endcapture %}
+
+        {% endif %}
+
+        {% assign speaker = site.data.speakers_final[speakerId] %}
+        {% capture speakers %}{{speakers}}{{speaker.Name}}{{spacing}}{% endcapture %}
+
+      {% endif %}
+
+    {% endfor %}
+
+
+      {% if year == "2016" %}
+      {% unless forloop.first %},{% endunless %}
+      "{{ post.url | slugify }}": {
+        "title": "{{ post.title | xml_escape }}",
+        "url": " {{ post.url | xml_escape }}",
+        "speakers": "{{ speakers | xml_escape }}",
+        "type": "{{ post.type | xml_escape }}"
+      }
+
+      {% endif %}
+
+  {% endfor %}
+}
