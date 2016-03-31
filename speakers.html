@@ -33,7 +33,7 @@ title: Speakers
             <div class="col-xs-12 speaker-sequence sequence">
             {% for person in site.data.speakers_final | sort: "Last" %}
                 {% assign speaker = person[1] %}
-                    {% if speaker.Keynote == 0 %}
+                    {% if speaker.Keynote == 0 and speaker.Show == 1%}
                         {% include speaker_box.html param=speaker %}
                     {% endif %}
             {% endfor %}
